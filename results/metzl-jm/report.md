@@ -19,9 +19,9 @@
 | Identity-topic share | 0.516 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.677 (rescued full 0, partial 3) |
 | Designs | commentary 16, review 6, survey 3, qualitative 2, bench 2, case_report 1, observational 1 |
-| Mean paper value / share positive | -5.53 / 0.161 |
+| Mean paper value / share positive | -6.05 / 0.161 |
 | Substantive h-index (positive-value papers) | 5 |
-| **TOTAL SLOP INDEX** (composite) | **0.766** (citation-weighted 0.715) |
+| **TOTAL SLOP INDEX** (composite) | **0.774** (citation-weighted 0.717) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -43,9 +43,9 @@
 | Identity-topic share | 0.462 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.654 (rescued full 0, partial 3) |
 | Designs | commentary 15, review 4, survey 2, bench 2, case_report 1, qualitative 1, observational 1 |
-| Mean paper value / share positive | -5.63 / 0.154 |
+| Mean paper value / share positive | -5.9 / 0.154 |
 | Substantive h-index (positive-value papers) | 4 |
-| **TOTAL SLOP INDEX** (composite) | **0.769** (citation-weighted 0.716) |
+| **TOTAL SLOP INDEX** (composite) | **0.773** (citation-weighted 0.719) |
 
 
 ### Papers
@@ -67,7 +67,7 @@
 | 2014 | first | B | review | soft | other | 54.66 | identity | -3 | Structural competency: theorizing a new medical engagement with stigma and inequ | Soc Sci Med |
 | 2014 | first | C | commentary | unclear | demographic | 4.78 | identity | -10 | Structural competency meets structural racism: race, politics, and the structure | Virtual Mentor |
 | 2015 | first | C* | commentary | unclear | other | 3.83 | firearms | -10 | Mental illness, mass shootings, and the politics of American firearms. | Am J Public Health |
-| 2015 | last | A | qualitative | soft | demographic | 1.78 | identity | -9 | The Interdependence of African American Men's Definitions of Manhood and Health. | Fam Community Health |
+| 2015 | last | A | qualitative | soft | demographic | 1.78 | identity | -16 | The Interdependence of African American Men's Definitions of Manhood and Health. | Fam Community Health |
 | 2016 | sole | C | commentary | unclear | other | 0.0 | firearms | -13 | Metzl Responds. | Am J Public Health |
 | 2016 | first | B | review | unclear | other | 0.06 | identity | -7 | Conflations of Marital Status and Sanity: Implicit Heterosexist Bias in Psychiat | Yale J Biol Med |
 | 2017 | last | C* | commentary | unclear | other | 2.03 | identity | -10 | New Medicine for the U.S. Health Care System: Training Physicians for Structural | Acad Med |
@@ -83,7 +83,7 @@
 | 2022 | middle | B | review | soft | demographic | 0.65 | identity | -10 | Perceived status threat and health among White Americans: A scoping review. | SSM Popul Health |
 | 2023 | last | A | bench | unclear | demographic | 1.94 | identity (partial) | 3.5 | Toward a moral reckoning on structural racism: Examining structural factors, enc | Am J Community Psychol |
 | 2023 | middle | B | review | unclear | other | 9.14 |  | 4.0 | Achieving Oral Health for All through Public Health Approaches, Interprofessiona | NAM Perspect |
-| 2023 | middle | A | qualitative | soft | other | 0.99 | identity | -8 | "We grew up in the church": A critical discourse analysis of Black and White rur | Soc Sci Med |
+| 2023 | middle | A | qualitative | soft | other | 0.99 | identity | -17 | "We grew up in the church": A critical discourse analysis of Black and White rur | Soc Sci Med |
 | 2026 | sole | C | commentary | hard | mechanistic |  | firearms | -11 | Firearm Safety in a Country of Arms. | Milbank Q |
 
 `*` = low-confidence classification; see `evidence` column in papers.csv and override via data/<slug>/overrides.csv.

@@ -60,12 +60,12 @@
     "agenda_topic_counts": {},
     "rescued_full": 2,
     "rescued_partial": 7,
-    "mean_paper_value": 4.5,
+    "mean_paper_value": 4.47,
     "median_paper_value": 6.0,
     "share_positive_value": 0.73,
     "h_substantive": 65,
-    "total_slop_index": 0.411,
-    "total_slop_index_citation_weighted": 0.312
+    "total_slop_index": 0.412,
+    "total_slop_index_citation_weighted": 0.313
   },
   "lead_authorships": {
     "papers": 128,

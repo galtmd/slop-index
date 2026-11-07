@@ -120,3 +120,14 @@ def test_agenda_buckets_and_qualitative_design():
             "article_types": ["Journal Article"],
             "abstract": "We conducted semi-structured interviews and focus groups with 24 participants. Thematic analysis identified three themes."}
     assert design_of("A", "observational", qual) == "qualitative"
+
+
+def test_qualitative_is_the_floor():
+    from slop_index.substance import score
+    qual = {"identifiers": {"pmid": "q1"}, "title": "Community-based participatory research on neighborhood health: a photovoice study",
+            "mesh_terms": ["Qualitative Research", "Community-Based Participatory Research"], "article_types": ["Journal Article"], "keywords": [],
+            "abstract": "We conducted semi-structured interviews and focus groups with 24 participants. Thematic analysis identified three themes."}
+    r = score(qual, "A", "observational", [], 8.0, 0)
+    assert r.design == "qualitative"
+    assert r.value_norm == 0.0          # clipped to VALUE_MIN whatever the citation count
+    assert r.rescued == "none"

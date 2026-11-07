@@ -19,9 +19,9 @@
 | Identity-topic share | 0.937 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.958 (rescued full 0, partial 3) |
 | Designs | commentary 37, survey 15, qualitative 12, observational 10, review 10, modeling 4, trial 4, registry 1, quasi_experimental 1, cohort 1 |
-| Mean paper value / share positive | -6.72 / 0.084 |
+| Mean paper value / share positive | -8.09 / 0.084 |
 | Substantive h-index (positive-value papers) | 5 |
-| **TOTAL SLOP INDEX** (composite) | **0.808** (citation-weighted 0.751) |
+| **TOTAL SLOP INDEX** (composite) | **0.836** (citation-weighted 0.777) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -43,9 +43,9 @@
 | Identity-topic share | 0.939 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.97 (rescued full 0, partial 2) |
 | Designs | commentary 27, survey 9, observational 8, review 7, qualitative 6, modeling 4, trial 3, registry 1, quasi_experimental 1 |
-| Mean paper value / share positive | -6.98 / 0.076 |
+| Mean paper value / share positive | -8.05 / 0.076 |
 | Substantive h-index (positive-value papers) | 3 |
-| **TOTAL SLOP INDEX** (composite) | **0.817** (citation-weighted 0.739) |
+| **TOTAL SLOP INDEX** (composite) | **0.838** (citation-weighted 0.757) |
 
 
 ### Papers
@@ -54,25 +54,25 @@
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2003 | first | C* | commentary | soft | demographic | 7.3 | identity | -10 | Triple jeopardy and beyond: multiple minority stress and resilience among black  | J Lesbian Stud |
 | 2004 | first | B | modeling | soft | demographic | 0.87 | identity | -8 | Rising and surviving: a conceptual model of active coping among Black lesbians. | Cultur Divers Ethnic Minor Psychol |
-| 2007 | middle | A | qualitative | soft | mechanistic | 0.2 |  | -2.0 | Present but not accounted for: exploring the sexual risk practices and intervent | J LGBT Health Res |
+| 2007 | middle | A | qualitative | soft | mechanistic | 0.2 |  | -14.0 | Present but not accounted for: exploring the sexual risk practices and intervent | J LGBT Health Res |
 | 2008 | first | A | survey | soft | other | 0.44 | identity | -8 | Evaluating the validity and reliability of a modified schedule of sexist events: | Women Health |
 | 2008 | first | C* | commentary | soft | other | 0.73 | identity | -11 | "Bringing home more than a paycheck:" an exploratory analysis of Black lesbians' | J Lesbian Stud |
 | 2008 | first | A* | observational | soft | demographic | 0.58 | identity | -8 | The complexities of outness: psychosocial predictors of coming out to others amo | J LGBT Health Res |
 | 2009 | middle | A | trial | unclear | mechanistic | 1.28 | identity | 6 | A mixed methods evaluation of the effect of the protect and respect intervention | AIDS Behav |
-| 2010 | middle | A | qualitative | soft | demographic | 1.84 | identity | -9 | Perceptions of audio computer-assisted self-interviewing (ACASI) among women in  | PLoS One |
-| 2010 | first | A | qualitative | unclear | other | 1.21 | identity | -4 | Silences, gestures, and words: nonverbal and verbal communication about HIV/AIDS | Health Commun |
-| 2011 | first | A | qualitative | unclear | demographic | 5.27 | identity | -6 | 'What does it take to be a man? What is a real man?': ideologies of masculinity  | Cult Health Sex |
+| 2010 | middle | A | qualitative | soft | demographic | 1.84 | identity | -16 | Perceptions of audio computer-assisted self-interviewing (ACASI) among women in  | PLoS One |
+| 2010 | first | A | qualitative | unclear | other | 1.21 | identity | -16 | Silences, gestures, and words: nonverbal and verbal communication about HIV/AIDS | Health Commun |
+| 2011 | first | A | qualitative | unclear | demographic | 5.27 | identity | -18 | 'What does it take to be a man? What is a real man?': ideologies of masculinity  | Cult Health Sex |
 | 2011 | last | C | commentary | unclear | demographic | 0.85 | identity | -13 | Heterosexual risk for HIV among black men in the United States: a call to action | Am J Mens Health |
 | 2011 | last | A | survey | soft | other | 1.97 | identity | -5 | "I'm a keep rising. I'm a keep going forward, regardless": exploring Black men's | Qual Health Res |
 | 2011 | middle | A* | survey | soft | other | 1.08 | identity | -5 | The effects of sexism, psychological distress, and difficult sexual situations o | AIDS Educ Prev |
 | 2012 | first | A | survey | soft | other | 2.49 | identity | -5 | Shared communities, structural contexts, and HIV risk: prioritizing the HIV risk | Am J Public Health |
 | 2012 | sole | B | modeling | unclear | demographic | 82.69 | identity | -2 | The problem with the phrase women and minorities: intersectionality-an important | Am J Public Health |
 | 2012 | middle | A | survey | soft | demographic | 1.28 | identity | -10 | Parents, peers and pornography: the influence of formative sexual scripts on adu | Cult Health Sex |
-| 2012 | middle | A | qualitative | soft | demographic | 2.01 | identity | -7 | Health care and HIV testing experiences among Black men in the South: implicatio | AIDS Patient Care STDS |
+| 2012 | middle | A | qualitative | soft | demographic | 2.01 | identity | -16 | Health care and HIV testing experiences among Black men in the South: implicatio | AIDS Patient Care STDS |
 | 2012 | first | C* | commentary | unclear | demographic | 4.61 | identity | -10 | "It's an Uphill Battle Everyday": Intersectionality, Low-Income Black Heterosexu | Psychol Men Masc |
 | 2013 | first | A | survey | unclear | demographic | 2.63 | identity | -6 | Racial discrimination, social support, and sexual HIV risk among Black heterosex | AIDS Behav |
-| 2013 | first | A | qualitative | soft | other | 0.62 | identity | -9 | "The skill is using your big head over your little head": what black heterosexua | Am J Mens Health |
-| 2013 | first | A | qualitative | unclear | demographic | 1.54 | identity | -9 | Sexual scripts and sexual risk behaviors among Black heterosexual men: developme | Arch Sex Behav |
+| 2013 | first | A | qualitative | soft | other | 0.62 | identity | -19 | "The skill is using your big head over your little head": what black heterosexua | Am J Mens Health |
+| 2013 | first | A | qualitative | unclear | demographic | 1.54 | identity | -18 | Sexual scripts and sexual risk behaviors among Black heterosexual men: developme | Arch Sex Behav |
 | 2014 | first | A | observational | unclear | other | 1.4 | identity | -5 | Racial discrimination and posttraumatic stress symptoms as pathways to sexual HI | AIDS Care |
 | 2014 | first | A | observational | unclear | other | 2.05 | identity | -2 | Neighborhood context and Black heterosexual men's sexual HIV risk behaviors. | AIDS Behav |
 | 2014 | last | A | registry | soft | demographic | 0.37 | identity | -9 | Results from a secondary data analysis regarding satisfaction with health care a | J Obstet Gynecol Neonatal Nurs |
@@ -80,11 +80,11 @@
 | 2016 | last | B | modeling | unclear | demographic | 0.53 | identity | -6 | The Final Frontier-Transitions and Sustainability: From Mentored to Independent  | AIDS Behav |
 | 2016 | first | A* | survey | soft | demographic | 1.65 | identity | -8 | Measuring the Pros and Cons of What It Means to Be a Black Man: Development and  | Psychol Men Masc |
 | 2017 | sole | U* | observational | unclear | other | 0.13 | identity | -5 | President Barack Obama: Black Man Extraordinary and Ordinary. | Am J Public Health |
-| 2017 | middle | A | qualitative | soft | other | 1.76 | identity | -6 | Measuring Black men's police-based discrimination experiences: Development and v | Cultur Divers Ethnic Minor Psychol |
+| 2017 | middle | A | qualitative | soft | other | 1.76 | identity | -16 | Measuring Black men's police-based discrimination experiences: Development and v | Cultur Divers Ethnic Minor Psychol |
 | 2017 | first | B | review | soft | demographic | 3.9 | identity | -6 | Intersectional Epistemologies of Ignorance: How Behavioral and Social Science Re | J Sex Res |
-| 2017 | sole | A | qualitative | unclear | other | 4.72 | identity | -1 | Towards a Critical Health Equity Research Stance: Why Epistemology and Methodolo | Health Educ Behav |
-| 2019 | middle | A | qualitative | soft | demographic | 13.87 | identity | -6 | "The fear of being Black plus the fear of being gay": The effects of intersectio | Soc Sci Med |
-| 2019 | last | A | qualitative | soft | other | 2.61 | identity | -4 | "Having a Child Meant I had a Real Life": Reproductive Coercion and Childbearing | J Interpers Violence |
+| 2017 | sole | A | qualitative | unclear | other | 4.72 | identity | -16 | Towards a Critical Health Equity Research Stance: Why Epistemology and Methodolo | Health Educ Behav |
+| 2019 | middle | A | qualitative | soft | demographic | 13.87 | identity | -16 | "The fear of being Black plus the fear of being gay": The effects of intersectio | Soc Sci Med |
+| 2019 | last | A | qualitative | soft | other | 2.61 | identity | -16 | "Having a Child Meant I had a Real Life": Reproductive Coercion and Childbearing | J Interpers Violence |
 | 2019 | last | A | quasi_experimental | hard | mechanistic | 0.43 | identity (partial) | 6.5 | Evaluation of the Making Employment Needs (MEN) Count Intervention to Reduce HIV | Am J Mens Health |
 | 2019 | sole | C | commentary | unclear | other | 0.69 |  | -3.0 | Perspectives From the Social Sciences: Critically Engage Public Health. | Am J Public Health |
 | 2019 | middle | C* | commentary | unclear | demographic | 17.02 | identity | -10 | Daily multidimensional racial discrimination among Black U.S. American adolescen | J Appl Dev Psychol |
@@ -121,7 +121,7 @@
 | 2022 | sole | C | commentary | soft | demographic | 5.14 | identity | -12 | The Problem With Intersectional Stigma and HIV Equity Research. | Am J Public Health |
 | 2022 | last | C | commentary | soft | demographic | 2.09 | identity | -10 | Stigmatizing Spaces and Places as Axes of Intersectional Stigma Among Sexual Min | Am J Public Health |
 | 2022 | middle | C* | commentary | soft | demographic | 5.74 | identity | -10 | Methods in HIV-Related Intersectional Stigma Research: Core Elements and Opportu | Am J Public Health |
-| 2022 | middle | A | qualitative | hard | other | 0.26 | identity | -7 | A Convergent Mixed Methods Study of Cardiovascular Disease Risk Factors among Yo | Ethn Dis |
+| 2022 | middle | A | qualitative | hard | other | 0.26 | identity | -19 | A Convergent Mixed Methods Study of Cardiovascular Disease Risk Factors among Yo | Ethn Dis |
 | 2022 | last | A | observational | unclear | demographic | 0.29 | identity | -10 | Resilience and Its Limits: The Roles of Individual Resilience, Social Capital, R | Arch Sex Behav |
 | 2022 | first | B | review | unclear | demographic | 8.9 | identity | -4 | Rare exemplars and missed opportunities: Intersectionality within current sexual | Curr Opin Psychol |
 | 2023 | last | C | commentary | unclear | other | 0.0 | identity | -13 | New Frameworks for Engaging Communities to Confront HIV, COVID-19, and Climate C | Am J Public Health |

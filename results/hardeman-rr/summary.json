@@ -62,12 +62,12 @@
     },
     "rescued_full": 1,
     "rescued_partial": 20,
-    "mean_paper_value": -3.7,
+    "mean_paper_value": -4.47,
     "median_paper_value": -4.0,
-    "share_positive_value": 0.296,
+    "share_positive_value": 0.286,
     "h_substantive": 23,
-    "total_slop_index": 0.702,
-    "total_slop_index_citation_weighted": 0.612
+    "total_slop_index": 0.717,
+    "total_slop_index_citation_weighted": 0.627
   },
   "lead_authorships": {
     "papers": 46,
@@ -130,12 +130,12 @@
     },
     "rescued_full": 0,
     "rescued_partial": 7,
-    "mean_paper_value": -5.26,
-    "median_paper_value": -6,
+    "mean_paper_value": -6.55,
+    "median_paper_value": -10,
     "share_positive_value": 0.22,
     "h_substantive": 8,
-    "total_slop_index": 0.756,
-    "total_slop_index_citation_weighted": 0.772
+    "total_slop_index": 0.778,
+    "total_slop_index_citation_weighted": 0.781
   },
   "slug": "hardeman-rr",
   "surname_matched": "Hardeman",

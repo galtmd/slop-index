@@ -19,9 +19,9 @@
 | Identity-topic share | 0.898 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.966 (rescued full 4, partial 13) |
 | Designs | commentary 16, observational 12, registry 11, cohort 6, survey 4, review 3, quasi_experimental 3, modeling 2, qualitative 2 |
-| Mean paper value / share positive | -2.64 / 0.339 |
+| Mean paper value / share positive | -3.09 / 0.339 |
 | Substantive h-index (positive-value papers) | 16 |
-| **TOTAL SLOP INDEX** (composite) | **0.664** (citation-weighted 0.61) |
+| **TOTAL SLOP INDEX** (composite) | **0.675** (citation-weighted 0.614) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -43,9 +43,9 @@
 | Identity-topic share | 0.917 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.972 (rescued full 1, partial 8) |
 | Designs | commentary 12, observational 7, registry 6, review 3, survey 3, cohort 2, modeling 2, qualitative 1 |
-| Mean paper value / share positive | -3.53 / 0.306 |
+| Mean paper value / share positive | -3.94 / 0.306 |
 | Substantive h-index (positive-value papers) | 10 |
-| **TOTAL SLOP INDEX** (composite) | **0.695** (citation-weighted 0.63) |
+| **TOTAL SLOP INDEX** (composite) | **0.706** (citation-weighted 0.636) |
 
 
 ### Papers
@@ -95,7 +95,7 @@
 | 2019 | middle | A* | registry | soft | demographic | 1.72 | identity | -7 | Cortisol and Racial Health Disparities Affecting Black Men in Later Life: Eviden | Am J Mens Health |
 | 2019 | last | C* | commentary | unclear | demographic | 2.06 | identity | -10 | Energy Efficiency as Energy Justice: Addressing Racial Inequities through Invest | Energy Effic |
 | 2020 | middle | A | cohort | hard | demographic | 2.59 | identity (full) | 8.0 | Associations between breast cancer subtype and neighborhood socioeconomic and ra | Breast Cancer Res Treat |
-| 2020 | first | A* | qualitative | soft | mechanistic | 4.07 | identity | -1 | Weathering in Detroit: Place, Race, Ethnicity, and Poverty as Conceptually Fluct | Milbank Q |
+| 2020 | first | A* | qualitative | soft | mechanistic | 4.07 | identity | -16 | Weathering in Detroit: Place, Race, Ethnicity, and Poverty as Conceptually Fluct | Milbank Q |
 | 2020 | middle | A* | observational | unclear | other | 0.0 | identity | -5 | SYSTEMATICALLY SHORTCHANGED, YET CARRYING ON: Black Adolescent Girls in the Detr | Du Bois Rev |
 | 2021 | first | A* | observational | unclear | other | 0.84 | identity | -3 | Coming up short: Comparing venous blood, dried blood spots & saliva samples for  | PLoS One |
 | 2021 | middle | A | observational | hard | other | 0.91 | sdoh | -1 | Partisan Control of U.S. State Governments: Politics as a Social Determinant of  | Am J Prev Med |
@@ -109,7 +109,7 @@
 | 2023 | first | A* | registry | hard | other | 1.93 | identity (partial) | 3.5 | Trend Toward Older Maternal Age Contributed To Growing Racial Inequity In Very-L | Health Aff (Millwood) |
 | 2025 | first | A* | observational | hard | other | 1.62 | identity (partial) | 2.5 | Long-term Economic Distress and Growing Educational Inequity in Life Expectancy. | Epidemiology |
 | 2025 | middle | A | cohort | hard | other | 1.59 | sdoh (full) | 8.0 | Weapon victimization and long-term cardiovascular disease risk. | Soc Sci Med |
-| 2025 | middle | A | qualitative | unclear | other |  | identity | -5 | Provider Adaptations to Legislative Efforts to Ban Gender-Affirming Care for Ado | J Adolesc Health |
+| 2025 | middle | A | qualitative | unclear | other |  | identity | -17 | Provider Adaptations to Legislative Efforts to Ban Gender-Affirming Care for Ado | J Adolesc Health |
 | 2026 | last | B | review | unclear | other |  | identity | -5 | A web of risk: multilevel factors and feedback loops (re)produce HIV 'risk' amon | J Epidemiol Community Health |
 | 2026 | first | A* | observational | hard | demographic |  | identity | -3 | Increasing and inequitable US pregnancy-related mortality ratios among non-Hispa | Am J Epidemiol |
 

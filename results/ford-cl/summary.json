@@ -63,12 +63,12 @@
     },
     "rescued_full": 0,
     "rescued_partial": 4,
-    "mean_paper_value": -6.46,
-    "median_paper_value": -6.5,
+    "mean_paper_value": -7.03,
+    "median_paper_value": -8.5,
     "share_positive_value": 0.129,
     "h_substantive": 7,
-    "total_slop_index": 0.796,
-    "total_slop_index_citation_weighted": 0.815
+    "total_slop_index": 0.809,
+    "total_slop_index_citation_weighted": 0.83
   },
   "lead_authorships": {
     "papers": 42,
@@ -130,12 +130,12 @@
     },
     "rescued_full": 0,
     "rescued_partial": 0,
-    "mean_paper_value": -7.24,
-    "median_paper_value": -9,
+    "mean_paper_value": -7.9,
+    "median_paper_value": -10,
     "share_positive_value": 0.073,
     "h_substantive": 3,
-    "total_slop_index": 0.822,
-    "total_slop_index_citation_weighted": 0.853
+    "total_slop_index": 0.837,
+    "total_slop_index_citation_weighted": 0.858
   },
   "slug": "ford-cl",
   "surname_matched": "Ford",

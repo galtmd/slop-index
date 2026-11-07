@@ -60,12 +60,12 @@
     },
     "rescued_full": 0,
     "rescued_partial": 3,
-    "mean_paper_value": -6.72,
-    "median_paper_value": -8,
+    "mean_paper_value": -8.09,
+    "median_paper_value": -10,
     "share_positive_value": 0.084,
     "h_substantive": 5,
-    "total_slop_index": 0.808,
-    "total_slop_index_citation_weighted": 0.751
+    "total_slop_index": 0.836,
+    "total_slop_index_citation_weighted": 0.777
   },
   "lead_authorships": {
     "papers": 68,
@@ -127,12 +127,12 @@
     },
     "rescued_full": 0,
     "rescued_partial": 2,
-    "mean_paper_value": -6.98,
-    "median_paper_value": -8.0,
+    "mean_paper_value": -8.05,
+    "median_paper_value": -10.0,
     "share_positive_value": 0.076,
     "h_substantive": 3,
-    "total_slop_index": 0.817,
-    "total_slop_index_citation_weighted": 0.739
+    "total_slop_index": 0.838,
+    "total_slop_index_citation_weighted": 0.757
   },
   "slug": "bowleg-l",
   "surname_matched": "Bowleg",

@@ -411,8 +411,11 @@ def score(article: dict, tier: str, subtype: str, topics: list[str], rcr: float 
 
     comp = {"design_base": base}
     v = float(base)
-    if tier != "C":
-        if outcome == "hard" and design != "qualitative":   # a qualitative paper measures no endpoint
+    qualitative = design == "qualitative"
+    if qualitative:
+        comp["qualitative"] = W.QUALITATIVE_PENALTY   # slop by definition: no endpoint, no exposure, no rescue
+    if tier != "C" and not qualitative:
+        if outcome == "hard":
             comp["outcome"] = W.HARD_OUTCOME_BONUS
         elif outcome == "soft":
             comp["outcome"] = W.SOFT_OUTCOME_PENALTY
@@ -426,7 +429,7 @@ def score(article: dict, tier: str, subtype: str, topics: list[str], rcr: float 
             comp["hedge"] = W.CONCRETE_BONUS
     if self_sim >= W.SELF_SIMILAR_MIN:
         comp["self_similar"] = W.SELF_SIMILAR_PENALTY
-    comp["rcr"] = min(pts, W.COMMENTARY_RCR_CAP) if tier == "C" else pts
+    comp["rcr"] = min(pts, W.COMMENTARY_RCR_CAP) if (tier == "C" or qualitative) else pts
 
     # topic penalty with rescue
     penalty = 0.0

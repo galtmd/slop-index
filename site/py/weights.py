@@ -19,7 +19,7 @@ DESIGN_BASE = {
     "cohort":              5,   # longitudinal / prospective with follow-up
     "registry":            3,   # vital records, claims, EHR, NIS: cross-sectional on hard records
     "survey":              1,   # self-report, questionnaire, convenience sample
-    "qualitative":         0,   # interviews, focus groups, photovoice, CBPR, "critical" frameworks: no endpoint
+    "qualitative":        -6,   # interviews, focus groups, photovoice, CBPR, "critical" frameworks: below commentary
     "case_report":         1,   # original clinical observation, no analysis
     "observational":       2,   # observational, design unclear
     "meta-analysis":       3,
@@ -61,6 +61,8 @@ AGENDA_TOPIC_PENALTY     = -5   # other agenda-driven buckets (substance.AGENDA_
                                 # weight stigma, drug policy, algorithmic bias. Same rescue rules.
 POLICY_TOPIC_PENALTY     =  0   # policy as a subject is not penalised by itself
 COMMENTARY_ON_IDENTITY   = -3   # extra penalty: opinion piece whose subject is an identity topic
+QUALITATIVE_PENALTY      = -6   # qualitative / participatory / "critical" designs: not rescuable. With the
+                                # design base this puts the paper at VALUE_MIN before any topic penalty.
 
 # Rescue: an identity- or SDOH-topic paper keeps its full penalty unless it clears these.
 RESCUE_MIN_DESIGN   = 5          # cohort or better (DESIGN_BASE value)

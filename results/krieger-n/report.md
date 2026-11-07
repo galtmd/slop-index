@@ -19,9 +19,9 @@
 | Identity-topic share | 0.715 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.813 (rescued full 6, partial 49) |
 | Designs | commentary 81, registry 49, observational 28, cohort 26, survey 25, review 14, modeling 4, quasi_experimental 3, qualitative 2, trial 1, methods 1, bench 1 |
-| Mean paper value / share positive | -2.37 / 0.362 |
+| Mean paper value / share positive | -2.49 / 0.362 |
 | Substantive h-index (positive-value papers) | 44 |
-| **TOTAL SLOP INDEX** (composite) | **0.653** (citation-weighted 0.615) |
+| **TOTAL SLOP INDEX** (composite) | **0.656** (citation-weighted 0.617) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -43,9 +43,9 @@
 | Identity-topic share | 0.734 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.821 (rescued full 4, partial 38) |
 | Designs | commentary 76, registry 39, observational 19, review 11, survey 11, cohort 10, quasi_experimental 3, modeling 2, qualitative 1, bench 1 |
-| Mean paper value / share positive | -3.24 / 0.341 |
+| Mean paper value / share positive | -3.32 / 0.341 |
 | Substantive h-index (positive-value papers) | 38 |
-| **TOTAL SLOP INDEX** (composite) | **0.683** (citation-weighted 0.618) |
+| **TOTAL SLOP INDEX** (composite) | **0.685** (citation-weighted 0.621) |
 
 
 ### Papers
@@ -68,7 +68,7 @@
 | 2004 | middle | A | survey | unclear | mechanistic | 17.22 | identity | 2 | Working class matters: socioeconomic disadvantage, race/ethnicity, gender, and s | Am J Public Health |
 | 2004 | middle | C* | commentary | hard | other | 2.84 |  | -2.0 | Liver transplantation for neuroendocrine tumors. | J Gastrointest Surg |
 | 2004 | middle | A | cohort | hard | other | 3.3 |  | 12.0 | Post-liver transplant acute renal failure: factors predicting development of end | Clin Transplant |
-| 2004 | last | A | qualitative | soft | mechanistic | 3.46 | identity | -1 | Characterizing perceived police violence: implications for public health. | Am J Public Health |
+| 2004 | last | A | qualitative | soft | mechanistic | 3.46 | identity | -16 | Characterizing perceived police violence: implications for public health. | Am J Public Health |
 | 2004 | first | A | observational | hard | other | 3.73 | identity (partial) | 5.5 | "Bodies count," and body counts: social epidemiology and embodying inequality. | Epidemiol Rev |
 | 2004 | sole | C | commentary | unclear | other | 0.65 | identity | -11 | Data, "race," and politics: a commentary on the epidemiological significance of  | J Epidemiol Community Health |
 | 2004 | middle | A | cohort | soft | other | 0.76 |  | 4.0 | Longitudinal study of the inception of perimenopause in relation to lifetime his | J Epidemiol Community Health |
@@ -203,7 +203,7 @@
 | 2019 | sole | C | commentary | unclear | other | 0.82 | identity | -11 | The US Census and the People's Health: Public Health Engagement From Enslavement | Am J Public Health |
 | 2019 | middle | A | registry | hard | demographic | 0.27 | identity | -5 | Decomposition of the US black/white inequality in premature mortality, 2010-2015 | BMJ Open |
 | 2019 | sole | C* | commentary | unclear | other | 21.7 | identity | -10 | Measures of Racism, Sexism, Heterosexism, and Gender Binarism for Health Equity  | Annu Rev Public Health |
-| 2019 | middle | A | qualitative | unclear | other | 0.31 |  | -1.0 | Analyzing and improving national and local child protection data in Nepal: A mix | Child Abuse Negl |
+| 2019 | middle | A | qualitative | unclear | other | 0.31 |  | -14.0 | Analyzing and improving national and local child protection data in Nepal: A mix | Child Abuse Negl |
 | 2019 | middle | A | survey | unclear | other | 0.77 | identity | -4 | Are inequities decreasing? Birth registration for children under five in low-inc | BMJ Glob Health |
 | 2019 | middle | A | survey | soft | other | 2.07 |  | 1.0 | The burden of non-alcoholic steatohepatitis (NASH) among patients from Europe: A | JHEP Rep |
 | 2020 | sole | C | commentary | unclear | other | 0.46 | identity | -13 | Climate crisis, health equity, and democratic governance: the need to act togeth | J Public Health Policy |

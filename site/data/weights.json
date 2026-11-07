@@ -12,7 +12,7 @@
   "cohort": 5,
   "registry": 3,
   "survey": 1,
-  "qualitative": 0,
+  "qualitative": -6,
   "case_report": 1,
   "observational": 2,
   "meta-analysis": 3,
@@ -27,6 +27,7 @@
  "MAJOR_TRIAL_N": 500,
  "MECHANISTIC_BONUS": 2,
  "POLICY_TOPIC_PENALTY": 0,
+ "QUALITATIVE_PENALTY": -6,
  "RCR_BANDS": [
   [
    3.0,

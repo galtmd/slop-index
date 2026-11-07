@@ -56,12 +56,12 @@
     },
     "rescued_full": 0,
     "rescued_partial": 3,
-    "mean_paper_value": -5.53,
+    "mean_paper_value": -6.05,
     "median_paper_value": -5.0,
     "share_positive_value": 0.161,
     "h_substantive": 5,
-    "total_slop_index": 0.766,
-    "total_slop_index_citation_weighted": 0.715
+    "total_slop_index": 0.774,
+    "total_slop_index_citation_weighted": 0.717
   },
   "lead_authorships": {
     "papers": 28,
@@ -120,12 +120,12 @@
     },
     "rescued_full": 0,
     "rescued_partial": 3,
-    "mean_paper_value": -5.63,
+    "mean_paper_value": -5.9,
     "median_paper_value": -5.0,
     "share_positive_value": 0.154,
     "h_substantive": 4,
-    "total_slop_index": 0.769,
-    "total_slop_index_citation_weighted": 0.716
+    "total_slop_index": 0.773,
+    "total_slop_index_citation_weighted": 0.719
   },
   "slug": "metzl-jm",
   "surname_matched": "Metzl",

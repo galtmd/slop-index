@@ -19,9 +19,9 @@
 | Identity-topic share | 0.943 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.957 (rescued full 0, partial 4) |
 | Designs | commentary 31, observational 9, survey 8, review 8, cohort 5, qualitative 3, quasi_experimental 2, methods 1, modeling 1, registry 1, bench 1 |
-| Mean paper value / share positive | -6.46 / 0.129 |
+| Mean paper value / share positive | -7.03 / 0.129 |
 | Substantive h-index (positive-value papers) | 7 |
-| **TOTAL SLOP INDEX** (composite) | **0.796** (citation-weighted 0.815) |
+| **TOTAL SLOP INDEX** (composite) | **0.809** (citation-weighted 0.83) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -43,9 +43,9 @@
 | Identity-topic share | 0.902 |
 | Penalized-topic share (identity, SDOH, or agenda bucket) | 0.927 (rescued full 0, partial 0) |
 | Designs | commentary 21, observational 5, review 5, survey 4, qualitative 2, methods 1, modeling 1, quasi_experimental 1, cohort 1 |
-| Mean paper value / share positive | -7.24 / 0.073 |
+| Mean paper value / share positive | -7.9 / 0.073 |
 | Substantive h-index (positive-value papers) | 3 |
-| **TOTAL SLOP INDEX** (composite) | **0.822** (citation-weighted 0.853) |
+| **TOTAL SLOP INDEX** (composite) | **0.837** (citation-weighted 0.858) |
 
 
 ### Papers
@@ -53,7 +53,7 @@
 | Year | Role | Tier | Design | Outcome | Exposure | RCR | Penalized | Value | Title | Journal |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2002 | middle | C | commentary | unclear | demographic | 0.1 | identity | -13 | The importance of assessing effect modification when asserting racial difference | J Infect Dis |
-| 2004 | middle | A | qualitative | soft | other | 5.68 | identity | -3 | Barriers to asymptomatic screening and other STD services for adolescents and yo | BMC Public Health |
+| 2004 | middle | A | qualitative | soft | other | 5.68 | identity | -16 | Barriers to asymptomatic screening and other STD services for adolescents and yo | BMC Public Health |
 | 2005 | middle | C | commentary | unclear | other | 0.1 | identity | -13 | Cost-effectiveness of screening for HIV. | N Engl J Med |
 | 2005 | sole | C | commentary | unclear | other | 0.26 | identity | -13 | Usage of "MSM" and "WSW" and the broader context of public health research. | Am J Public Health |
 | 2006 | last | C | commentary | soft | other | 0.4 |  | -5.0 | Distrust and poor self-reported health. Canaries in the coal mine? | J Gen Intern Med |
@@ -71,7 +71,7 @@
 | 2011 | last | C* | commentary | unclear | other | 4.81 | sdoh | -10 | The health of aging lesbian, gay and bisexual adults in California. | Policy Brief UCLA Cent Health Policy Res |
 | 2011 | last | C* | commentary | soft | demographic | 35.59 | identity | -10 | STRUCTURAL RACISM AND HEALTH INEQUITIES: Old Issues, New Directions. | Du Bois Rev |
 | 2012 | middle | C* | commentary | soft | other | 1.14 | identity | -10 | Theory-guided selection of discrimination measures for racial/ ethnic health dis | J Aging Health |
-| 2012 | first | A* | qualitative | unclear | mechanistic | 1.96 | identity | -1 | Intimate partner violence prevention services and resources in Los Angeles: issu | Health Promot Pract |
+| 2012 | first | A* | qualitative | unclear | mechanistic | 1.96 | identity | -16 | Intimate partner violence prevention services and resources in Los Angeles: issu | Health Promot Pract |
 | 2013 | middle | A | cohort | soft | mechanistic | 0.95 | identity | -2 | The relationship between perceived discrimination and high-risk social ties amon | AIDS Behav |
 | 2013 | middle | A | survey | unclear | mechanistic | 0.62 | identity | -2 | The influence of neighborhood characteristics on the relationship between discri | J Community Health |
 | 2013 | first | A | survey | soft | other | 2.0 | identity | -2 | Belief in AIDS-related conspiracy theories and mistrust in the government: relat | Gerontologist |
@@ -106,7 +106,7 @@
 | 2022 | first | C | commentary | unclear | other | 0.45 | identity | -13 | Introducing the Rapid Assessment of COVID Evidence (RACE) Series. | Ethn Dis |
 | 2022 | last | C* | commentary | unclear | other | 0.24 | identity | -13 | Using COVID-19 Surveillance Systems to Identify and Monitor Disparities: Best Pr | Ethn Dis |
 | 2022 | last | A | cohort | unclear | mechanistic | 0.55 | identity | 3 | Barely Tweeting and Rarely About Racism: Assessing US State Health Department Tw | Ethn Dis |
-| 2022 | last | A | qualitative | unclear | other | 1.03 | identity | -6 | Integrated Methods for Applying Critical Race Theory to Qualitative COVID-19 Equ | Ethn Dis |
+| 2022 | last | A | qualitative | unclear | other | 1.03 | identity | -18 | Integrated Methods for Applying Critical Race Theory to Qualitative COVID-19 Equ | Ethn Dis |
 | 2022 | middle | C | commentary | hard | other | 0.22 | identity | -13 | Race, ancestry, and genetic risk for kidney failure. | Cell Rep Med |
 | 2022 | last | B | review | unclear | other | 2.05 | identity | -2 | Examining the influence of group diversity on the functioning of community-based | Am J Community Psychol |
 | 2022 | first | C | commentary | unclear | other | 0.0 | identity | -15 | Maternal and Infant Health Inequities, Reproductive Justice and COVID Addressed  | Ethn Dis |
