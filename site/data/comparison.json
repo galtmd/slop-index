@@ -445,38 +445,6 @@
   }
  },
  {
-  "slug": "metzl-jm",
-  "label": "Jonathan Metzl (psychiatrist-sociologist, Vanderbilt)",
-  "papers": 33,
-  "no_abstract": 2,
-  "tiers": {
-   "A": 9,
-   "B": 6,
-   "C": 16
-  },
-  "h": 15,
-  "h_empirical": 7,
-  "slop_index": 0.533,
-  "penalized_share": 0.677,
-  "rescued_full": 0,
-  "rescued_partial": 3,
-  "positive_share": 0.161,
-  "median_value": -5.0,
-  "tsi": 0.774,
-  "tsi_cw": 0.717,
-  "lead_tsi": 0.773,
-  "lead_n": 28,
-  "designs": {
-   "commentary": 16,
-   "review": 6,
-   "survey": 3,
-   "qualitative": 2,
-   "bench": 2,
-   "case_report": 1,
-   "observational": 1
-  }
- },
- {
   "slug": "jones-cp",
   "label": "Camara Phyllis Jones (levels of racism; former APHA president)",
   "papers": 37,
@@ -508,6 +476,37 @@
    "registry": 1,
    "trial": 1,
    "meta-analysis": 1
+  }
+ },
+ {
+  "slug": "metzl-jm",
+  "label": "Jonathan Metzl (psychiatrist-sociologist, Vanderbilt)",
+  "papers": 33,
+  "no_abstract": 2,
+  "tiers": {
+   "A": 8,
+   "B": 6,
+   "C": 17
+  },
+  "h": 15,
+  "h_empirical": 6,
+  "slop_index": 0.6,
+  "penalized_share": 0.677,
+  "rescued_full": 0,
+  "rescued_partial": 2,
+  "positive_share": 0.129,
+  "median_value": -5.0,
+  "tsi": 0.79,
+  "tsi_cw": 0.724,
+  "lead_tsi": 0.793,
+  "lead_n": 28,
+  "designs": {
+   "commentary": 17,
+   "review": 6,
+   "survey": 3,
+   "qualitative": 2,
+   "bench": 2,
+   "case_report": 1
   }
  },
  {

@@ -17,7 +17,7 @@ PubMed-indexed papers only; citations from NIH iCite. Sorted by Total Slop Index
 | Nancy Krieger (social epidemiologist, Harvard) | 240 (5) | 135 / 19 / 81 | 67 | 52 | 0.224 | 0.813 | 6/49 | 0.362 | -3 | **0.656** | 0.617 | 0.685 (178) |
 | Arline Geronimus (weathering hypothesis, Michigan) | 60 (1) | 38 / 5 / 16 | 30 | 22 | 0.267 | 0.966 | 4/13 | 0.339 | -3 | **0.675** | 0.614 | 0.706 (36) |
 | Rachel Hardeman (structural racism and birth outcomes, Minnesota) | 105 (7) | 56 / 9 / 33 | 41 | 32 | 0.22 | 0.929 | 1/20 | 0.286 | -4.0 | **0.717** | 0.627 | 0.778 (46) |
-| Jonathan Metzl (psychiatrist-sociologist, Vanderbilt) | 33 (2) | 9 / 6 / 16 | 15 | 7 | 0.533 | 0.677 | 0/3 | 0.161 | -5.0 | **0.774** | 0.717 | 0.773 (28) |
 | Camara Phyllis Jones (levels of racism; former APHA president) | 37 (5) | 9 / 6 / 17 | 19 | 9 | 0.526 | 0.844 | 0/0 | 0.125 | -7.0 | **0.784** | 0.658 | 0.779 (12) |
+| Jonathan Metzl (psychiatrist-sociologist, Vanderbilt) | 33 (2) | 8 / 6 / 17 | 15 | 6 | 0.6 | 0.677 | 0/2 | 0.129 | -5.0 | **0.79** | 0.724 | 0.793 (28) |
 | Chandra Ford (public health critical race praxis, UCLA) | 72 (2) | 29 / 10 / 31 | 24 | 13 | 0.458 | 0.957 | 0/4 | 0.129 | -8.5 | **0.809** | 0.83 | 0.837 (42) |
 | Lisa Bowleg (intersectionality in public health, GWU) | 99 (4) | 44 / 14 / 37 | 30 | 21 | 0.3 | 0.958 | 0/3 | 0.084 | -10 | **0.836** | 0.777 | 0.838 (68) |

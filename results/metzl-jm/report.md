@@ -5,23 +5,23 @@
 | Metric | Value |
 |---|---|
 | Papers | 33 |
-| Tier A (original data) | 9 (0.29) |
+| Tier A (original data) | 8 (0.258) |
 | Tier B (synthesis/modeling) | 6 (0.194) |
-| Tier C (commentary) | 16 (0.516) |
+| Tier C (commentary) | 17 (0.548) |
 | h-index (PubMed/iCite) | 15 |
-| Empirical h-index (Tier A only) | 7 |
-| Commentary h-index (Tier C only) | 7 |
-| **Slop Index** = 1 − hₑ/h | **0.533** |
-| Share of citations going to commentary | 0.204 |
+| Empirical h-index (Tier A only) | 6 |
+| Commentary h-index (Tier C only) | 8 |
+| **Slop Index** = 1 − hₑ/h | **0.6** |
+| Share of citations going to commentary | 0.217 |
 | Topic share (race/SES/policy/equity, any) | 0.742 |
 | Topic shares | policy_politics 0.387, race_ethnicity 0.355, equity_justice 0.419, social_determinants 0.226 |
 | Flagged for manual review | 5 |
 | Identity-topic share | 0.516 |
-| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.677 (rescued full 0, partial 3) |
-| Designs | commentary 16, review 6, survey 3, qualitative 2, bench 2, case_report 1, observational 1 |
-| Mean paper value / share positive | -6.05 / 0.161 |
-| Substantive h-index (positive-value papers) | 5 |
-| **TOTAL SLOP INDEX** (composite) | **0.774** (citation-weighted 0.717) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.677 (rescued full 0, partial 2) |
+| Designs | commentary 17, review 6, survey 3, qualitative 2, bench 2, case_report 1 |
+| Mean paper value / share positive | -6.52 / 0.129 |
+| Substantive h-index (positive-value papers) | 4 |
+| **TOTAL SLOP INDEX** (composite) | **0.79** (citation-weighted 0.724) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -29,23 +29,23 @@
 | Metric | Value |
 |---|---|
 | Papers | 28 |
-| Tier A (original data) | 7 (0.269) |
+| Tier A (original data) | 6 (0.231) |
 | Tier B (synthesis/modeling) | 4 (0.154) |
-| Tier C (commentary) | 15 (0.577) |
+| Tier C (commentary) | 16 (0.615) |
 | h-index (PubMed/iCite) | 12 |
-| Empirical h-index (Tier A only) | 6 |
-| Commentary h-index (Tier C only) | 6 |
-| **Slop Index** = 1 − hₑ/h | **0.5** |
-| Share of citations going to commentary | 0.191 |
+| Empirical h-index (Tier A only) | 5 |
+| Commentary h-index (Tier C only) | 7 |
+| **Slop Index** = 1 − hₑ/h | **0.583** |
+| Share of citations going to commentary | 0.205 |
 | Topic share (race/SES/policy/equity, any) | 0.692 |
 | Topic shares | policy_politics 0.423, race_ethnicity 0.308, equity_justice 0.385, social_determinants 0.192 |
 | Flagged for manual review | 4 |
 | Identity-topic share | 0.462 |
-| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.654 (rescued full 0, partial 3) |
-| Designs | commentary 15, review 4, survey 2, bench 2, case_report 1, qualitative 1, observational 1 |
-| Mean paper value / share positive | -5.9 / 0.154 |
-| Substantive h-index (positive-value papers) | 4 |
-| **TOTAL SLOP INDEX** (composite) | **0.773** (citation-weighted 0.719) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.654 (rescued full 0, partial 2) |
+| Designs | commentary 16, review 4, survey 2, bench 2, case_report 1, qualitative 1 |
+| Mean paper value / share positive | -6.46 / 0.115 |
+| Substantive h-index (positive-value papers) | 3 |
+| **TOTAL SLOP INDEX** (composite) | **0.793** (citation-weighted 0.726) |
 
 
 ### Papers
@@ -78,7 +78,7 @@
 | 2018 | first | U* | observational | hard | other | 4.16 | identity (partial) | 5.5 | Structural Competency and Psychiatry. | JAMA Psychiatry |
 | 2018 | sole | U* | observational | unclear | other | 0.32 | firearms | -5 | Repeal the Dickey Amendment to Address Polarization Surrounding Firearms in the  | Am J Public Health |
 | 2020 | first | C | commentary | unclear | other | 4.33 | identity | -10 | Responding to the COVID-19 Pandemic: The Need for a Structurally Competent Healt | JAMA |
-| 2021 | first | A | observational | hard | other | 2.44 | sdoh (partial) | 4.5 | Mental Illness, Mass Shootings, and the Future of Psychiatric Research into Amer | Harv Rev Psychiatry |
+| 2021 | first | C | commentary | hard | other | 2.44 | sdoh | -10 | Mental Illness, Mass Shootings, and the Future of Psychiatric Research into Amer | Harv Rev Psychiatry |
 | 2021 | first | B | review | unclear | other | 0.74 | identity | -5 | Structural competency and the future of firearm research. | Soc Sci Med |
 | 2022 | middle | B | review | soft | demographic | 0.65 | identity | -10 | Perceived status threat and health among White Americans: A scoping review. | SSM Popul Health |
 | 2023 | last | A | bench | unclear | demographic | 1.94 | identity (partial) | 3.5 | Toward a moral reckoning on structural racism: Examining structural factors, enc | Am J Community Psychol |

@@ -131,3 +131,14 @@ def test_qualitative_is_the_floor():
     assert r.design == "qualitative"
     assert r.value_norm == 0.0          # clipped to VALUE_MIN whatever the citation count
     assert r.rescued == "none"
+
+
+def test_advocacy_framed_as_research_is_commentary():
+    from slop_index.classify import classify
+    art = {"identifiers": {"pmid": "adv1"}, "title": "Mass shootings and the future of research into gun violence",
+           "journal": {"title": "Harv Rev Psychiatry"}, "article_types": ["Journal Article"], "keywords": [], "language": "eng",
+           "publication_date": {"year": "2021"}, "authors": [],
+           "mesh_terms": ["Cross-Sectional Studies", "Correlation of Data", "Gun Violence", "Humans"],
+           "abstract": "This article outlines a four-part strategy for future research. First, researchers must abandon the assumption that violence is driven by psychopathology. Second, scholars must scrutinize any apparent correlation for bias. Effective policies will require a research agenda informed by affected communities."}
+    r = classify(art)
+    assert r.tier == "C"

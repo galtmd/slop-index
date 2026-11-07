@@ -100,6 +100,14 @@ COMMENTARY_JOURNALS = {
 # NEJM/JAMA/Lancet/BMJ also publish trials; they are only a tiebreaker when
 # no empirical signal is present at all.
 
+RE_ADVOCACY = re.compile(
+    r"\b(this (article|paper|essay|piece|commentary|review) (outlines|argues|contends|calls for|makes the case|"
+    r"advocates|examines the (politics|history|discourse)|offers a (framework|strategy|critique))|"
+    r"we (argue|contend|call (for|on)|urge|advocate|make the case)|"
+    r"(four|three|five)-part (strategy|agenda|framework)|(research|policy) agenda|agenda for (research|action|reform)|"
+    r"call to action|must (abandon|reject|scrutinize|confront|reckon|move beyond)|researchers must|should be guided by|"
+    r"we (offer|outline) (a|an) (strategy|roadmap|agenda))\b", re.I)
+
 TITLE_COMMENTARY = re.compile(
     r"^(commentary|editorial|comment on|reply|response|in reply|authors? (reply|respond)|"
     r"three authors reply|letter|perspective|viewpoint|rethinking|putting the|toward|towards|"
@@ -398,6 +406,14 @@ def classify_study_type(article: dict) -> Classification:
     if TITLE_COMMENTARY.search(title) and empirical_score < 3 and n_bench < 8:
         ev.append("commentary-style title with no empirical signal")
         return Classification(pmid, "C", "commentary", "medium", True, ev)
+
+    # 3c. Advocacy framed as research: an abstract that announces an argument, a strategy, or an
+    #     agenda, with no first-person data verbs and no sample, is commentary even when MeSH
+    #     carries a design heading (indexers tag "Cross-Sectional Studies" on pieces that discuss them).
+    n_adv = _count(RE_ADVOCACY, abstract[:900])
+    if n_adv >= 1 and n_we == 0 and n_sample == 0 and n_stats <= 1 and n_bench < 5:
+        ev.append(f"advocacy framing ({n_adv} cues) with no data verbs or sample")
+        return Classification(pmid, "C", "commentary", "medium", False, ev)
 
     clinical_pop = bool(re.search(r"\b(patients?|participants?|respondents|enrollees|beneficiaries|admissions|"
                                    r"discharges|hospitals?|insurance|disparit\w+|cohort|registry|claims)\b", abstract, re.I))

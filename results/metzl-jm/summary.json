@@ -4,27 +4,27 @@
     "papers_classified": 31,
     "papers_no_abstract": 2,
     "tiers": {
-      "A": 9,
+      "A": 8,
       "B": 6,
-      "C": 16
+      "C": 17
     },
     "subtypes": {
-      "commentary": 16,
-      "observational": 6,
+      "commentary": 17,
       "review": 6,
+      "observational": 5,
       "bench": 2,
       "case_report": 1
     },
-    "empirical_share": 0.29,
+    "empirical_share": 0.258,
     "synthesis_share": 0.194,
-    "commentary_share": 0.516,
+    "commentary_share": 0.548,
     "h_index": 15,
-    "h_empirical": 7,
-    "h_commentary": 7,
-    "slop_index": 0.533,
+    "h_empirical": 6,
+    "h_commentary": 8,
+    "slop_index": 0.6,
     "total_citations": 1946,
-    "citations_to_commentary_share": 0.204,
-    "citations_to_empirical_share": 0.137,
+    "citations_to_commentary_share": 0.217,
+    "citations_to_empirical_share": 0.124,
     "topic_share_any": 0.742,
     "topic_counts": {
       "policy_politics": 12,
@@ -40,13 +40,12 @@
     },
     "needs_review": 5,
     "designs": {
-      "commentary": 16,
+      "commentary": 17,
       "review": 6,
       "survey": 3,
       "qualitative": 2,
       "bench": 2,
-      "case_report": 1,
-      "observational": 1
+      "case_report": 1
     },
     "identity_topic_share": 0.516,
     "penalized_topic_share": 0.677,
@@ -55,40 +54,40 @@
       "drug_policy": 1
     },
     "rescued_full": 0,
-    "rescued_partial": 3,
-    "mean_paper_value": -6.05,
+    "rescued_partial": 2,
+    "mean_paper_value": -6.52,
     "median_paper_value": -5.0,
-    "share_positive_value": 0.161,
-    "h_substantive": 5,
-    "total_slop_index": 0.774,
-    "total_slop_index_citation_weighted": 0.717
+    "share_positive_value": 0.129,
+    "h_substantive": 4,
+    "total_slop_index": 0.79,
+    "total_slop_index_citation_weighted": 0.724
   },
   "lead_authorships": {
     "papers": 28,
     "papers_classified": 26,
     "papers_no_abstract": 2,
     "tiers": {
-      "A": 7,
+      "A": 6,
       "B": 4,
-      "C": 15
+      "C": 16
     },
     "subtypes": {
-      "commentary": 15,
-      "observational": 4,
+      "commentary": 16,
       "review": 4,
+      "observational": 3,
       "bench": 2,
       "case_report": 1
     },
-    "empirical_share": 0.269,
+    "empirical_share": 0.231,
     "synthesis_share": 0.154,
-    "commentary_share": 0.577,
+    "commentary_share": 0.615,
     "h_index": 12,
-    "h_empirical": 6,
-    "h_commentary": 6,
-    "slop_index": 0.5,
+    "h_empirical": 5,
+    "h_commentary": 7,
+    "slop_index": 0.583,
     "total_citations": 1807,
-    "citations_to_commentary_share": 0.191,
-    "citations_to_empirical_share": 0.125,
+    "citations_to_commentary_share": 0.205,
+    "citations_to_empirical_share": 0.111,
     "topic_share_any": 0.692,
     "topic_counts": {
       "policy_politics": 11,
@@ -104,13 +103,12 @@
     },
     "needs_review": 4,
     "designs": {
-      "commentary": 15,
+      "commentary": 16,
       "review": 4,
       "survey": 2,
       "bench": 2,
       "case_report": 1,
-      "qualitative": 1,
-      "observational": 1
+      "qualitative": 1
     },
     "identity_topic_share": 0.462,
     "penalized_topic_share": 0.654,
@@ -119,13 +117,13 @@
       "drug_policy": 1
     },
     "rescued_full": 0,
-    "rescued_partial": 3,
-    "mean_paper_value": -5.9,
+    "rescued_partial": 2,
+    "mean_paper_value": -6.46,
     "median_paper_value": -5.0,
-    "share_positive_value": 0.154,
-    "h_substantive": 4,
-    "total_slop_index": 0.773,
-    "total_slop_index_citation_weighted": 0.719
+    "share_positive_value": 0.115,
+    "h_substantive": 3,
+    "total_slop_index": 0.793,
+    "total_slop_index_citation_weighted": 0.726
   },
   "slug": "metzl-jm",
   "surname_matched": "Metzl",
