@@ -1,0 +1,135 @@
+{
+  "all_authorships": {
+    "papers": 323,
+    "papers_classified": 311,
+    "papers_no_abstract": 12,
+    "tiers": {
+      "A": 224,
+      "B": 14,
+      "C": 73
+    },
+    "subtypes": {
+      "observational": 212,
+      "commentary": 73,
+      "review": 10,
+      "case_report": 8,
+      "trial": 4,
+      "meta-analysis": 3,
+      "methods": 1
+    },
+    "empirical_share": 0.72,
+    "synthesis_share": 0.045,
+    "commentary_share": 0.235,
+    "h_index": 69,
+    "h_empirical": 63,
+    "h_commentary": 24,
+    "slop_index": 0.087,
+    "total_citations": 18900,
+    "citations_to_commentary_share": 0.201,
+    "citations_to_empirical_share": 0.738,
+    "topic_share_any": 0.26,
+    "topic_counts": {
+      "race_ethnicity": 7,
+      "policy_politics": 73,
+      "equity_justice": 13,
+      "social_determinants": 7
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.023,
+      "policy_politics": 0.235,
+      "equity_justice": 0.042,
+      "social_determinants": 0.023
+    },
+    "needs_review": 29,
+    "designs": {
+      "observational": 82,
+      "commentary": 73,
+      "cohort": 59,
+      "registry": 49,
+      "quasi_experimental": 13,
+      "review": 10,
+      "survey": 9,
+      "case_report": 8,
+      "trial": 4,
+      "meta-analysis": 3,
+      "methods": 1
+    },
+    "identity_topic_share": 0.051,
+    "penalized_topic_share": 0.064,
+    "rescued_full": 2,
+    "rescued_partial": 7,
+    "mean_paper_value": 4.5,
+    "median_paper_value": 6.0,
+    "share_positive_value": 0.73,
+    "h_substantive": 65,
+    "total_slop_index": 0.411,
+    "total_slop_index_citation_weighted": 0.312
+  },
+  "lead_authorships": {
+    "papers": 128,
+    "papers_classified": 123,
+    "papers_no_abstract": 5,
+    "tiers": {
+      "A": 62,
+      "B": 5,
+      "C": 56
+    },
+    "subtypes": {
+      "observational": 57,
+      "commentary": 56,
+      "case_report": 4,
+      "review": 4,
+      "trial": 1,
+      "methods": 1
+    },
+    "empirical_share": 0.504,
+    "synthesis_share": 0.041,
+    "commentary_share": 0.455,
+    "h_index": 39,
+    "h_empirical": 32,
+    "h_commentary": 19,
+    "slop_index": 0.179,
+    "total_citations": 8735,
+    "citations_to_commentary_share": 0.343,
+    "citations_to_empirical_share": 0.618,
+    "topic_share_any": 0.236,
+    "topic_counts": {
+      "race_ethnicity": 2,
+      "policy_politics": 27,
+      "equity_justice": 4,
+      "social_determinants": 2
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.016,
+      "policy_politics": 0.22,
+      "equity_justice": 0.033,
+      "social_determinants": 0.016
+    },
+    "needs_review": 17,
+    "designs": {
+      "commentary": 56,
+      "observational": 20,
+      "registry": 14,
+      "cohort": 11,
+      "quasi_experimental": 7,
+      "survey": 5,
+      "case_report": 4,
+      "review": 4,
+      "trial": 1,
+      "methods": 1
+    },
+    "identity_topic_share": 0.041,
+    "penalized_topic_share": 0.057,
+    "rescued_full": 1,
+    "rescued_partial": 2,
+    "mean_paper_value": 2.0,
+    "median_paper_value": 1.0,
+    "share_positive_value": 0.512,
+    "h_substantive": 32,
+    "total_slop_index": 0.5,
+    "total_slop_index_citation_weighted": 0.356
+  },
+  "slug": "makary-ma",
+  "surname_matched": "Makary",
+  "excluded": 0
+}

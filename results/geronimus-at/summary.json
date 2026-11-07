@@ -1,0 +1,124 @@
+{
+  "all_authorships": {
+    "papers": 60,
+    "papers_classified": 59,
+    "papers_no_abstract": 1,
+    "tiers": {
+      "A": 38,
+      "B": 5,
+      "C": 16
+    },
+    "subtypes": {
+      "observational": 38,
+      "commentary": 16,
+      "review": 3,
+      "modeling": 2
+    },
+    "empirical_share": 0.644,
+    "synthesis_share": 0.085,
+    "commentary_share": 0.271,
+    "h_index": 30,
+    "h_empirical": 22,
+    "h_commentary": 12,
+    "slop_index": 0.267,
+    "total_citations": 4928,
+    "citations_to_commentary_share": 0.175,
+    "citations_to_empirical_share": 0.794,
+    "topic_share_any": 0.915,
+    "topic_counts": {
+      "race_ethnicity": 42,
+      "social_determinants": 39,
+      "equity_justice": 33,
+      "policy_politics": 18
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.712,
+      "social_determinants": 0.661,
+      "equity_justice": 0.559,
+      "policy_politics": 0.305
+    },
+    "needs_review": 23,
+    "designs": {
+      "commentary": 16,
+      "observational": 12,
+      "registry": 11,
+      "survey": 6,
+      "cohort": 6,
+      "review": 3,
+      "quasi_experimental": 3,
+      "modeling": 2
+    },
+    "identity_topic_share": 0.898,
+    "penalized_topic_share": 0.966,
+    "rescued_full": 4,
+    "rescued_partial": 13,
+    "mean_paper_value": -2.6,
+    "median_paper_value": -3,
+    "share_positive_value": 0.339,
+    "h_substantive": 16,
+    "total_slop_index": 0.663,
+    "total_slop_index_citation_weighted": 0.609
+  },
+  "lead_authorships": {
+    "papers": 36,
+    "papers_classified": 36,
+    "papers_no_abstract": 0,
+    "tiers": {
+      "A": 19,
+      "B": 5,
+      "C": 12
+    },
+    "subtypes": {
+      "observational": 19,
+      "commentary": 12,
+      "review": 3,
+      "modeling": 2
+    },
+    "empirical_share": 0.528,
+    "synthesis_share": 0.139,
+    "commentary_share": 0.333,
+    "h_index": 23,
+    "h_empirical": 15,
+    "h_commentary": 10,
+    "slop_index": 0.348,
+    "total_citations": 3758,
+    "citations_to_commentary_share": 0.179,
+    "citations_to_empirical_share": 0.779,
+    "topic_share_any": 0.917,
+    "topic_counts": {
+      "race_ethnicity": 27,
+      "social_determinants": 27,
+      "equity_justice": 20,
+      "policy_politics": 9
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.75,
+      "social_determinants": 0.75,
+      "equity_justice": 0.556,
+      "policy_politics": 0.25
+    },
+    "needs_review": 19,
+    "designs": {
+      "commentary": 12,
+      "observational": 7,
+      "registry": 6,
+      "survey": 4,
+      "review": 3,
+      "cohort": 2,
+      "modeling": 2
+    },
+    "identity_topic_share": 0.917,
+    "penalized_topic_share": 0.972,
+    "rescued_full": 1,
+    "rescued_partial": 8,
+    "mean_paper_value": -3.5,
+    "median_paper_value": -3.5,
+    "share_positive_value": 0.306,
+    "h_substantive": 10,
+    "total_slop_index": 0.694,
+    "total_slop_index_citation_weighted": 0.629
+  },
+  "slug": "geronimus-at",
+  "surname_matched": "Geronimus",
+  "excluded": 0
+}

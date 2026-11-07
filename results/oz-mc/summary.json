@@ -1,0 +1,125 @@
+{
+  "all_authorships": {
+    "papers": 130,
+    "papers_classified": 127,
+    "papers_no_abstract": 3,
+    "tiers": {
+      "A": 94,
+      "B": 15,
+      "C": 18
+    },
+    "subtypes": {
+      "observational": 63,
+      "commentary": 18,
+      "bench": 15,
+      "review": 15,
+      "trial": 10,
+      "case_report": 6
+    },
+    "empirical_share": 0.74,
+    "synthesis_share": 0.118,
+    "commentary_share": 0.142,
+    "h_index": 47,
+    "h_empirical": 42,
+    "h_commentary": 11,
+    "slop_index": 0.106,
+    "total_citations": 7159,
+    "citations_to_commentary_share": 0.222,
+    "citations_to_empirical_share": 0.724,
+    "topic_share_any": 0.047,
+    "topic_counts": {
+      "social_determinants": 1,
+      "policy_politics": 4,
+      "equity_justice": 1
+    },
+    "topic_shares": {
+      "social_determinants": 0.008,
+      "policy_politics": 0.031,
+      "equity_justice": 0.008
+    },
+    "needs_review": 9,
+    "designs": {
+      "observational": 29,
+      "commentary": 18,
+      "cohort": 16,
+      "bench": 15,
+      "review": 15,
+      "registry": 9,
+      "major_trial": 6,
+      "survey": 6,
+      "case_report": 6,
+      "trial": 4,
+      "quasi_experimental": 3
+    },
+    "identity_topic_share": 0.024,
+    "penalized_topic_share": 0.031,
+    "rescued_full": 0,
+    "rescued_partial": 0,
+    "mean_paper_value": 4.93,
+    "median_paper_value": 5.0,
+    "share_positive_value": 0.78,
+    "h_substantive": 43,
+    "total_slop_index": 0.396,
+    "total_slop_index_citation_weighted": 0.37
+  },
+  "lead_authorships": {
+    "papers": 44,
+    "papers_classified": 41,
+    "papers_no_abstract": 3,
+    "tiers": {
+      "A": 21,
+      "B": 12,
+      "C": 8
+    },
+    "subtypes": {
+      "review": 12,
+      "observational": 12,
+      "commentary": 8,
+      "bench": 4,
+      "trial": 4,
+      "case_report": 1
+    },
+    "empirical_share": 0.512,
+    "synthesis_share": 0.293,
+    "commentary_share": 0.195,
+    "h_index": 19,
+    "h_empirical": 15,
+    "h_commentary": 3,
+    "slop_index": 0.211,
+    "total_citations": 1082,
+    "citations_to_commentary_share": 0.066,
+    "citations_to_empirical_share": 0.652,
+    "topic_share_any": 0.049,
+    "topic_counts": {
+      "policy_politics": 2
+    },
+    "topic_shares": {
+      "policy_politics": 0.049
+    },
+    "needs_review": 4,
+    "designs": {
+      "review": 12,
+      "commentary": 8,
+      "cohort": 5,
+      "bench": 4,
+      "observational": 4,
+      "survey": 3,
+      "trial": 3,
+      "case_report": 1,
+      "major_trial": 1
+    },
+    "identity_topic_share": 0.024,
+    "penalized_topic_share": 0.024,
+    "rescued_full": 0,
+    "rescued_partial": 0,
+    "mean_paper_value": 3.07,
+    "median_paper_value": 2.0,
+    "share_positive_value": 0.659,
+    "h_substantive": 16,
+    "total_slop_index": 0.461,
+    "total_slop_index_citation_weighted": 0.311
+  },
+  "slug": "oz-mc",
+  "surname_matched": "Oz",
+  "excluded": 0
+}

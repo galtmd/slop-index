@@ -1,0 +1,103 @@
+{
+  "all_authorships": {
+    "papers": 87,
+    "papers_classified": 85,
+    "papers_no_abstract": 2,
+    "tiers": {
+      "A": 55,
+      "B": 19,
+      "C": 11
+    },
+    "subtypes": {
+      "bench": 55,
+      "review": 19,
+      "commentary": 11
+    },
+    "empirical_share": 0.647,
+    "synthesis_share": 0.224,
+    "commentary_share": 0.129,
+    "h_index": 40,
+    "h_empirical": 25,
+    "h_commentary": 5,
+    "slop_index": 0.375,
+    "total_citations": 30832,
+    "citations_to_commentary_share": 0.009,
+    "citations_to_empirical_share": 0.578,
+    "topic_share_any": 0.176,
+    "topic_counts": {
+      "policy_politics": 13,
+      "equity_justice": 2
+    },
+    "topic_shares": {
+      "policy_politics": 0.153,
+      "equity_justice": 0.024
+    },
+    "needs_review": 2,
+    "designs": {
+      "bench": 55,
+      "review": 19,
+      "commentary": 11
+    },
+    "identity_topic_share": 0.035,
+    "penalized_topic_share": 0.035,
+    "rescued_full": 0,
+    "rescued_partial": 2,
+    "mean_paper_value": 7.05,
+    "median_paper_value": 9.0,
+    "share_positive_value": 0.847,
+    "h_substantive": 36,
+    "total_slop_index": 0.32,
+    "total_slop_index_citation_weighted": 0.257
+  },
+  "lead_authorships": {
+    "papers": 49,
+    "papers_classified": 49,
+    "papers_no_abstract": 0,
+    "tiers": {
+      "A": 30,
+      "B": 11,
+      "C": 8
+    },
+    "subtypes": {
+      "bench": 30,
+      "review": 11,
+      "commentary": 8
+    },
+    "empirical_share": 0.612,
+    "synthesis_share": 0.224,
+    "commentary_share": 0.163,
+    "h_index": 23,
+    "h_empirical": 17,
+    "h_commentary": 3,
+    "slop_index": 0.261,
+    "total_citations": 22454,
+    "citations_to_commentary_share": 0.007,
+    "citations_to_empirical_share": 0.708,
+    "topic_share_any": 0.163,
+    "topic_counts": {
+      "policy_politics": 8
+    },
+    "topic_shares": {
+      "policy_politics": 0.163
+    },
+    "needs_review": 0,
+    "designs": {
+      "bench": 30,
+      "review": 11,
+      "commentary": 8
+    },
+    "identity_topic_share": 0.0,
+    "penalized_topic_share": 0.0,
+    "rescued_full": 0,
+    "rescued_partial": 0,
+    "mean_paper_value": 6.71,
+    "median_paper_value": 8.0,
+    "share_positive_value": 0.837,
+    "h_substantive": 23,
+    "total_slop_index": 0.332,
+    "total_slop_index_citation_weighted": 0.209
+  },
+  "slug": "charpentier-e",
+  "surname_matched": "Charpentier",
+  "excluded": 0
+}

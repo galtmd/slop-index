@@ -1,0 +1,121 @@
+{
+  "all_authorships": {
+    "papers": 37,
+    "papers_classified": 32,
+    "papers_no_abstract": 5,
+    "tiers": {
+      "A": 9,
+      "B": 6,
+      "C": 17
+    },
+    "subtypes": {
+      "commentary": 17,
+      "observational": 8,
+      "review": 5,
+      "trial": 1,
+      "meta-analysis": 1
+    },
+    "empirical_share": 0.281,
+    "synthesis_share": 0.188,
+    "commentary_share": 0.531,
+    "h_index": 19,
+    "h_empirical": 9,
+    "h_commentary": 9,
+    "slop_index": 0.526,
+    "total_citations": 1629,
+    "citations_to_commentary_share": 0.362,
+    "citations_to_empirical_share": 0.546,
+    "topic_share_any": 0.875,
+    "topic_counts": {
+      "social_determinants": 11,
+      "race_ethnicity": 21,
+      "equity_justice": 22,
+      "policy_politics": 11
+    },
+    "topic_shares": {
+      "social_determinants": 0.344,
+      "race_ethnicity": 0.656,
+      "equity_justice": 0.688,
+      "policy_politics": 0.344
+    },
+    "needs_review": 11,
+    "designs": {
+      "commentary": 17,
+      "review": 5,
+      "observational": 3,
+      "survey": 2,
+      "cohort": 1,
+      "quasi_experimental": 1,
+      "registry": 1,
+      "trial": 1,
+      "meta-analysis": 1
+    },
+    "identity_topic_share": 0.781,
+    "penalized_topic_share": 0.844,
+    "rescued_full": 0,
+    "rescued_partial": 0,
+    "mean_paper_value": -6.03,
+    "median_paper_value": -7.0,
+    "share_positive_value": 0.125,
+    "h_substantive": 4,
+    "total_slop_index": 0.784,
+    "total_slop_index_citation_weighted": 0.658
+  },
+  "lead_authorships": {
+    "papers": 12,
+    "papers_classified": 10,
+    "papers_no_abstract": 2,
+    "tiers": {
+      "A": 2,
+      "B": 1,
+      "C": 7
+    },
+    "subtypes": {
+      "commentary": 7,
+      "observational": 2,
+      "review": 1
+    },
+    "empirical_share": 0.2,
+    "synthesis_share": 0.1,
+    "commentary_share": 0.7,
+    "h_index": 8,
+    "h_empirical": 2,
+    "h_commentary": 5,
+    "slop_index": 0.75,
+    "total_citations": 873,
+    "citations_to_commentary_share": 0.444,
+    "citations_to_empirical_share": 0.522,
+    "topic_share_any": 0.8,
+    "topic_counts": {
+      "race_ethnicity": 5,
+      "equity_justice": 7,
+      "social_determinants": 2,
+      "policy_politics": 4
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.5,
+      "equity_justice": 0.7,
+      "social_determinants": 0.2,
+      "policy_politics": 0.4
+    },
+    "needs_review": 2,
+    "designs": {
+      "commentary": 7,
+      "observational": 2,
+      "review": 1
+    },
+    "identity_topic_share": 0.7,
+    "penalized_topic_share": 0.7,
+    "rescued_full": 0,
+    "rescued_partial": 0,
+    "mean_paper_value": -5.8,
+    "median_paper_value": -7.5,
+    "share_positive_value": 0.1,
+    "h_substantive": 1,
+    "total_slop_index": 0.779,
+    "total_slop_index_citation_weighted": 0.626
+  },
+  "slug": "jones-cp",
+  "surname_matched": "Jones",
+  "excluded": 0
+}

@@ -1,0 +1,130 @@
+{
+  "all_authorships": {
+    "papers": 72,
+    "papers_classified": 70,
+    "papers_no_abstract": 2,
+    "tiers": {
+      "A": 29,
+      "B": 10,
+      "C": 31
+    },
+    "subtypes": {
+      "commentary": 31,
+      "observational": 28,
+      "review": 8,
+      "methods": 1,
+      "modeling": 1,
+      "bench": 1
+    },
+    "empirical_share": 0.414,
+    "synthesis_share": 0.143,
+    "commentary_share": 0.443,
+    "h_index": 24,
+    "h_empirical": 13,
+    "h_commentary": 14,
+    "slop_index": 0.458,
+    "total_citations": 4162,
+    "citations_to_commentary_share": 0.586,
+    "citations_to_empirical_share": 0.202,
+    "topic_share_any": 0.957,
+    "topic_counts": {
+      "race_ethnicity": 55,
+      "policy_politics": 26,
+      "equity_justice": 52,
+      "social_determinants": 27
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.786,
+      "policy_politics": 0.371,
+      "equity_justice": 0.743,
+      "social_determinants": 0.386
+    },
+    "needs_review": 13,
+    "designs": {
+      "commentary": 31,
+      "survey": 11,
+      "observational": 9,
+      "review": 8,
+      "cohort": 5,
+      "quasi_experimental": 2,
+      "methods": 1,
+      "modeling": 1,
+      "registry": 1,
+      "bench": 1
+    },
+    "identity_topic_share": 0.943,
+    "penalized_topic_share": 0.957,
+    "rescued_full": 0,
+    "rescued_partial": 4,
+    "mean_paper_value": -6.41,
+    "median_paper_value": -6.5,
+    "share_positive_value": 0.129,
+    "h_substantive": 7,
+    "total_slop_index": 0.794,
+    "total_slop_index_citation_weighted": 0.813
+  },
+  "lead_authorships": {
+    "papers": 42,
+    "papers_classified": 41,
+    "papers_no_abstract": 1,
+    "tiers": {
+      "A": 13,
+      "B": 7,
+      "C": 21
+    },
+    "subtypes": {
+      "commentary": 21,
+      "observational": 13,
+      "review": 5,
+      "methods": 1,
+      "modeling": 1
+    },
+    "empirical_share": 0.317,
+    "synthesis_share": 0.171,
+    "commentary_share": 0.512,
+    "h_index": 17,
+    "h_empirical": 8,
+    "h_commentary": 11,
+    "slop_index": 0.529,
+    "total_citations": 3091,
+    "citations_to_commentary_share": 0.686,
+    "citations_to_empirical_share": 0.074,
+    "topic_share_any": 0.927,
+    "topic_counts": {
+      "race_ethnicity": 31,
+      "policy_politics": 17,
+      "equity_justice": 31,
+      "social_determinants": 13
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.756,
+      "policy_politics": 0.415,
+      "equity_justice": 0.756,
+      "social_determinants": 0.317
+    },
+    "needs_review": 10,
+    "designs": {
+      "commentary": 21,
+      "survey": 6,
+      "observational": 5,
+      "review": 5,
+      "methods": 1,
+      "modeling": 1,
+      "quasi_experimental": 1,
+      "cohort": 1
+    },
+    "identity_topic_share": 0.902,
+    "penalized_topic_share": 0.927,
+    "rescued_full": 0,
+    "rescued_partial": 0,
+    "mean_paper_value": -7.2,
+    "median_paper_value": -9,
+    "share_positive_value": 0.073,
+    "h_substantive": 3,
+    "total_slop_index": 0.821,
+    "total_slop_index_citation_weighted": 0.853
+  },
+  "slug": "ford-cl",
+  "surname_matched": "Ford",
+  "excluded": 0
+}

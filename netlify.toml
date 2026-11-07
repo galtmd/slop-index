@@ -1,0 +1,6 @@
+[build]
+  publish = "site"
+  command = "python3 tools/build_site.py"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"

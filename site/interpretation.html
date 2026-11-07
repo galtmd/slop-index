@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slop Index · Interpretation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="./">Slop Index <small>a companion to the h-index</small></a>
+  <nav><a href="./">Score an author</a><a href="methodology.html">Methodology</a><a class="current" href="interpretation.html">Interpretation</a><a href="limitations.html">Limitations</a></nav>
+</div></header>
+<main>
+  <h1>What the numbers mean</h1>
+  <p class="lede">A score without a reference population is a number without a meaning. Seventeen named researchers were scored with the default weights so the scale has real anchors: two Nobel-winning bench scientists, a cardiology trialist, two surgeon-administrators, three Great Barrington Declaration authors, a senator-elect epidemiologist, an economist, and seven social epidemiologists and sociologists of health. Sorted best to worst.</p>
+
+  <div class="tablewrap"><table id="cmp">
+    <thead><tr><th>Author</th><th class="num">Papers</th><th>A / B / C</th><th class="num">h</th><th class="num">hₑ</th><th class="num">Slop Index</th><th class="num">Penalized</th><th>Rescued</th><th class="num">Positive value</th><th class="num">Median value</th><th class="num">Total Slop Index</th><th class="num">Cite-weighted</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+  <p class="note">PubMed-indexed papers only; citations from NIH iCite; "Rescued" is papers that fully / partially cleared the three rescue bars. Band colors: <span class="band top">research</span> below 0.47, <span class="band mid">mixed</span> 0.47 to 0.65, <span class="band low">commentary</span> above 0.65.</p>
+
+  <h2>Three bands</h2>
+  <p><b>The research band (0.18 to 0.44)</b> is bench science, trials, and clinical or statistical research with hard endpoints. These people disagree about plenty, but their bibliographies are built the same way: mostly original data, low topic penalties, positive median paper value. Karikó's record is almost entirely mechanistic work with very high field-normalized impact and no topic penalties. Charpentier follows; her lower empirical h-index reflects that a large share of her citations go to reviews and community statements rather than to the primary papers. Oz, Makary, Kulldorff, and Gupta all have empirical shares above 70 percent and axis-1 Slop Index values near 0.1, which is to say their h-indexes are built on original work, not opinion.</p>
+  <p><b>The mixed band (0.47 to 0.65)</b> is where the topic penalty begins to bite but strong design still rescues papers. Bhattacharya has the most fully rescued papers on the list, which is what quasi-experimental health economics with mortality endpoints earns. Anne Case is the instructive control: nearly two thirds of her papers are penalized social-determinants topics, but her median paper value stays positive because the work is cohort and time-series analysis of death rates, and her deaths-of-despair papers carry Relative Citation Ratios in the twenties and fifties. El-Sayed lands at the boundary: more empirical than the sociologists, less rescued than the economists.</p>
+  <p><b>The commentary band (0.65 and up)</b> is the social-epidemiology and critical-race literature. Every author in it has a negative median paper value, and the pattern is consistent: 80 to 97 percent of their papers are penalized topics; a third to a half of the output is commentary; and the empirical papers are mostly cross-sectional surveys with self-reported outcomes and a demographic label as the exposure. Krieger is the exception that proves the rule: a 240-paper record with 135 empirical papers and an h-index of 67, but 81 commentaries and only six papers that clear all three rescue bars. Geronimus sits highest in this band because several of her allostatic-load papers use measured biomarkers and clear the hard-endpoint bar.</p>
+
+  <h2>How to use a score</h2>
+  <p>Quote three numbers, not one. The axis-1 Slop Index says whether an h-index is built on data or on opinion; for most people on this table it is low, and it rules out the lazy explanation. The penalized-topic share says what the person writes about. The Total Slop Index says how much actionable science the record adds under these weights. When the first is low and the third is high, the subject matter is the finding, and anyone quoting the score should also quote the topic-neutral score from the weights panel, because that is the number a critic will reach for first.</p>
+  <p>The scale is relative to these anchors, not to an abstract standard. A new author's score means something only when placed in this table, which is why the scoring page reports the band along with the number.</p>
+  <footer>Open source under the MIT license. Written as Julian Galt, MD.</footer>
+</main>
+<script>
+fetch("data/comparison.json").then(r => r.json()).then(rows => {
+  const f = (x, d = 2) => (x == null ? "–" : typeof x === "number" ? x.toFixed(d) : x);
+  document.querySelector("#cmp tbody").innerHTML = rows.map(r => {
+    const band = r.tsi == null ? "" : r.tsi < 0.47 ? "band-top" : r.tsi < 0.65 ? "" : "band-low";
+    return `<tr class="${band}"><td>${r.label}</td><td class="num">${r.papers}</td><td>${r.tiers.A} / ${r.tiers.B} / ${r.tiers.C}</td><td class="num">${r.h}</td><td class="num">${r.h_empirical}</td><td class="num">${f(r.slop_index)}</td><td class="num">${f(r.penalized_share)}</td><td>${r.rescued_full} / ${r.rescued_partial}</td><td class="num">${f(r.positive_share)}</td><td class="num ${r.median_value > 0 ? "pos" : "neg"}">${f(r.median_value, 1)}</td><td class="num"><b>${f(r.tsi)}</b></td><td class="num">${f(r.tsi_cw)}</td></tr>`;
+  }).join("");
+});
+</script>
+</body>
+</html>

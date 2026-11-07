@@ -1,0 +1,123 @@
+{
+  "all_authorships": {
+    "papers": 33,
+    "papers_classified": 31,
+    "papers_no_abstract": 2,
+    "tiers": {
+      "A": 9,
+      "B": 6,
+      "C": 16
+    },
+    "subtypes": {
+      "commentary": 16,
+      "observational": 6,
+      "review": 6,
+      "bench": 2,
+      "case_report": 1
+    },
+    "empirical_share": 0.29,
+    "synthesis_share": 0.194,
+    "commentary_share": 0.516,
+    "h_index": 15,
+    "h_empirical": 7,
+    "h_commentary": 7,
+    "slop_index": 0.533,
+    "total_citations": 1946,
+    "citations_to_commentary_share": 0.204,
+    "citations_to_empirical_share": 0.137,
+    "topic_share_any": 0.742,
+    "topic_counts": {
+      "policy_politics": 12,
+      "race_ethnicity": 11,
+      "equity_justice": 13,
+      "social_determinants": 7
+    },
+    "topic_shares": {
+      "policy_politics": 0.387,
+      "race_ethnicity": 0.355,
+      "equity_justice": 0.419,
+      "social_determinants": 0.226
+    },
+    "needs_review": 5,
+    "designs": {
+      "commentary": 16,
+      "review": 6,
+      "survey": 5,
+      "bench": 2,
+      "case_report": 1,
+      "observational": 1
+    },
+    "identity_topic_share": 0.516,
+    "penalized_topic_share": 0.548,
+    "rescued_full": 0,
+    "rescued_partial": 3,
+    "mean_paper_value": -4.44,
+    "median_paper_value": -5.0,
+    "share_positive_value": 0.161,
+    "h_substantive": 5,
+    "total_slop_index": 0.729,
+    "total_slop_index_citation_weighted": 0.701
+  },
+  "lead_authorships": {
+    "papers": 28,
+    "papers_classified": 26,
+    "papers_no_abstract": 2,
+    "tiers": {
+      "A": 7,
+      "B": 4,
+      "C": 15
+    },
+    "subtypes": {
+      "commentary": 15,
+      "observational": 4,
+      "review": 4,
+      "bench": 2,
+      "case_report": 1
+    },
+    "empirical_share": 0.269,
+    "synthesis_share": 0.154,
+    "commentary_share": 0.577,
+    "h_index": 12,
+    "h_empirical": 6,
+    "h_commentary": 6,
+    "slop_index": 0.5,
+    "total_citations": 1807,
+    "citations_to_commentary_share": 0.191,
+    "citations_to_empirical_share": 0.125,
+    "topic_share_any": 0.692,
+    "topic_counts": {
+      "policy_politics": 11,
+      "race_ethnicity": 8,
+      "equity_justice": 10,
+      "social_determinants": 5
+    },
+    "topic_shares": {
+      "policy_politics": 0.423,
+      "race_ethnicity": 0.308,
+      "equity_justice": 0.385,
+      "social_determinants": 0.192
+    },
+    "needs_review": 4,
+    "designs": {
+      "commentary": 15,
+      "review": 4,
+      "survey": 3,
+      "bench": 2,
+      "case_report": 1,
+      "observational": 1
+    },
+    "identity_topic_share": 0.462,
+    "penalized_topic_share": 0.5,
+    "rescued_full": 0,
+    "rescued_partial": 3,
+    "mean_paper_value": -4.37,
+    "median_paper_value": -5.0,
+    "share_positive_value": 0.154,
+    "h_substantive": 4,
+    "total_slop_index": 0.726,
+    "total_slop_index_citation_weighted": 0.702
+  },
+  "slug": "metzl-jm",
+  "surname_matched": "Metzl",
+  "excluded": 0
+}

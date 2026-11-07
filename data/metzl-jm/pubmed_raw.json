@@ -1,0 +1,1841 @@
+[
+ {
+  "identifiers": {
+   "pmid": "42165418",
+   "pmc": "PMC13560587",
+   "doi": "10.1111/1468-0009.70091"
+  },
+  "title": "Firearm Safety in a Country of Arms.",
+  "abstract": "Policy Points Firearm safety policy in the United States cannot succeed through legislation alone; effective interventions must also address the social, economic, and infrastructural conditions that shape perceptions of safety. Evidence suggests that place-based investments can reduce violence and firearm deaths while strengthening social cohesion and civic trust. Public health approaches to firearms often fail to resonate across political divides because many Americans view guns not simply as health risks, but as symbols of personal liberty and self-protection. Durable firearm safety policy will likely require bipartisan strategies that combine targeted gun-safety measures with broader investments in community safety, economic stability, and public infrastructure that people experience in everyday life.",
+  "journal": {
+   "title": "The Milbank quarterly",
+   "iso_abbreviation": "Milbank Q"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Vanderbilt University."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2026",
+   "month": "05",
+   "day": "21"
+  },
+  "keywords": [],
+  "mesh_terms": [],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "37793270",
+   "doi": "10.1016/j.socscimed.2023.116245",
+   "pii": "S0277-9536(23)00602-0"
+  },
+  "title": "\"We grew up in the church\": A critical discourse analysis of Black and White rural residents' perceptions of mental health.",
+  "abstract": "Known as the \"Black-White mental health paradox,\" Black Americans typically report better mental health than White Americans, despite chronic exposure to the psychologically harmful effects of racism and discrimination. Yet, researchers rarely examine how mental health is experienced across racial groups in economically distressed rural regions where all residents have disproportionately less access to mental healthcare resources.\n\nThe purpose of this study was to explore how the racialized social system potentially contributes to the mental health beliefs and attitudes of racially majoritized and minoritized rural residents.\n\nWe conducted a secondary analysis of 29 health-focused oral history interviews from Black American (n = 16) and White American (n = 13) adults in rural North Carolina. Through critical discourse analysis, we found nuanced discourses linked to three mental-health-related topics: mental illness, stressors, and coping.\n\nWhite rural residents' condemning discourses illustrated how their beliefs about mental illnesses were rooted in meritocratic notions of individual choice and personal responsibility. Conversely, Black rural residents offered compassionate discourses toward those who experience mental illness, and they described how macro-level mechanisms can affect individual well-being. Stressors also differed along racial lines, such that White residents were primarily concerned about perceived social changes, and Black residents referenced experiences of interpersonal and structural racism. Related to coping, Black and White rural residents characterized the mental health benefits of social support from involvement in their respective religious organizations. Only Black residents signified that a personal relationship with a higher power was an essential positive coping mechanism.\n\nOur findings suggest that belief (or disbelief) in meritocratic ideology and specific religious components could be important factors to probe with Black-White patterning in mental health outcomes. This research also suggests that sociocultural factors can disparately contribute to mental health beliefs and attitudes among diverse rural populations.",
+  "journal": {
+   "title": "Social science & medicine (1982)",
+   "iso_abbreviation": "Soc Sci Med"
+  },
+  "authors": [
+   {
+    "last_name": "Efird",
+    "fore_name": "Caroline R",
+    "initials": "CR",
+    "affiliations": [
+     "Racial Justice Institute, Georgetown University, Washington, DC, USA. Electronic address: caroline.efird@georgetown.edu."
+    ]
+   },
+   {
+    "last_name": "Barrington",
+    "fore_name": "Clare",
+    "initials": "C",
+    "affiliations": [
+     "Department of Health Behavior, Gillings School of Global Public Health, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+    ]
+   },
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Medicine, Health, and Society, Vanderbilt University, Nashville, TN, USA."
+    ]
+   },
+   {
+    "last_name": "Muessig",
+    "fore_name": "Kathryn E",
+    "initials": "KE",
+    "affiliations": [
+     "College of Nursing, Florida State University, Tallahassee, FL, USA."
+    ]
+   },
+   {
+    "last_name": "Matthews",
+    "fore_name": "Derrick D",
+    "initials": "DD",
+    "affiliations": [
+     "Department of Health Behavior, Gillings School of Global Public Health, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+    ]
+   },
+   {
+    "last_name": "Lightfoot",
+    "fore_name": "Alexandra F",
+    "initials": "AF",
+    "affiliations": [
+     "Department of Health Behavior, Gillings School of Global Public Health, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "09",
+   "day": "12"
+  },
+  "keywords": [
+   "Mental health",
+   "Meritocracy",
+   "Religion",
+   "Rural health",
+   "Social determinants of health"
+  ],
+  "mesh_terms": [
+   "Adult",
+   "Humans",
+   "Black People",
+   "Mental Health",
+   "Racism",
+   "Rural Population",
+   "White",
+   "White People",
+   "North Carolina",
+   "Adaptation, Psychological",
+   "Stress, Psychological",
+   "Black or African American"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "37273458",
+   "pmc": "PMC10238101",
+   "doi": "10.31478/202302b",
+   "pii": "202302b"
+  },
+  "title": "Achieving Oral Health for All through Public Health Approaches, Interprofessional, and Transdisciplinary Education.",
+  "abstract": "",
+  "journal": {
+   "title": "NAM perspectives",
+   "iso_abbreviation": "NAM Perspect"
+  },
+  "authors": [
+   {
+    "last_name": "Fisher",
+    "fore_name": "Julian",
+    "initials": "J",
+    "affiliations": [
+     "Charite University Berlin."
+    ]
+   },
+   {
+    "last_name": "Berman",
+    "fore_name": "Richard",
+    "initials": "R",
+    "affiliations": [
+     "University of South Florida."
+    ]
+   },
+   {
+    "last_name": "Buse",
+    "fore_name": "Kent",
+    "initials": "K",
+    "affiliations": [
+     "George Institute for Global Health, Imperial College London."
+    ]
+   },
+   {
+    "last_name": "Doll",
+    "fore_name": "Bruce",
+    "initials": "B",
+    "affiliations": [
+     "Uniformed Services University."
+    ]
+   },
+   {
+    "last_name": "Glick",
+    "fore_name": "Michael",
+    "initials": "M",
+    "affiliations": [
+     "University of Pennsylvania."
+    ]
+   },
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan",
+    "initials": "J",
+    "affiliations": [
+     "Vanderbilt University."
+    ]
+   },
+   {
+    "last_name": "Touger-Decker",
+    "fore_name": "Riva",
+    "initials": "R",
+    "affiliations": [
+     "Rutgers School of Health Professions."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "02",
+   "day": "13"
+  },
+  "keywords": [],
+  "mesh_terms": [],
+  "article_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "36605332",
+   "pmc": "PMC9803373",
+   "doi": "10.1016/j.ssmph.2022.101326",
+   "pii": "S2352-8273(22)00305-6"
+  },
+  "title": "Perceived status threat and health among White Americans: A scoping review.",
+  "abstract": "Previous research on pre-COVID-19 pandemic rising White mortality in the United States suggests that White Americans' perceived decline in relative group status may have influenced worsening mortality. In conjunction with other social and economic indicators, social status threat is one determinant of this population-level health shift, yet it is unclear how perceptions of status threat shape individual health outcomes. Because of this, we sought to identify and synthesize research studies across disciplines that broadly explored how perceived threats to White Americans' social status affect their health. Our research objectives were to (1) examine how status threat (and related constructs) have been measured across the health and social sciences, (2) determine which health outcomes and behaviors are related to status threat, and (3) identify gaps in the existing knowledge base. We systematically searched six multidisciplinary databases. Only 12 studies met inclusion criteria, suggesting that status threat and Whites' health is an understudied topic that warrants continued investigation. Furthermore, there was inconsistency in how threats to status were measured and conceptualized across disciplines. Threat-related indicators evaluated changes in Democratic or Republican vote share, perceived racial treatment, financial status, personal identification with political party affiliation, perceptions of hypothetical \"majority-minority\" population shifts, racial awareness, and subjective social status. Studies primarily relied on self-rated measures of overall health, mental health status, and social determinants of health. Consequently, there is a gap in the literature concerning which specific health outcomes (besides mortality) are directly affected by status threat. Overall, included studies demonstrated that Whites' can experience negative health effects when they perceive threats in societal conditions, within their interpersonal social experiences, or related to their individual social standing. Moving forward, researchers should consider how Whites' beliefs about their position within social hierarchies potentially affect individual and group-level health outcomes.",
+  "journal": {
+   "title": "SSM - population health",
+   "iso_abbreviation": "SSM Popul Health"
+  },
+  "authors": [
+   {
+    "last_name": "Efird",
+    "fore_name": "Caroline R",
+    "initials": "CR",
+    "affiliations": [
+     "Racial Justice Institute, Georgetown University, Washington, DC, USA."
+    ]
+   },
+   {
+    "last_name": "Bennett",
+    "fore_name": "Falan",
+    "initials": "F",
+    "affiliations": [
+     "Temerty Faculty of Medicine, University of Toronto, Toronto, ON, Canada."
+    ]
+   },
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Medicine, Health, and Society, Vanderbilt University, Nashville, TN, USA."
+    ]
+   },
+   {
+    "last_name": "Siddiqi",
+    "fore_name": "Arjumand",
+    "initials": "A",
+    "affiliations": [
+     "Department of Epidemiology, Dalla Lana School of Public Health, University of Toronto, Toronto, ON, Canada.",
+     "Department of Health Behavior, Gillings School of Global Public Health, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "12",
+   "day": "30"
+  },
+  "keywords": [
+   "Social determinants of health",
+   "Social status",
+   "Status threat",
+   "White Americans"
+  ],
+  "mesh_terms": [],
+  "article_types": [
+   "Journal Article",
+   "Scoping Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "36602770",
+   "doi": "10.1002/ajcp.12642"
+  },
+  "title": "Toward a moral reckoning on structural racism: Examining structural factors, encouraging structural thinking, and supporting structural intervention.",
+  "abstract": "The racial reckoning of 2020 involved the largest social movement protest in U.S. history, but support for the Black Lives Matter movement declined shortly after. To advance a moral reckoning on structural racism that dismantles racialized structures and redresses racial inequities, we call on scholar activists within the field of community psychology to realign their own practices by (a) examining structural factors; (b) encouraging structural thinking; and (c) supporting structural intervention for racial justice. Two structural factors-political determinants and commercial determinants-maintain the status quo of structural racism, undermining efforts for racial equity. As a result, we encourage the development of structural thinking, which provides a structural analysis of racism and leads to support for structural intervention. With an intersectional race and class perspective, we detail how structural thinking could be developed among the professional managerial class (through structural competency) and among the oppressed class (through critical consciousness). Finally, we discuss structural intervention factors and approaches that can redress racial inequities and produce structural change. Ultimately, we provide a pathway for community psychologists to support activists building a multiracial, multiclass coalition to eliminate structures and systems of racial, political, and economic injustice.",
+  "journal": {
+   "title": "American journal of community psychology",
+   "iso_abbreviation": "Am J Community Psychol"
+  },
+  "authors": [
+   {
+    "last_name": "McCarty",
+    "fore_name": "Shane",
+    "initials": "S",
+    "affiliations": [
+     "Promote Care & Prevent Harm, Skaneateles, New York, USA."
+    ]
+   },
+   {
+    "last_name": "Liskey",
+    "fore_name": "Megan",
+    "initials": "M",
+    "affiliations": [
+     "Promote Care & Prevent Harm, Skaneateles, New York, USA."
+    ]
+   },
+   {
+    "last_name": "George",
+    "fore_name": "Deepu",
+    "initials": "D",
+    "affiliations": [
+     "Department of Family Medicine, University of Texas Rio Grande Valley, Edinburg, Texas, USA."
+    ]
+   },
+   {
+    "last_name": "Cook",
+    "fore_name": "Natalie E",
+    "initials": "NE",
+    "affiliations": [
+     "Department of Population Health Sciences, Virginia Tech, Blacksburg, Virginia, USA."
+    ]
+   },
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Medicine, Health, and Society, Vanderbilt University, Nashville, Tennessee, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "01",
+   "day": "05"
+  },
+  "keywords": [
+   "Black Lives Matter movement",
+   "critical consciousness",
+   "structural competency",
+   "structural racism",
+   "structural thinking"
+  ],
+  "mesh_terms": [
+   "Humans",
+   "Systemic Racism",
+   "Racism",
+   "Racial Groups",
+   "Social Justice"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "33839470",
+   "doi": "10.1016/j.socscimed.2021.113879",
+   "pii": "S0277-9536(21)00211-2"
+  },
+  "title": "Structural competency and the future of firearm research.",
+  "abstract": "In this critical literature review we develop a five-part agenda for pandemic-era research into mass shootings and multiple-victim homicides that promotes understanding the psychologies of individual shooters within larger structures and systems. We show how the momentous events set in motion by the COVID-19 virus, and the structural drivers of inequity and racism that its spread exposed, challenge mental health research on gun trauma to better account for broader terrains of race and place, as well as the tensions, politics, and assumptions that surround guns in the U.S. more broadly. Doing so will broaden mental-health interventions into epidemics of U.S. gun trauma, and challenge mental health research better recognize structural biases inherent in its own purview. We frame the agenda through the rubric of structural competency, an emerging framework that systematically trains health care professionals and others to recognize ways that institutions, neighborhood conditions, market forces, public policies, and health care delivery systems shape symptoms and diseases. Developing a structural framework around research into U.S. gun violence addresses the risks, traumas, meanings, and consequences that firearms represent for all communities-and highlights the importance of a renewed focus on mental health and safety for communities of color. Recognizing how gun violence reflects and encapsulates structures helps mental health experts address common sense gun policies within broader contexts-by fighting against structural racism or racially inflected gun policies for instance, or against economic policies that undermine access to mental health care more broadly.",
+  "journal": {
+   "title": "Social science & medicine (1982)",
+   "iso_abbreviation": "Soc Sci Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Medicine, Health and Society, Vanderbilt University, Nashville, TN, USA. Electronic address: jonathan.metzl@vanderbilt.edu."
+    ]
+   },
+   {
+    "last_name": "McKay",
+    "fore_name": "Tara",
+    "initials": "T",
+    "affiliations": [
+     "Department of Medicine, Health and Society, Vanderbilt University, Nashville, TN, USA. Electronic address: tara.mckay@vanderbilt.edu."
+    ]
+   },
+   {
+    "last_name": "Piemonte",
+    "fore_name": "Jennifer L",
+    "initials": "JL",
+    "affiliations": [
+     "Joint Program in Psychology and Women's Studies, University of Michigan, Ann Arbor, MI, USA. Electronic address: piemonte@umich.edu."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "03",
+   "day": "27"
+  },
+  "keywords": [
+   "Antiracism",
+   "Coronavirus",
+   "Firearms",
+   "Gun violence",
+   "Mass shootings",
+   "Mental illness",
+   "Pandemic",
+   "Racism",
+   "Structural competency"
+  ],
+  "mesh_terms": [
+   "COVID-19",
+   "Firearms",
+   "Homicide",
+   "Humans",
+   "Residence Characteristics"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "33417376",
+   "pmc": "PMC7803479",
+   "doi": "10.1097/HRP.0000000000000280",
+   "pii": "00023727-202101000-00006"
+  },
+  "title": "Mental Illness, Mass Shootings, and the Future of Psychiatric Research into American Gun Violence.",
+  "abstract": "This article outlines a four-part strategy for future research in mental health and complementary disciplines that will broaden understanding of mass shootings and multi-victim gun homicides. First, researchers must abandon the starting assumption that acts of mass violence are driven primarily by diagnosable psychopathology in isolated \"lone wolf\" individuals. The destructive motivations must be situated, instead, within larger social structures and cultural scripts. Second, mental health professionals and scholars must carefully scrutinize any apparent correlation of violence with mental illness for evidence of racial bias in the official systems that define, measure, and record psychiatric diagnoses, as well as those that enforce laws and impose criminal justice sanctions. Third, to better understand the role of firearm access in the occurrence and lethality of mass shootings, research should be guided by an overarching framework that incorporates social, cultural, legal, and political, but also psychological, aspects of private gun ownership in the United States. Fourth, effective policies and interventions to reduce the incidence of mass shootings over time-and to prevent serious acts of violence more generally-will require an expanded body of well-funded interdisciplinary research that is informed and implemented through the sustained engagement of researchers with affected communities and other stakeholders in gun violence prevention. Emerging evidence that the coronavirus pandemic has produced a sharp increase both in civilian gun sales and in the social and psychological determinants of injurious behavior adds special urgency to this agenda.",
+  "journal": {
+   "title": "Harvard review of psychiatry",
+   "iso_abbreviation": "Harv Rev Psychiatry"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "From the Department of Medicine, Health, and Society (Drs. Metzl and McKay), Vanderbilt University; Joint Program in Psychology and Women's and Gender Studies, University of Michigan (Ms. Piemonte)."
+    ]
+   },
+   {
+    "last_name": "Piemonte",
+    "fore_name": "Jennifer",
+    "initials": "J",
+    "affiliations": []
+   },
+   {
+    "last_name": "McKay",
+    "fore_name": "Tara",
+    "initials": "T",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2021"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "COVID-19",
+   "Correlation of Data",
+   "Cross-Sectional Studies",
+   "Cultural Deprivation",
+   "Gun Violence",
+   "Homicide",
+   "Humans",
+   "Mass Casualty Incidents",
+   "Mental Disorders",
+   "Psychopathology",
+   "Risk Factors",
+   "Socioeconomic Factors",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "32496531",
+   "doi": "10.1001/jama.2020.9289",
+   "pii": "2767027"
+  },
+  "title": "Responding to the COVID-19 Pandemic: The Need for a Structurally Competent Health Care System.",
+  "abstract": "",
+  "journal": {
+   "title": "JAMA",
+   "iso_abbreviation": "JAMA"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Medicine, Health, and Society, Vanderbilt University, Nashville, Tennessee."
+    ]
+   },
+   {
+    "last_name": "Maybank",
+    "fore_name": "Aletha",
+    "initials": "A",
+    "affiliations": [
+     "Chief Health Equity Officer, American Medical Association, Chicago, Illinois."
+    ]
+   },
+   {
+    "last_name": "De Maio",
+    "fore_name": "Fernando",
+    "initials": "F",
+    "affiliations": [
+     "Center for Health Equity, American Medical Association, Chicago, Illinois.",
+     "Department of Sociology, DePaul University, Chicago, Illinois."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2020",
+   "month": "Jul",
+   "day": "21"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Betacoronavirus",
+   "COVID-19",
+   "Coronavirus Infections",
+   "Delivery of Health Care",
+   "Ethnicity",
+   "Health Status Disparities",
+   "Healthcare Disparities",
+   "Humans",
+   "Pandemics",
+   "Pneumonia, Viral",
+   "Racial Groups",
+   "SARS-CoV-2",
+   "Socioeconomic Factors",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "29874482",
+   "pmc": "PMC5993411",
+   "doi": "10.2105/AJPH.2018.304461"
+  },
+  "title": "Repeal the Dickey Amendment to Address Polarization Surrounding Firearms in the United States.",
+  "abstract": "",
+  "journal": {
+   "title": "American journal of public health",
+   "iso_abbreviation": "Am J Public Health"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Jonathan M. Metzl is chair of the Center for Medicine, Health, and Society at Vanderbilt University in Nashville, TN."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2018",
+   "month": "Jul"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Firearms",
+   "Gun Violence",
+   "Humans",
+   "Politics",
+   "Public Health",
+   "Research",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "29261822",
+   "doi": "10.1001/jamapsychiatry.2017.3891",
+   "pii": "2665216"
+  },
+  "title": "Structural Competency and Psychiatry.",
+  "abstract": "",
+  "journal": {
+   "title": "JAMA psychiatry",
+   "iso_abbreviation": "JAMA Psychiatry"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Center for Medicine, Health, and Society, Department of Sociology, Vanderbilt University, Nashville, Tennessee."
+    ]
+   },
+   {
+    "last_name": "Hansen",
+    "fore_name": "Helena",
+    "initials": "H",
+    "affiliations": [
+     "Department of Psychiatry, New York University, New York.",
+     "Department of Anthropology, New York University, New York.",
+     "Nathan Kline Institute for Psychiatric Research, Orangeburg, New York."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2018",
+   "month": "Feb",
+   "day": "01"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Clinical Competence",
+   "Communication",
+   "Delivery of Health Care",
+   "Health Services Needs and Demand",
+   "Humans",
+   "Interdisciplinary Communication",
+   "Intersectoral Collaboration",
+   "Mental Disorders",
+   "Needs Assessment",
+   "Patient Care Planning",
+   "Physician-Patient Relations",
+   "Psychiatry",
+   "Residence Characteristics",
+   "Social Conditions",
+   "Social Justice",
+   "Socioeconomic Factors",
+   "Treatment Outcome",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "28689630",
+   "doi": "10.1016/j.socscimed.2017.06.029",
+   "pii": "S0277-9536(17)30398-2"
+  },
+  "title": "Using a structural competency framework to teach structural racism in pre-health education.",
+  "abstract": "The inclusion of structural competency training in pre-health undergraduate programs may offer significant benefits to future healthcare professionals. This paper presents the results of a comparative study of an interdisciplinary pre-health curriculum based in structural competency with a traditional premedical curriculum. The authors describe the interdisciplinary pre-health curriculum, titled Medicine, Health, and Society (MHS) at Vanderbilt University. The authors then use a new survey tool, the Structural Foundations of Health Survey, to evaluate structural skills and sensibilities. The analysis compares MHS majors (n = 185) with premed science majors (n = 63) and first-semester freshmen (n = 91), with particular attention to understanding how structural factors shape health. Research was conducted from August 2015 to December 2016. Results suggest that MHS majors identified and analyzed relationships between structural factors and health outcomes at higher rates and in deeper ways than did premed science majors and freshmen, and also demonstrated higher understanding of structural and implicit racism and health disparities. The skills that MHS students exhibited represent proficiencies increasingly stressed by the MCAT, the AAMC, and other educational bodies that emphasize how contextual factors shape expressions of health and illness.",
+  "journal": {
+   "title": "Social science & medicine (1982)",
+   "iso_abbreviation": "Soc Sci Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Center for Medicine, Health, and Society, Vanderbilt University, Nashville, TN, United States. Electronic address: Jonathan.metzl@vanderbilt.edu."
+    ]
+   },
+   {
+    "last_name": "Petty",
+    "fore_name": "JuLeigh",
+    "initials": "J",
+    "affiliations": [
+     "Center for Medicine, Health, and Society, Vanderbilt University, Nashville, TN, United States."
+    ]
+   },
+   {
+    "last_name": "Olowojoba",
+    "fore_name": "Oluwatunmise V",
+    "initials": "OV",
+    "affiliations": [
+     "Vanderbilt University, Nashville, TN, United States."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2017",
+   "month": "06",
+   "day": "22"
+  },
+  "keywords": [
+   "Medical education",
+   "Race and ethnicity",
+   "Structural competency",
+   "United States"
+  ],
+  "mesh_terms": [
+   "Cultural Competency",
+   "Curriculum",
+   "Education, Premedical",
+   "Humans",
+   "Racism",
+   "United States",
+   "Universities"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "28573595",
+   "pmc": "PMC5688197",
+   "doi": "10.1007/s10912-017-9449-1",
+   "pii": "10.1007/s10912-017-9449-1"
+  },
+  "title": "Developing and Evaluating an Innovative Structural Competency Curriculum for Pre-Health Students.",
+  "abstract": "The inclusion of structural competency training in pre-health undergraduate programs may offer significant benefits to future healthcare professionals. This paper presents the results of a comparative study of an interdisciplinary pre-health curriculum based in structural competency with a traditional premedical curriculum. The authors describe a new evaluation tool, the Structural Foundations of Health Survey © (2016), developed to evaluate structural skills and sensibilities. The authors use the survey to evaluate two groups of graduating seniors at Vanderbilt University-majors in an interdisciplinary pre-health curriculum titled Medicine, Health, and Society (MHS), and premed science majors-with particular attention to understanding how political, cultural, economic, and social factors shape health. Results suggest that MHS majors identified and analyzed relationships between structural factors and health outcomes at higher rates and in deeper ways than did premed science majors. MHS students also demonstrated higher understanding of structural and cultural competency in their approaches to race, intersectionality, and racial health disparities. The skills that MHS students exhibited represent proficiencies increasingly emphasized by the MCAT, the AAMC, and other educational bodies that, in an era of epigenetics and social determinants, emphasize how contextual factors shape expressions of health and illness.",
+  "journal": {
+   "title": "The Journal of medical humanities",
+   "iso_abbreviation": "J Med Humanit"
+  },
+  "authors": [
+   {
+    "last_name": "Petty",
+    "fore_name": "JuLeigh",
+    "initials": "J",
+    "affiliations": [
+     "Center for Medicine, Health, and Society, Vanderbilt University, Nashville, TN, USA. juleigh.petty@Vanderbilt.Edu."
+    ]
+   },
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Center for Medicine, Health, and Society, Vanderbilt University, Nashville, TN, USA."
+    ]
+   },
+   {
+    "last_name": "Keeys",
+    "fore_name": "Mia R",
+    "initials": "MR",
+    "affiliations": [
+     "Department of Sociology, Vanderbilt University, Nashville, TN, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2017",
+   "month": "Dec"
+  },
+  "keywords": [
+   "Health disparities",
+   "Health justice",
+   "Premedical education",
+   "Race",
+   "Structural competency"
+  ],
+  "mesh_terms": [
+   "Competency-Based Education",
+   "Health Occupations",
+   "Humans",
+   "Program Development",
+   "Program Evaluation",
+   "Students, Health Occupations",
+   "Surveys and Questionnaires"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "28225732",
+   "pmc": "PMC5318153",
+   "doi": "10.1097/ACM.0000000000001477",
+   "pii": "00001888-201703000-00030"
+  },
+  "title": "Integrating and Assessing Structural Competency in an Innovative Prehealth Curriculum at Vanderbilt University.",
+  "abstract": "Structural competency is a framework for conceptualizing and addressing health-related social justice issues that emphasizes diagnostic recognition of economic and political conditions producing and racializing inequalities in health. Strategies are needed to teach prehealth undergraduate students concepts central to structural competency (e.g., structural inequity, structural racism, structural stigma) and to evaluate their impact.\n\nThe curriculum for Vanderbilt University's innovative prehealth major in medicine, health, and society (MHS) was reshaped in 2013 to incorporate structural competency concepts and skills into undergraduate courses. The authors developed the Structural Foundations of Health (SFH) evaluation instrument, with closed- and open-ended questions designed to assess undergraduate students' core structural competency skills. They piloted the SFH instrument in 2015 with MHS seniors.\n\nOf the 85 students included in the analysis, most selected one or more structural factors as among the three most important in explaining U.S. regional childhood obesity rates (85%) and racial disparities in heart disease (92%). More than half described individual- or family-level structural factors (66%) or broad social and political factors (56%) as influencing geographic disparities in childhood obesity. Nearly two-thirds (66%) described racial disparities in heart disease as consequences of socioeconomic differences, discrimination/stereotypes, or policies with racial implications.\n\nPreliminary data suggest that the MHS major trained students to identify and analyze relationships between structural factors and health outcomes. Future research will include a comparison of structural competency skills among MHS students and students in the traditional premedical track and assessment of these skills in incoming first-year students.",
+  "journal": {
+   "title": "Academic medicine : journal of the Association of American Medical Colleges",
+   "iso_abbreviation": "Acad Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "J.M. Metzl is Frederick B. Rentschler II Professor of Sociology and Medicine, Health, and Society, director, Center for Medicine, Health, and Society, and professor of psychiatry, Vanderbilt University, Nashville, Tennessee.J. Petty is senior lecturer and assistant director, Center for Medicine, Health, and Society, and senior lecturer, Vanderbilt University, Nashville, Tennessee."
+    ]
+   },
+   {
+    "last_name": "Petty",
+    "fore_name": "JuLeigh",
+    "initials": "J",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2017",
+   "month": "Mar"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Cultural Competency",
+   "Cultural Diversity",
+   "Curriculum",
+   "Education, Medical, Undergraduate",
+   "Humans",
+   "Social Justice",
+   "Students, Medical",
+   "Tennessee",
+   "Universities"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "28225731",
+   "doi": "10.1097/ACM.0000000000001533",
+   "pii": "00001888-201703000-00026"
+  },
+  "title": "Queer Frontiers in Medicine: A Structural Competency Approach.",
+  "abstract": "In 2014, the Association of American Medical Colleges (AAMC) published a report proposing qualifiers of competence to guide medical educators towards training physicians to appropriately care for individuals who are or may be lesbian, gay, bisexual, transgender (LGBT); gender nonconforming (GNC); and/or born with differences in sex development (DSD). These qualifiers provide content and context to an existing framework heavily used in competency-based medical education, emphasizing individual and interpersonal abilities to enhance care delivered to individuals identifying as LGBT, GNC, and/or born with DSD. However, systemic and societal forces including health insurance, implicit bias, and legal protections significantly impact the health of these communities. The concept of structural competency proposes that it is necessary to consider these larger forces contributing to and sustaining disease and health in order to fully address identity-based health needs. Competing competency frameworks for addressing diversity may be counterproductive to the ultimate goal of improving health outcomes among diverse communities. In this article, frameworks are reconciled by proposing structural competency as one approach for teaching identity-based health-related competencies that can be feasibly implemented for medical educators seeking to comply with the AAMC's recommendations. This article aims to \"queer\"-or to open up-possibilities in medical education in an effort to ultimately support the provision of equitable and responsible health care to people who are LGBT, GNC, and/or born with DSD through the use of innovative frameworks and teaching materials.",
+  "journal": {
+   "title": "Academic medicine : journal of the Association of American Medical Colleges",
+   "iso_abbreviation": "Acad Med"
+  },
+  "authors": [
+   {
+    "last_name": "Donald",
+    "fore_name": "Cameron A",
+    "initials": "CA",
+    "affiliations": [
+     "C. Donald is a first-year medical student, University of California, San Francisco, School of Medicine, San Francisco, California.S. DasGupta is a faculty member, Graduate Program in Narrative Medicine, Center for the Study of Ethnicity and Race, and Institute for Comparative Literature and Society, Columbia University, New York, New York.J.M. Metzl is Frederick B. Rentschler II Professor of Sociology and Psychiatry and director, Center for Medicine, Health, and Society, Vanderbilt University, Nashville, Tennessee.K.L. Eckstrand is founding chair, Advisory Committee on Sexual Orientation, Gender Identity, and Sex Development, Association of American Medical Colleges, Washington, DC, and a second-year psychiatry resident, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania."
+    ]
+   },
+   {
+    "last_name": "DasGupta",
+    "fore_name": "Sayantani",
+    "initials": "S",
+    "affiliations": []
+   },
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": []
+   },
+   {
+    "last_name": "Eckstrand",
+    "fore_name": "Kristen L",
+    "initials": "KL",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2017",
+   "month": "Mar"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adult",
+   "Competency-Based Education",
+   "Cultural Competency",
+   "Curriculum",
+   "Female",
+   "Homosexuality, Female",
+   "Homosexuality, Male",
+   "Humans",
+   "Male",
+   "Middle Aged",
+   "Sexual and Gender Minorities",
+   "Students, Medical",
+   "Transgender Persons",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "28079725",
+   "pmc": "PMC5540156",
+   "doi": "10.1097/ACM.0000000000001542"
+  },
+  "title": "New Medicine for the U.S. Health Care System: Training Physicians for Structural Interventions.",
+  "abstract": "Structural competency provides a language and theoretical framework to promote institutional-level interventions by clinical practitioners working with community organizations, non-health-sector institutions, and policy makers. The special collection of articles on structural competency in this issue of Academic Medicine addresses the need to move from theory to an appraisal of core educational interventions that operationalize the goals of and foster structural competency. In this Commentary, the authors review the role of clinical practitioners in enhancing population-level health outcomes through collaborations with professionals in fields outside medicine, including the social sciences and law. They describe the core elements of structural competency in preclinical and clinical education, as illustrated by the articles of this special collection: perceiving the structural causes of patients' disease, envisioning structural interventions, and cultivating alliances with non-health-sector agencies that can implement structural interventions. Finally, the authors argue that preparing trainees to form partnerships will empower them to influence the social determinants of their patients' health and reduce health inequalities.",
+  "journal": {
+   "title": "Academic medicine : journal of the Association of American Medical Colleges",
+   "iso_abbreviation": "Acad Med"
+  },
+  "authors": [
+   {
+    "last_name": "Hansen",
+    "fore_name": "Helena",
+    "initials": "H",
+    "affiliations": [
+     "H. Hansen is assistant professor of anthropology and assistant professor of psychiatry, New York University, New York, New York. J.M. Metzl is Frederick B. Rentschler II Professor of Sociology and Medicine, Health, and Society, and professor of psychiatry, Vanderbilt University, Nashville, Tennessee."
+    ]
+   },
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2017",
+   "month": "Mar"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Communication",
+   "Curriculum",
+   "Delivery of Health Care",
+   "Education, Medical",
+   "Health Personnel",
+   "Humans",
+   "Interprofessional Relations",
+   "Physicians",
+   "Professional Competence",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "27354850",
+   "pmc": "PMC4918875"
+  },
+  "title": "Conflations of Marital Status and Sanity: Implicit Heterosexist Bias in Psychiatric Diagnosis in Physician-Dictated Charts at a Midwestern Medical Center.",
+  "abstract": "This paper discusses the role of gender role conformity in psychiatric determinants of well-being after of the depathologization of homosexuality from the DSM. In order to examine the heterosexualizing of sanity in U.S. psychiatric and popular cultures, we analyze archived psychiatrist-dictated patient charts from outpatient psychiatric clinics from a Midwestern medical center (n = 45). We highlight ways physicians deployed heteronormative gender expectations to describe and treat women's and men's depressive illness and implicitly construed troubled female-male relationships and sexual encounters as indices of psychopathology. We theorize how evolving connections between the heteronormal and the psychiatric normal performed some of the same regulatory functions, as did the DSM, coding particular gender performances and partner choices as mentally healthy while relegating others to the realm of disease. Only here, focusing on the mainstream instead of the marginalized kept the ideological work of these scripts hidden from view.",
+  "journal": {
+   "title": "The Yale journal of biology and medicine",
+   "iso_abbreviation": "Yale J Biol Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Vanderbilt University, Nashville, TN."
+    ]
+   },
+   {
+    "last_name": "McClelland",
+    "fore_name": "Sara I",
+    "initials": "SI",
+    "affiliations": [
+     "University of Michigan, Ann Arbor, MI."
+    ]
+   },
+   {
+    "last_name": "Bergner",
+    "fore_name": "Erin",
+    "initials": "E",
+    "affiliations": [
+     "Vanderbilt University, Nashville, TN."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2016",
+   "month": "06",
+   "day": "27"
+  },
+  "keywords": [
+   "Gender",
+   "Heterosexuality",
+   "Implicit bias",
+   "Psychiatric diagnosis"
+  ],
+  "mesh_terms": [
+   "Adult",
+   "Bias",
+   "Female",
+   "Gender Identity",
+   "Humans",
+   "Interpersonal Relations",
+   "Male",
+   "Marital Status",
+   "Men",
+   "Mental Disorders",
+   "Sexual Behavior"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "27049427",
+   "pmc": "PMC4985083",
+   "doi": "10.2105/AJPH.2016.303173"
+  },
+  "title": "Metzl Responds.",
+  "abstract": "",
+  "journal": {
+   "title": "American journal of public health",
+   "iso_abbreviation": "Am J Public Health"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan",
+    "initials": "J",
+    "affiliations": [
+     "Jonathan Metzl is the Frederick B. Rentschler II Professor of Sociology and Medicine, Health, and Society, the Director of the Center for Medicine, Health, and Society, and Professor of Psychiatry at Vanderbilt University, Nashville, TN."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2016",
+   "month": "May"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Firearms",
+   "Humans",
+   "Mass Casualty Incidents",
+   "Mental Disorders",
+   "Politics"
+  ],
+  "article_types": [
+   "Letter",
+   "Comment"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "26291189",
+   "pmc": "PMC4547385",
+   "doi": "10.1097/FCH.0000000000000079",
+   "pii": "00003727-201510000-00002"
+  },
+  "title": "The Interdependence of African American Men's Definitions of Manhood and Health.",
+  "abstract": "In this article, we explore themes that cut across how 24- to 77-year-old African American men define manhood and health. Utilizing a thematic approach, we analyzed data from 9 focus groups (N = 73). We found that manhood and health were relational constructs that are interrelated in men's minds and experiences. Manhood and health were defined by the characteristics men embody, the behaviors men engage in, and the goals and values men had to positively influence their families and communities. Thus, manhood and health are interdependent constructs and their interrelationship should be considered in efforts to promote African American men's health.",
+  "journal": {
+   "title": "Family & community health",
+   "iso_abbreviation": "Fam Community Health"
+  },
+  "authors": [
+   {
+    "last_name": "Griffith",
+    "fore_name": "Derek M",
+    "initials": "DM",
+    "affiliations": [
+     "Institute for Research on Men's Health, Center for Medicine, Health, and Society, Vanderbilt University, Nashville, Tennessee (Drs Griffith and Brinkley-Rubinstein); Department of Criminal Justice and Sociology, Jackson State University, and Center for Health of Minority Males, Myrlie Evers-Williams Institute for the Elimination of Health Disparities, Jackson, Mississippi (Dr Bruce); Department of Health, Behavior, and Society, Johns Hopkins Bloomberg School of Public Health, Program for Research on Men's Health, Hopkins Center for Health Disparities Solutions, Baltimore, Maryland (Dr Thorpe); and Center for Medicine, Health, and Society, Vanderbilt University, Nashville, Tennessee (Dr Metzl)."
+    ]
+   },
+   {
+    "last_name": "Brinkley-Rubinstein",
+    "fore_name": "Lauren",
+    "initials": "L",
+    "affiliations": []
+   },
+   {
+    "last_name": "Bruce",
+    "fore_name": "Marino A",
+    "initials": "MA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Thorpe",
+    "fore_name": "Roland J",
+    "initials": "RJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2015"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adult",
+   "Black or African American",
+   "Attitude to Health",
+   "Dominance-Subordination",
+   "Focus Groups",
+   "Humans",
+   "Male",
+   "Masculinity",
+   "Men",
+   "Middle Aged",
+   "Self Concept",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "25496006",
+   "pmc": "PMC4318286",
+   "doi": "10.2105/AJPH.2014.302242"
+  },
+  "title": "Mental illness, mass shootings, and the politics of American firearms.",
+  "abstract": "Four assumptions frequently arise in the aftermath of mass shootings in the United States: (1) that mental illness causes gun violence, (2) that psychiatric diagnosis can predict gun crime, (3) that shootings represent the deranged acts of mentally ill loners, and (4) that gun control \"won't prevent\" another Newtown (Connecticut school mass shooting). Each of these statements is certainly true in particular instances. Yet, as we show, notions of mental illness that emerge in relation to mass shootings frequently reflect larger cultural stereotypes and anxieties about matters such as race/ethnicity, social class, and politics. These issues become obscured when mass shootings come to stand in for all gun crime, and when \"mentally ill\" ceases to be a medical designation and becomes a sign of violent threat.",
+  "journal": {
+   "title": "American journal of public health",
+   "iso_abbreviation": "Am J Public Health"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Jonathan M. Metzl is with the Center for Medicine, Health, and Society and the Departments of Sociology and Psychiatry, Vanderbilt University, Nashville, TN. Kenneth T. MacLeish is with the Center for Medicine, Health, and Society and the Department of Anthropology, Vanderbilt University."
+    ]
+   },
+   {
+    "last_name": "MacLeish",
+    "fore_name": "Kenneth T",
+    "initials": "KT",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2015",
+   "month": "Feb"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Firearms",
+   "Humans",
+   "Mass Casualty Incidents",
+   "Mental Disorders",
+   "Politics",
+   "United States",
+   "Violence"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "25216304",
+   "doi": "10.1001/virtualmentor.2014.16.09.spec1-1409",
+   "pii": "virtualmentor.2014.16.9.spec1-1409"
+  },
+  "title": "Structural competency meets structural racism: race, politics, and the structure of medical knowledge.",
+  "abstract": "",
+  "journal": {
+   "title": "The virtual mentor : VM",
+   "iso_abbreviation": "Virtual Mentor"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Frederick B. Rentschler II Professor of Sociology and Medicine, Health, and Society, and director of the Center for Medicine, Health, and Society, and a professor of psychiatry at Vanderbilt University in Nashville, Tennessee."
+    ]
+   },
+   {
+    "last_name": "Roberts",
+    "fore_name": "Dorothy E",
+    "initials": "DE",
+    "affiliations": [
+     "George A. Weiss University Professor of Law and Sociology, the Raymond Pace and Sadie Tanner Mossell Alexander Professor of Civil Rights, and a professor of Africana studies, and the director of the Program on Race, Science, and Society at the University of Pennsylvania in Philadelphia."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2014",
+   "month": "09",
+   "day": "01"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Clinical Competence",
+   "Cultural Competency",
+   "Delivery of Health Care",
+   "Humans",
+   "Politics",
+   "Racial Groups",
+   "Racism",
+   "Social Justice"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "24507917",
+   "pmc": "PMC4269606",
+   "doi": "10.1016/j.socscimed.2013.06.032",
+   "pii": "S0277-9536(13)00377-8"
+  },
+  "title": "Structural competency: theorizing a new medical engagement with stigma and inequality.",
+  "abstract": "This paper describes a shift in medical education away from pedagogic approaches to stigma and inequalities that emphasize cross-cultural understandings of individual patients, toward attention to forces that influence health outcomes at levels above individual interactions. It reviews existing structural approaches to stigma and health inequalities developed outside of medicine, and proposes changes to U.S. medical education that will infuse clinical training with a structural focus. The approach, termed \"structural competency,\" consists of training in five core competencies: 1) recognizing the structures that shape clinical interactions; 2) developing an extra-clinical language of structure; 3) rearticulating \"cultural\" formulations in structural terms; 4) observing and imagining structural interventions; and 5) developing structural humility. Examples are provided of structural health scholarship that should be adopted into medical didactic curricula, and of structural interventions that can provide participant-observation opportunities for clinical trainees. The paper ultimately argues that increasing recognition of the ways in which social and economic forces produce symptoms or methylate genes then needs to be better coupled with medical models for structural change.",
+  "journal": {
+   "title": "Social science & medicine (1982)",
+   "iso_abbreviation": "Soc Sci Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Center for Medicine, Health, and Society, Vanderbilt University, Nashville, TN, United States. Electronic address: jonathan.metzl@vanderbilt.edu."
+    ]
+   },
+   {
+    "last_name": "Hansen",
+    "fore_name": "Helena",
+    "initials": "H",
+    "affiliations": [
+     "New York University, New York, NY, United States; Nathan Kline Institute for Psychiatric Research, Orangeburg, NY, United States."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2014",
+   "month": "Feb"
+  },
+  "keywords": [
+   "Cultural competency",
+   "Medical education",
+   "Social determinates of health",
+   "Stigma"
+  ],
+  "mesh_terms": [
+   "Cultural Competency",
+   "Curriculum",
+   "Education, Medical",
+   "Health Status Disparities",
+   "Humans",
+   "Social Stigma",
+   "Socioeconomic Factors",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, Non-P.H.S.",
+   "Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "23649169",
+   "doi": "10.1177/1557988313486512",
+   "pii": "1557988313486512"
+  },
+  "title": "Structural health and the politics of African American masculinity.",
+  "abstract": "This commentary describes ways in which notions of African American men's \"health\" attained by individual choice-embedded in the notion that African American men should visit doctors or engage in fewer risky behaviors-are at times in tension with larger cultural, economic, and political notions of \"health.\" It argues that efforts to improve the health of Black men must take structural factors into account, and failure to do so circumvents even well-intentioned efforts to improve health outcomes. Using historical examples, the article shows how attempts to identify and intervene into what are now called social determinants of health are strengthened by addressing on-the-ground diagnostic disparities and also the structural violence and racism embedded within definitions of illness and health. And, that, as such, we need to monitor structural barriers to health that exist in institutions ostensibly set up to incarcerate or contain Black men and in institutions ostensibly set up to help them.",
+  "journal": {
+   "title": "American journal of men's health",
+   "iso_abbreviation": "Am J Mens Health"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Vanderbilt University, Nashville, TN 37235, USA. jonathan.metzl@vanderbilt.edu"
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2013",
+   "month": "05",
+   "day": "06"
+  },
+  "keywords": [
+   "cultural disparity",
+   "hegemonic masculinity",
+   "masculinity",
+   "public health",
+   "social class"
+  ],
+  "mesh_terms": [
+   "Adult",
+   "Black or African American",
+   "Attitude to Health",
+   "Cultural Characteristics",
+   "Health Behavior",
+   "Health Status Disparities",
+   "Humans",
+   "Male",
+   "Masculinity",
+   "Men's Health",
+   "Middle Aged",
+   "Needs Assessment",
+   "Patient Acceptance of Health Care",
+   "Politics",
+   "United States",
+   "Young Adult"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "23351266",
+   "doi": "10.1001/virtualmentor.2012.14.6.imhl1-1206",
+   "pii": "virtualmentor.2012.14.6.imhl1-1206"
+  },
+  "title": "Mainstream anxieties about race in antipsychotic drug ads.",
+  "abstract": "",
+  "journal": {
+   "title": "The virtual mentor : VM",
+   "iso_abbreviation": "Virtual Mentor"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Sociology and Psychiatry, Vanderbilt University in Nashville, Tennessee, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2012",
+   "month": "06",
+   "day": "01"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Advertising",
+   "Black or African American",
+   "Antipsychotic Agents",
+   "Culture",
+   "Haloperidol",
+   "History, 20th Century",
+   "Humans",
+   "Racism",
+   "United States"
+  ],
+  "article_types": [
+   "Historical Article",
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "21714165",
+   "doi": "10.1016/s0140-6736(11)60950-1",
+   "pii": "S0140-6736(11)60950-1"
+  },
+  "title": "Why are the mentally ill still bearing arms?",
+  "abstract": "",
+  "journal": {
+   "title": "Lancet (London, England)",
+   "iso_abbreviation": "Lancet"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Vanderbilt University, Center for Medicine, Health, and Society, Nashville, TN 37235, USA. jonathan.metzl@vanderbilt.edu"
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2011",
+   "month": "Jun",
+   "day": "25"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Commitment of Persons with Psychiatric Disorders",
+   "Dangerous Behavior",
+   "Firearms",
+   "Harm Reduction",
+   "Humans",
+   "Persons with Psychiatric Disorders",
+   "Needs Assessment",
+   "United States",
+   "Violence",
+   "Wounds, Gunshot"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "17649844",
+   "doi": "10.1353/lm.2007.0015"
+  },
+  "title": "Great moments: authenticity, ideology, and the telling of medical \"history\".",
+  "abstract": "",
+  "journal": {
+   "title": "Literature and medicine",
+   "iso_abbreviation": "Lit Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "University of Michigan, USA."
+    ]
+   },
+   {
+    "last_name": "Howell",
+    "fore_name": "Joel D",
+    "initials": "JD",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2006"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Advertising",
+   "Drug Industry",
+   "History of Medicine",
+   "Medicine in the Arts",
+   "United States"
+  ],
+  "article_types": [
+   "Historical Article",
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "17321319",
+   "doi": "10.1016/S0140-6736(07)60321-3",
+   "pii": "S0140-6736(07)60321-3"
+  },
+  "title": "If direct-to-consumer advertisements come to Europe: lessons from the USA.",
+  "abstract": "",
+  "journal": {
+   "title": "Lancet (London, England)",
+   "iso_abbreviation": "Lancet"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Psychiatry and Women's Studies Program, University of Michigan, Ann Arbor, MI 48109-1290, USA. jmetzl@umich.edu"
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2007",
+   "month": "Feb",
+   "day": "24"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Advertising",
+   "Drug Industry",
+   "Europe",
+   "Humans",
+   "Mass Media",
+   "Persuasive Communication",
+   "Pharmaceutical Preparations",
+   "Physician-Patient Relations",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "17321315",
+   "doi": "10.1016/S0140-6736(07)60317-1",
+   "pii": "S0140-6736(07)60317-1"
+  },
+  "title": "Medicalisation in the 21st century: introduction.",
+  "abstract": "",
+  "journal": {
+   "title": "Lancet (London, England)",
+   "iso_abbreviation": "Lancet"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Psychiatry and Women's Studies Program, University of Michigan, MI 48109-1290, USA. jmetzl@umich.edu"
+    ]
+   },
+   {
+    "last_name": "Herzig",
+    "fore_name": "Rebecca M",
+    "initials": "RM",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2007",
+   "month": "Feb",
+   "day": "24"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Drug Industry",
+   "Humans",
+   "Philosophy, Medical",
+   "Physician's Role"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "15504766",
+   "doi": "10.1097/00001888-200411000-00003",
+   "pii": "79/11/1027"
+  },
+  "title": "Making history: lessons from the great moments series of pharmaceutical advertisements.",
+  "abstract": "The authors shed light on present-day pharmaceutical advertisements by looking back to an important early chapter in pharmaceutical company-sponsored promotion: the Great Moments in Medicine and Great Moments in Pharmacy, a series of commercial paintings produced by Parke, Davis & Company between 1948 and 1964. Beginning in the early 1950s, Parke-Davis delivered reproductions of the Great Moments images to physicians and pharmacies throughout the United States and Canada and funded monthly pullout facsimiles in key national magazines. The images also appeared in calendars, popular magazines, and \"educational\" brochures. By the mid-1960s, articles in both the popular and the medical press lauded the Great Moments for \"changing the face of the American doctor's office\" while describing the painter, Robert Thom, as the \"Norman Rockwell\" of medicine. The authors' brief analysis uses source material including popular articles about the Great Moments, existing scholarship, previously unexamined artist's notes, and, ultimately, the images themselves to explain why these seemingly kitschy paintings attained such widespread acclaim. They show how the Great Moments tapped into a 1950s medical climate when doctors were thought of as powerfully independent practitioners, pharmaceutical companies begged the doctor's good graces, and HMOs and health plans were nowhere to be seen. The authors conclude by suggesting that the images offer important lessons for thinking about the many pharmaceutical advertisements that confront present-day doctors, patients, and other consumers.",
+  "journal": {
+   "title": "Academic medicine : journal of the Association of American Medical Colleges",
+   "iso_abbreviation": "Acad Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Program in Culture, Health, and Medicine, University of Michigan, 2203 Lane Hall, 204 S. State St. Ann Arbor, MI 48109-1290, USA. jmetzl@umich.edu"
+    ]
+   },
+   {
+    "last_name": "Howell",
+    "fore_name": "Joel D",
+    "initials": "JD",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2004",
+   "month": "Nov"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Advertising",
+   "Canada",
+   "Drug Industry",
+   "History, 20th Century",
+   "Humans",
+   "Pharmaceutical Preparations",
+   "Physicians",
+   "United States"
+  ],
+  "article_types": [
+   "Historical Article",
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "15204808",
+   "doi": "10.1080/10673220490447245",
+   "pii": "DQPWNXUMRT9R746A"
+  },
+  "title": "Voyeur nation? Changing definitions of voyeurism, 1950-2004.",
+  "abstract": "",
+  "journal": {
+   "title": "Harvard review of psychiatry",
+   "iso_abbreviation": "Harv Rev Psychiatry"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "jmetzl@umich.edu"
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2004"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Culture",
+   "Diagnosis, Differential",
+   "History, 20th Century",
+   "History, 21st Century",
+   "Humans",
+   "Psychiatry",
+   "United States",
+   "Voyeurism"
+  ],
+  "article_types": [
+   "Historical Article",
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "14652053",
+   "doi": "10.1016/s0277-9536(03)00369-1",
+   "pii": "S0277953603003691"
+  },
+  "title": "Assessing the impact of SSRI antidepressants on popular notions of women's depressive illness.",
+  "abstract": "This study examines how Selective Serotonin Reuptake Inhibitor (SSRI) antidepressants have played a contributing role in expanding categories of women's \"mental illness\" in relation to categories of \"normal\" behavior. We hypothesized that between 1985 and 2000, as Premenopausal Dysphoric Disorder (PMDD), postpartum depression, and perimenopausal depression were increasingly treated with SSRIs, popular categories of depressive illness expanded to encompass what were previously considered normative women's life events such as motherhood, menstruation, or child birth. We quantified and qualified this expansion through an in-depth analysis of popular representations of depressive illness during the time period when SSRIs were introduced. Using established coding methods, we analyzed popular articles about depression from a mix of American magazines and newspapers spanning the years 1985-2000. Through this approach, we uncovered a widening set of gender-specific criteria outside of the Diagnostic and Statistical Manual criteria for dysthymic or depressive disorders that have, over time, been conceived as indicative of treatment with SSRIs. Our results suggest that SSRI discourse may have helped shift popular categories of \"normal/acceptable\" and \"pathological/treatable\" womanhood, in much the same way that the popularity of Ritalin has shifted these categories for childhood.",
+  "journal": {
+   "title": "Social science & medicine (1982)",
+   "iso_abbreviation": "Soc Sci Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Psychiatry and Women's Studies Program, Director, Program in Culture, Health, and Medicine, University of Michigan, 2203 Lane Hall, 204 S. State St., Ann Arbor, MI 48109-1092, USA. jmetzl@umich.edu"
+    ]
+   },
+   {
+    "last_name": "Angel",
+    "fore_name": "Joni",
+    "initials": "J",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2004",
+   "month": "Feb"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Attitude to Health",
+   "Bibliometrics",
+   "Depression, Postpartum",
+   "Depressive Disorder",
+   "Diagnostic and Statistical Manual of Mental Disorders",
+   "Female",
+   "Humans",
+   "Newspapers as Topic",
+   "Periodicals as Topic",
+   "Premenstrual Syndrome",
+   "Public Opinion",
+   "Selective Serotonin Reuptake Inhibitors",
+   "Treatment Outcome",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "23267713",
+   "doi": "10.1001/virtualmentor.2003.5.10.mhum1-0310",
+   "pii": "virtualmentor.2003.5.10.mhum1-0310"
+  },
+  "title": "Understanding psychotropic medications as literary symbols.",
+  "abstract": "",
+  "journal": {
+   "title": "The virtual mentor : VM",
+   "iso_abbreviation": "Virtual Mentor"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "University of Michigan."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2003",
+   "month": "10",
+   "day": "01"
+  },
+  "keywords": [],
+  "mesh_terms": [],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "12691970",
+   "doi": "10.1097/00001888-200304000-00013"
+  },
+  "title": "Melencolia I.",
+  "abstract": "",
+  "journal": {
+   "title": "Academic medicine : journal of the Association of American Medical Colleges",
+   "iso_abbreviation": "Acad Med"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Psychiatry and Women's Studies, University of Michigan, Ann Arbor, USA."
+    ]
+   },
+   {
+    "last_name": "Howell",
+    "fore_name": "Joel D",
+    "initials": "JD",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2003",
+   "month": "Apr"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Depressive Disorder",
+   "Engraving and Engravings",
+   "Famous Persons",
+   "History, 16th Century",
+   "Humans",
+   "Medicine in the Arts"
+  ],
+  "article_types": [
+   "Biography",
+   "Historical Article",
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "12359669",
+   "doi": "10.1176/appi.ajp.159.10.1665"
+  },
+  "title": "Angela.",
+  "abstract": "",
+  "journal": {
+   "title": "The American journal of psychiatry",
+   "iso_abbreviation": "Am J Psychiatry"
+  },
+  "authors": [
+   {
+    "last_name": "Metzl",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": [
+     "Program in Culture, Health, and Medicine, University of Michigan, 2203 Lane Hall, Ann Arbor, MI 48109-1290, USA. jmetzl@umich.edu"
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2002",
+   "month": "Oct"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adult",
+   "Advertising",
+   "Anxiety Disorders",
+   "Attitude to Health",
+   "Drug Industry",
+   "Female",
+   "Humans",
+   "Paroxetine",
+   "Physician-Patient Relations",
+   "Psychiatry",
+   "Self Medication"
+  ],
+  "article_types": [
+   "Case Reports",
+   "Journal Article"
+  ],
+  "language": "eng"
+ }
+]

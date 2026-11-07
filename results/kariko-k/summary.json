@@ -1,0 +1,101 @@
+{
+  "all_authorships": {
+    "papers": 66,
+    "papers_classified": 62,
+    "papers_no_abstract": 4,
+    "tiers": {
+      "A": 52,
+      "B": 5,
+      "C": 5
+    },
+    "subtypes": {
+      "bench": 49,
+      "review": 5,
+      "commentary": 5,
+      "trial": 2,
+      "observational": 1
+    },
+    "empirical_share": 0.839,
+    "synthesis_share": 0.081,
+    "commentary_share": 0.081,
+    "h_index": 45,
+    "h_empirical": 40,
+    "h_commentary": 4,
+    "slop_index": 0.111,
+    "total_citations": 19562,
+    "citations_to_commentary_share": 0.008,
+    "citations_to_empirical_share": 0.86,
+    "topic_share_any": 0.032,
+    "topic_counts": {
+      "equity_justice": 2
+    },
+    "topic_shares": {
+      "equity_justice": 0.032
+    },
+    "needs_review": 3,
+    "designs": {
+      "bench": 49,
+      "review": 5,
+      "commentary": 5,
+      "trial": 2,
+      "observational": 1
+    },
+    "identity_topic_share": 0.032,
+    "penalized_topic_share": 0.032,
+    "rescued_full": 0,
+    "rescued_partial": 1,
+    "mean_paper_value": 11.01,
+    "median_paper_value": 13.0,
+    "share_positive_value": 0.919,
+    "h_substantive": 44,
+    "total_slop_index": 0.178,
+    "total_slop_index_citation_weighted": 0.099
+  },
+  "lead_authorships": {
+    "papers": 26,
+    "papers_classified": 25,
+    "papers_no_abstract": 1,
+    "tiers": {
+      "A": 18,
+      "B": 4,
+      "C": 3
+    },
+    "subtypes": {
+      "bench": 18,
+      "review": 4,
+      "commentary": 3
+    },
+    "empirical_share": 0.72,
+    "synthesis_share": 0.16,
+    "commentary_share": 0.12,
+    "h_index": 21,
+    "h_empirical": 15,
+    "h_commentary": 3,
+    "slop_index": 0.286,
+    "total_citations": 8365,
+    "citations_to_commentary_share": 0.017,
+    "citations_to_empirical_share": 0.911,
+    "topic_share_any": 0.0,
+    "topic_counts": {},
+    "topic_shares": {},
+    "needs_review": 0,
+    "designs": {
+      "bench": 18,
+      "review": 4,
+      "commentary": 3
+    },
+    "identity_topic_share": 0.0,
+    "penalized_topic_share": 0.0,
+    "rescued_full": 0,
+    "rescued_partial": 0,
+    "mean_paper_value": 10.0,
+    "median_paper_value": 12.0,
+    "share_positive_value": 0.88,
+    "h_substantive": 19,
+    "total_slop_index": 0.214,
+    "total_slop_index_citation_weighted": 0.086
+  },
+  "slug": "kariko-k",
+  "surname_matched": "Kariko",
+  "excluded": 0
+}

@@ -1,0 +1,115 @@
+{
+  "all_authorships": {
+    "papers": 31,
+    "papers_classified": 26,
+    "papers_no_abstract": 5,
+    "tiers": {
+      "A": 16,
+      "B": 2,
+      "C": 8
+    },
+    "subtypes": {
+      "observational": 16,
+      "commentary": 8,
+      "review": 2
+    },
+    "empirical_share": 0.615,
+    "synthesis_share": 0.077,
+    "commentary_share": 0.308,
+    "h_index": 22,
+    "h_empirical": 13,
+    "h_commentary": 5,
+    "slop_index": 0.409,
+    "total_citations": 5090,
+    "citations_to_commentary_share": 0.187,
+    "citations_to_empirical_share": 0.754,
+    "topic_share_any": 0.692,
+    "topic_counts": {
+      "social_determinants": 14,
+      "policy_politics": 5,
+      "race_ethnicity": 3
+    },
+    "topic_shares": {
+      "social_determinants": 0.538,
+      "policy_politics": 0.192,
+      "race_ethnicity": 0.115
+    },
+    "needs_review": 12,
+    "designs": {
+      "observational": 8,
+      "commentary": 8,
+      "cohort": 4,
+      "survey": 3,
+      "review": 2,
+      "quasi_experimental": 1
+    },
+    "identity_topic_share": 0.115,
+    "penalized_topic_share": 0.654,
+    "rescued_full": 1,
+    "rescued_partial": 6,
+    "mean_paper_value": -0.27,
+    "median_paper_value": 2.0,
+    "share_positive_value": 0.577,
+    "h_substantive": 13,
+    "total_slop_index": 0.578,
+    "total_slop_index_citation_weighted": 0.5
+  },
+  "lead_authorships": {
+    "papers": 30,
+    "papers_classified": 25,
+    "papers_no_abstract": 5,
+    "tiers": {
+      "A": 16,
+      "B": 2,
+      "C": 7
+    },
+    "subtypes": {
+      "observational": 16,
+      "commentary": 7,
+      "review": 2
+    },
+    "empirical_share": 0.64,
+    "synthesis_share": 0.08,
+    "commentary_share": 0.28,
+    "h_index": 22,
+    "h_empirical": 13,
+    "h_commentary": 5,
+    "slop_index": 0.409,
+    "total_citations": 5088,
+    "citations_to_commentary_share": 0.187,
+    "citations_to_empirical_share": 0.754,
+    "topic_share_any": 0.72,
+    "topic_counts": {
+      "social_determinants": 14,
+      "policy_politics": 5,
+      "race_ethnicity": 3
+    },
+    "topic_shares": {
+      "social_determinants": 0.56,
+      "policy_politics": 0.2,
+      "race_ethnicity": 0.12
+    },
+    "needs_review": 11,
+    "designs": {
+      "observational": 8,
+      "commentary": 7,
+      "cohort": 4,
+      "survey": 3,
+      "review": 2,
+      "quasi_experimental": 1
+    },
+    "identity_topic_share": 0.12,
+    "penalized_topic_share": 0.68,
+    "rescued_full": 1,
+    "rescued_partial": 6,
+    "mean_paper_value": -0.08,
+    "median_paper_value": 2.0,
+    "share_positive_value": 0.6,
+    "h_substantive": 13,
+    "total_slop_index": 0.572,
+    "total_slop_index_citation_weighted": 0.5
+  },
+  "slug": "case-a",
+  "surname_matched": "Case",
+  "excluded": 0
+}

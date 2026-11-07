@@ -1,0 +1,3757 @@
+[
+ {
+  "identifiers": {
+   "pmid": "39352175",
+   "pmc": "PMC11451894",
+   "doi": "10.1513/AnnalsATS.202407-767ST"
+  },
+  "title": "Research Priorities in Pediatric Asthma Morbidity: Addressing the Impacts of Systemic Racism on Children with Asthma in the United States. An Official American Thoracic Society Workshop Report.",
+  "abstract": "Background: In the United States, Black and Latino children with asthma are more likely than White children with asthma to require emergency department visits or hospitalizations because of an asthma exacerbation. Although many cite patient-level socioeconomic status and access to health care as primary drivers of disparities, there is an emerging focus on a major root cause of disparities-systemic racism. Current conceptual models of asthma disparities depict the historical and current effects of systemic racism as the foundation for unequal exposures to social determinants of health, environmental exposures, epigenetic factors, and differential healthcare access and quality. These ultimately lead to biologic changes over the life course resulting in asthma morbidity and mortality. Methods: At the 2022 American Thoracic Society International Conference, a diverse panel of experts was assembled to identify gaps and opportunities to address systemic racism in childhood asthma research. Panelists found that to examine and address the impacts of systemic racism on children with asthma, researchers and medical systems that support biomedical research will need to 1) address the current gaps in our understanding of how to conceptualize and characterize the impacts of systemic racism on child health, 2) design research studies that leverage diverse disciplines and engage the communities affected by systemic racism in identifying and designing studies to evaluate interventions that address the racialized system that contributes to disparities in asthma health outcomes, and 3) address funding mechanisms and institutional research practices that will be needed to promote antiracism practices in research and its dissemination. Results: A thorough literature review and expert opinion discussion demonstrated that there are few studies in childhood asthma that identify systemic racism as a root cause of many of the disparities seen in children with asthma. Community engagement and participation in research studies is essential to design interventions to address the racialized system in which patients and families live. Dissemination and implementation studies with an equity lens will provide the multilevel evaluations required to understand the impacts of interventions to address systemic racism and the downstream impacts. To address the impacts of systemic racism and childhood asthma, there needs to be increased training for research teams, funding for studies addressing research that evaluates the impacts of racism, funding for diverse and multidisciplinary research teams including community members, and institutional and financial support of advocating for policy changes based on study findings. Conclusions: Innovative study design, new tools to identify the impacts of systemic racism, community engagement, and improved infrastructure and funding are all needed to support research that will address impacts of systemic racism on childhood asthma outcomes.",
+  "journal": {
+   "title": "Annals of the American Thoracic Society",
+   "iso_abbreviation": "Ann Am Thorac Soc"
+  },
+  "authors": [
+   {
+    "last_name": "Lovinsky-Desir",
+    "fore_name": "Stephanie",
+    "initials": "S",
+    "affiliations": []
+   },
+   {
+    "last_name": "Riley",
+    "fore_name": "Isaretta L",
+    "initials": "IL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Bryant-Stephens",
+    "fore_name": "Tyra",
+    "initials": "T",
+    "affiliations": []
+   },
+   {
+    "last_name": "De Keyser",
+    "fore_name": "Heather",
+    "initials": "H",
+    "affiliations": []
+   },
+   {
+    "last_name": "Forno",
+    "fore_name": "Erick",
+    "initials": "E",
+    "affiliations": []
+   },
+   {
+    "last_name": "Kozik",
+    "fore_name": "Ariangela J",
+    "initials": "AJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Louisias",
+    "fore_name": "Margee",
+    "initials": "M",
+    "affiliations": []
+   },
+   {
+    "last_name": "Matsui",
+    "fore_name": "Elizabeth C",
+    "initials": "EC",
+    "affiliations": []
+   },
+   {
+    "last_name": "Sheares",
+    "fore_name": "Beverley J",
+    "initials": "BJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Thakur",
+    "fore_name": "Neeta",
+    "initials": "N",
+    "affiliations": []
+   },
+   {
+    "last_name": "Apter",
+    "fore_name": "Andrea J",
+    "initials": "AJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Beck",
+    "fore_name": "Andrew F",
+    "initials": "AF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Bentley-Edwards",
+    "fore_name": "Keisha L",
+    "initials": "KL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Berkowitz",
+    "fore_name": "Carol",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Braxton",
+    "fore_name": "Charmane",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Dean",
+    "fore_name": "Jasmine",
+    "initials": "J",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Koinis-Mitchell",
+    "fore_name": "Daphne",
+    "initials": "D",
+    "affiliations": []
+   },
+   {
+    "last_name": "Okelo",
+    "fore_name": "Sande O",
+    "initials": "SO",
+    "affiliations": []
+   },
+   {
+    "last_name": "Taylor-Cousar",
+    "fore_name": "Jennifer L",
+    "initials": "JL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Teach",
+    "fore_name": "Stephen J",
+    "initials": "SJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Wechsler",
+    "fore_name": "Michael E",
+    "initials": "ME",
+    "affiliations": []
+   },
+   {
+    "last_name": "Gaffin",
+    "fore_name": "Jonathan M",
+    "initials": "JM",
+    "affiliations": []
+   },
+   {
+    "last_name": "Federico",
+    "fore_name": "Monica J",
+    "initials": "MJ",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2024",
+   "month": "Oct"
+  },
+  "keywords": [
+   "asthma",
+   "health disparities",
+   "minority and disadvantaged populations",
+   "racism",
+   "social determinants of health"
+  ],
+  "mesh_terms": [
+   "Humans",
+   "Asthma",
+   "United States",
+   "Child",
+   "Systemic Racism",
+   "Healthcare Disparities",
+   "Biomedical Research",
+   "Social Determinants of Health",
+   "Health Status Disparities",
+   "Societies, Medical",
+   "Health Services Accessibility"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "37423232",
+   "doi": "10.1016/S0140-6736(23)01350-8",
+   "pii": "S0140-6736(23)01350-8"
+  },
+  "title": "Structural racism and iron deficiency anaemia.",
+  "abstract": "",
+  "journal": {
+   "title": "Lancet (London, England)",
+   "iso_abbreviation": "Lancet"
+  },
+  "authors": [
+   {
+    "last_name": "Roberts",
+    "fore_name": "Ian",
+    "initials": "I",
+    "affiliations": [
+     "Department of Population Health, London School of Hygiene & Tropical Medicine, London WC1E 7HT, UK. Electronic address: ian.roberts@lshtm.ac.uk."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "Department of Global Health and Social Medicine, School of Global Affairs, King's College London, London, UK; Department of Epidemiology and Department of Social, Behavioural, and Health Educational Sciences, Rollins School of Public Health, Emory University, Atlanta, GA, USA; Satcher Health Leadership Institute and Department of Community Health and Preventive Medicine, Morehouse School of Medicine, Atlanta, GA, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "07",
+   "day": "06"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Humans",
+   "Anemia, Iron-Deficiency",
+   "Systemic Racism",
+   "Iron",
+   "Risk Factors"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "37079512",
+   "pmc": "PMC10121269",
+   "doi": "10.15585/mmwr.mm7216a5"
+  },
+  "title": "The Association of Reported Experiences of Racial and Ethnic Discrimination in Health Care with COVID-19 Vaccination Status and Intent - United States, April 22, 2021-November 26, 2022.",
+  "abstract": "In 2021, the CDC Director declared that racism is a serious threat to public health,* reflecting a growing awareness of racism as a cause of health inequities, health disparities, and disease. Racial and ethnic disparities in COVID-19-related hospitalization and death (1,2) illustrate the need to examine root causes, including experiences of discrimination. This report describes the association between reported experiences of discrimination in U.S. health care settings and COVID-19 vaccination status and intent to be vaccinated by race and ethnicity during April 22, 2021-November 26, 2022, based on the analysis of interview data collected from 1,154,347 respondents to the National Immunization Survey-Adult COVID Module (NIS-ACM). Overall, 3.5% of adults aged ≥18 years reported having worse health care experiences compared with persons of other races and ethnicities (i.e., they experienced discrimination), with significantly higher percentages reported by persons who identified as non-Hispanic Black or African American (Black) (10.7%), non-Hispanic American Indian or Alaska Native (AI/AN) (7.2%), non-Hispanic multiple or other race (multiple or other race) (6.7%), Hispanic or Latino (Hispanic) (4.5%), non-Hispanic Native Hawaiian or other Pacific Islander (NHOPI) (3.9%), and non-Hispanic Asian (Asian) (2.8%) than by non-Hispanic White (White) persons (1.6%). Unadjusted differences in prevalence of being unvaccinated against COVID-19 among respondents reporting worse health care experiences than persons of other races and ethnicities compared with those who reported that their health care experiences were the same as those of persons of other races and ethnicities were statistically significant overall (5.3) and for NHOPI (19.2), White (10.5), multiple or other race (5.7), Black (4.6), Asian (4.3), and Hispanic (2.6) adults. Findings were similar for vaccination intent. Eliminating inequitable experiences in health care settings might help reduce some disparities in receipt of a COVID-19 vaccine.",
+  "journal": {
+   "title": "MMWR. Morbidity and mortality weekly report",
+   "iso_abbreviation": "MMWR Morb Mortal Wkly Rep"
+  },
+  "authors": [
+   {
+    "last_name": "Elam-Evans",
+    "fore_name": "Laurie D",
+    "initials": "LD",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Vashist",
+    "fore_name": "Kushagra",
+    "initials": "K",
+    "affiliations": []
+   },
+   {
+    "last_name": "Yankey",
+    "fore_name": "David",
+    "initials": "D",
+    "affiliations": []
+   },
+   {
+    "last_name": "Smith",
+    "fore_name": "Chalanda S",
+    "initials": "CS",
+    "affiliations": []
+   },
+   {
+    "last_name": "Kriss",
+    "fore_name": "Jennifer L",
+    "initials": "JL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Lu",
+    "fore_name": "Peng-Jun",
+    "initials": "PJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "St Louis",
+    "fore_name": "Michael E",
+    "initials": "ME",
+    "affiliations": []
+   },
+   {
+    "last_name": "Brewer",
+    "fore_name": "Noel T",
+    "initials": "NT",
+    "affiliations": []
+   },
+   {
+    "last_name": "Singleton",
+    "fore_name": "James A",
+    "initials": "JA",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "04",
+   "day": "21"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adolescent",
+   "Adult",
+   "Humans",
+   "COVID-19",
+   "COVID-19 Vaccines",
+   "Ethnicity",
+   "Health Services Accessibility",
+   "Racism",
+   "United States",
+   "Healthcare Disparities"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "36194822",
+   "pmc": "PMC9555591",
+   "doi": "10.1097/PHH.0000000000001588",
+   "pii": "00124784-202211000-00026"
+  },
+  "title": "Tenant-Based Housing Voucher Programs: A Community Guide Systematic Review.",
+  "abstract": "Unaffordable or insecure housing is associated with poor health in children and adults. Tenant-based housing voucher programs (voucher programs) limit rent to 30% or less of household income to help households with low income obtain safe and affordable housing.\n\nTo determine the effectiveness of voucher programs in improving housing, health, and other health-related outcomes for households with low income.\n\nCommunity Guide systematic review methods were used to assess intervention effectiveness and threats to validity. An updated systematic search based on a previous Community Guide review was conducted for literature published from 1999 to July 2019 using electronic databases. Reference lists of included studies were also searched.\n\nStudies were included if they assessed voucher programs in the United States, had concurrent comparison populations, assessed outcomes of interest, were written in English, and published in peer-reviewed journals or government reports.\n\nHousing quality and stability, neighborhood opportunity (safety and poverty), education, income, employment, physical and mental health, health care use, and risky health behavior.\n\nSeven studies met inclusion criteria. Compared with low-income households not offered vouchers, voucher-using households reported increased housing quality (7.9 percentage points [pct pts]), decreased housing insecurity or homelessness (-22.4 pct pts), and decreased neighborhood poverty (-5.2 pct pts).Adults in voucher-using households had improved health care access and physical and mental health. Female youth experienced better physical and mental health but not male youth. Children who entered the voucher programs under 13 years of age had improved educational attainment, employment, and income in their adulthood; children's gains in these outcomes were inversely related to their age at program entry.\n\nVoucher programs improved health and several health-related outcomes for voucher-using households, particularly young children. Research is still needed to better understand household's experiences and contextual factors that influence achievement of desired outcomes.",
+  "journal": {
+   "title": "Journal of public health management and practice : JPHMP",
+   "iso_abbreviation": "J Public Health Manag Pract"
+  },
+  "authors": [
+   {
+    "last_name": "Finnie",
+    "fore_name": "Ramona K C",
+    "initials": "RKC",
+    "affiliations": [
+     "Community Guide Office, Office of the Associate Director for Policy and Strategy (Drs Finnie, Peng, and Hahn and Ms Cobb), Office of the Associate Director for Science (Dr Truman), National Center for HIV, Viral Hepatitis, STD, & TB Prevention (Dr Williams), and National Center for Environmental Health (Dr Buchanan), Centers for Disease Control and Prevention, Atlanta, Georgia; Milano School of Policy, Management, and Environment, Graduate Program in Public and Urban Policy, New School, New York City, New York (Drs Schwartz and Fullilove); Harvard T. H. Chan School of Public Health, Cambridge, Massachusetts (Dr Emmons); University of Alabama at Birmingham School of Public Health, Birmingham, Alabama (Dr Montgomery); US Department of Veterans Affairs, Washington, District of Columbia (Dr Montgomery); University of Toronto, Toronto, Ontario, Canada (Dr Muntaner); US Department of Housing and Urban Development, Washington, District of Columbia (Ms Garrison); Rutgers New Jersey Medical School, Newark, New Jersey (Dr Johnson); Morehouse School of Medicine, Atlanta, Georgia (Dr Jones); and Dignity Health, San Francisco, California (Mr Bravo)."
+    ]
+   },
+   {
+    "last_name": "Peng",
+    "fore_name": "Yinan",
+    "initials": "Y",
+    "affiliations": []
+   },
+   {
+    "last_name": "Hahn",
+    "fore_name": "Robert A",
+    "initials": "RA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Schwartz",
+    "fore_name": "Alex",
+    "initials": "A",
+    "affiliations": []
+   },
+   {
+    "last_name": "Emmons",
+    "fore_name": "Karen",
+    "initials": "K",
+    "affiliations": []
+   },
+   {
+    "last_name": "Montgomery",
+    "fore_name": "Ann Elizabeth",
+    "initials": "AE",
+    "affiliations": []
+   },
+   {
+    "last_name": "Muntaner",
+    "fore_name": "Carles",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Garrison",
+    "fore_name": "Veronica Helms",
+    "initials": "VH",
+    "affiliations": []
+   },
+   {
+    "last_name": "Truman",
+    "fore_name": "Benedict I",
+    "initials": "BI",
+    "affiliations": []
+   },
+   {
+    "last_name": "Johnson",
+    "fore_name": "Robert L",
+    "initials": "RL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Fullilove",
+    "fore_name": "Mindy T",
+    "initials": "MT",
+    "affiliations": []
+   },
+   {
+    "last_name": "Cobb",
+    "fore_name": "Jamaicia",
+    "initials": "J",
+    "affiliations": []
+   },
+   {
+    "last_name": "Williams",
+    "fore_name": "Samantha P",
+    "initials": "SP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Bravo",
+    "fore_name": "Pablo",
+    "initials": "P",
+    "affiliations": []
+   },
+   {
+    "last_name": "Buchanan",
+    "fore_name": "Sharunda",
+    "initials": "S",
+    "affiliations": []
+   },
+   {
+    "last_name": "Community Preventive Services Task Force",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "09",
+   "day": "08"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adolescent",
+   "Adult",
+   "Child",
+   "Child, Preschool",
+   "Female",
+   "Ill-Housed Persons",
+   "Housing",
+   "Humans",
+   "Income",
+   "Poverty",
+   "Residence Characteristics",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Systematic Review",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "35747776",
+   "pmc": "PMC9210344",
+   "doi": "10.3389/fpubh.2022.893804"
+  },
+  "title": "Editorial: Racism as a Public Health Crisis: From Declaration to Action.",
+  "abstract": "",
+  "journal": {
+   "title": "Frontiers in public health",
+   "iso_abbreviation": "Front Public Health"
+  },
+  "authors": [
+   {
+    "last_name": "Benjamin",
+    "fore_name": "Georges C",
+    "initials": "GC",
+    "affiliations": [
+     "Satcher Health Leadership Institute and Cardiovascular Research Institute, American Public Health Association, Washington, DC, United States."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "Community Health & Preventive Medicine, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Davis Moss",
+    "fore_name": "Regina",
+    "initials": "R",
+    "affiliations": [
+     "Satcher Health Leadership Institute and Cardiovascular Research Institute, American Public Health Association, Washington, DC, United States."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "05",
+   "day": "31"
+  },
+  "keywords": [
+   "community-based participatory research (CBPR)",
+   "data",
+   "emergency",
+   "policy",
+   "public health",
+   "racism",
+   "research"
+  ],
+  "mesh_terms": [
+   "Community-Based Participatory Research",
+   "Public Health",
+   "Racism"
+  ],
+  "article_types": [
+   "Editorial"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "35428737",
+   "doi": "10.1136/medethics-2021-108068",
+   "pii": "medethics-2021-108068"
+  },
+  "title": "Diversity in clinical research: public health and social justice imperatives.",
+  "abstract": "It is well established that demographic representation in clinical research is important for understanding the safety and effectiveness of novel therapeutics and vaccines in diverse patient populations. In recent years, the National Institutes of Health and Food and Drug Administration have issued guidelines and recommendations for the inclusion of women, older adults, and racial and ethnic minorities in research. However, these guidelines fail to provide an adequate explanation of why racial and ethnic representation in clinical research is important. This article aims to both provide the missing arguments for why adequate representation of racial and ethnic minorities in clinical research is essential and to articulate a number of recommendations for improving diversity going forward.Appropriate racial and ethnic representation and fair inclusion help (1) increase the generalisability of clinical trial results, (2) equitably distribute any benefits of clinical research and (3) enable trust in the research enterprise.",
+  "journal": {
+   "title": "Journal of medical ethics",
+   "iso_abbreviation": "J Med Ethics"
+  },
+  "authors": [
+   {
+    "last_name": "Varma",
+    "fore_name": "Tanvee",
+    "initials": "T",
+    "affiliations": [
+     "Yale School of Medicine, New Haven, Connecticut, USA."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": [
+     "Department of Community Health and Preventive Medicine, Morehouse School of Medicine, Atlanta, Georgia, USA.",
+     "Harvard University Radcliffe Institute for Advanced Study, Cambridge, Massachusetts, USA."
+    ]
+   },
+   {
+    "last_name": "Oladele",
+    "fore_name": "Carol",
+    "initials": "C",
+    "affiliations": [
+     "Section of General Internal Medicine, Yale School of Medicine, New Haven, Connecticut, USA."
+    ]
+   },
+   {
+    "last_name": "Miller",
+    "fore_name": "Jennifer",
+    "initials": "J",
+    "affiliations": [
+     "Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, USA jennifer.e.miller@yale.edu."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "04",
+   "day": "15"
+  },
+  "keywords": [
+   "Clinical Trial",
+   "Ethics- Medical",
+   "Public Policy"
+  ],
+  "mesh_terms": [
+   "Humans",
+   "Female",
+   "Aged",
+   "Minority Groups",
+   "Public Health",
+   "Racial Groups"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "35181850",
+   "doi": "10.1007/s10995-022-03381-x",
+   "pii": "10.1007/s10995-022-03381-x"
+  },
+  "title": "Correction to: Developing Tools to Report Racism in Maternal Health for the CDC Maternal Mortality Review Information Application (MMRIA): Findings from the MMRIA Racism & Discrimination Working Group.",
+  "abstract": "",
+  "journal": {
+   "title": "Maternal and child health journal",
+   "iso_abbreviation": "Matern Child Health J"
+  },
+  "authors": [
+   {
+    "last_name": "Hardeman",
+    "fore_name": "Rachel R",
+    "initials": "RR",
+    "affiliations": [
+     "Center for Antiracism Research for Health Equity, Division of Health Policy Management, School of Public Health, University of Minnesota, 420 Delaware St SE MMC 729, Minneapolis, MN, 55455, USA. Hard0222@umn.edu."
+    ]
+   },
+   {
+    "last_name": "Kheyfets",
+    "fore_name": "Anna",
+    "initials": "A",
+    "affiliations": [
+     "Tufts University School of Medicine, Boston, MA, USA."
+    ]
+   },
+   {
+    "last_name": "Mantha",
+    "fore_name": "Allison Bryant",
+    "initials": "AB",
+    "affiliations": [
+     "Department of Obstetrics and Gynecology, Massachusetts General Hospital, Boston, MA, USA."
+    ]
+   },
+   {
+    "last_name": "Cornell",
+    "fore_name": "Andria",
+    "initials": "A",
+    "affiliations": [
+     "Association of Maternal &, Child Health Programs, Washington, DC, USA."
+    ]
+   },
+   {
+    "last_name": "Crear-Perry",
+    "fore_name": "Joia",
+    "initials": "J",
+    "affiliations": [
+     "National Birth Equity Collaborative, New Orleans, LA, USA."
+    ]
+   },
+   {
+    "last_name": "Graves",
+    "fore_name": "Cornelia",
+    "initials": "C",
+    "affiliations": [
+     "Tennessee Maternal Fetal Medicine, PLCDivision of Perinatal Services, Baptist Hospital, Nashville, TN, USA."
+    ]
+   },
+   {
+    "last_name": "Grobman",
+    "fore_name": "William",
+    "initials": "W",
+    "affiliations": [
+     "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA."
+    ]
+   },
+   {
+    "last_name": "James-Conterelli",
+    "fore_name": "Sascha",
+    "initials": "S",
+    "affiliations": [
+     "Yale School of Nursing, Yale University, New Haven, CT, USA.",
+     "New York State Association of Licensed Midwives, New York, NY, USA."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara",
+    "initials": "C",
+    "affiliations": [
+     "Morehouse School of Medicine, Atlanta, GA, USA."
+    ]
+   },
+   {
+    "last_name": "Lipscomb",
+    "fore_name": "Breana",
+    "initials": "B",
+    "affiliations": [
+     "Center for Reproductive Rights, Atlanta, GA, USA."
+    ]
+   },
+   {
+    "last_name": "Ortique",
+    "fore_name": "Carla",
+    "initials": "C",
+    "affiliations": [
+     "Department of Obstetrics, Texas Children's Hospital, Houston, TX, USA."
+    ]
+   },
+   {
+    "last_name": "Stuebe",
+    "fore_name": "Alison",
+    "initials": "A",
+    "affiliations": [
+     "Division of Maternal-Fetal MedicineSchool of Medicine, Department of Obstetrics and Gynecology, School of Medicine, Department of Maternal and Child HealthGillings School of Global Public Health, University of North Carolina Carolina Global Breastfeeding InstituteUniversity of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+    ]
+   },
+   {
+    "last_name": "Welsh",
+    "fore_name": "Kaprice",
+    "initials": "K",
+    "affiliations": [
+     "Georgia OBGyn Society, Atlanta, GA, USA.",
+     "Byrdine F. Lewis College of Nursing and Health Professions, Georgia State University, Atlanta, GA, USA."
+    ]
+   },
+   {
+    "last_name": "Howell",
+    "fore_name": "Elizabeth A",
+    "initials": "EA",
+    "affiliations": [
+     "Department of Obstetrics and Gynecology in the Perelman School of Medicine, University of Pennsylvania, Philadelphia, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "Apr"
+  },
+  "keywords": [],
+  "mesh_terms": [],
+  "article_types": [
+   "Published Erratum"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "35014970",
+   "pmc": "PMC8790689",
+   "doi": "10.2196/25444",
+   "pii": "v6i1e25444"
+  },
+  "title": "An Open-Source Privacy-Preserving Large-Scale Mobile Framework for Cardiovascular Health Monitoring and Intervention Planning With an Urban African American Population of Young Adults: User-Centered Design Approach.",
+  "abstract": "Cardiovascular diseases (CVDs) are the leading cause of death worldwide and are increasingly affecting younger populations, particularly African Americans in the southern United States. Access to preventive and therapeutic services, biological factors, and social determinants of health (ie, structural racism, resource limitation, residential segregation, and discriminatory practices) all combine to exacerbate health inequities and their resultant disparities in morbidity and mortality. These factors manifest early in life and have been shown to impact health trajectories into adulthood. Early detection of and intervention in emerging risk offers the best hope for preventing race-based differences in adult diseases. However, young-adult populations are notoriously difficult to recruit and retain, often because of a lack of knowledge of personal risk and a low level of concern for long-term health outcomes.\n\nThis study aims to develop a system design for the MOYO mobile platform. Further, we seek to addresses the challenge of primordial prevention in a young, at-risk population (ie, Southern-urban African Americans).\n\nUrban African Americans, aged 18 to 29 years (n=505), participated in a series of co-design sessions to develop MOYO prototypes (ie, HealthTech Events). During the sessions, participants were orientated to the issues of CVD risk health disparities and then tasked with wireframing prototype screens depicting app features that they considered desirable. All 297 prototype screens were subsequently analyzed using NVivo 12 (QSR International), a qualitative analysis software. Using the grounded theory approach, an open-coding method was applied to a subset of data, approximately 20% (5/25), or 5 complete prototypes, to identify the dominant themes among the prototypes. To ensure intercoder reliability, 2 research team members analyzed the same subset of data.\n\nOverall, 9 dominant design requirements emerged from the qualitative analysis: customization, incentive motivation, social engagement, awareness, education, or recommendations, behavior tracking, location services, access to health professionals, data user agreements, and health assessment. This led to the development of a cross-platform app through an agile design process to collect standardized health surveys, narratives, geolocated pollution, weather, food desert exposure data, physical activity, social networks, and physiology through point-of-care devices. A Health Insurance Portability and Accountability Act-compliant cloud infrastructure was developed to collect, process, and review data, as well as generate alerts to allow automated signal processing and machine learning on the data to produce critical alerts. Integration with wearables and electronic health records via fast health care interoperability resources was implemented.\n\nThe MOYO mobile platform provides a comprehensive health and exposure monitoring system that allows for a broad range of compliance, from passive background monitoring to active self-reporting. These study findings support the notion that African Americans should be meaningfully involved in designing technologies that are developed to improve CVD outcomes in African American communities.",
+  "journal": {
+   "title": "JMIR formative research",
+   "iso_abbreviation": "JMIR Form Res"
+  },
+  "authors": [
+   {
+    "last_name": "Clifford",
+    "fore_name": "Gari",
+    "initials": "G",
+    "affiliations": [
+     "Department of Biomedical Informatics, Emory University, Atlanta, GA, United States.",
+     "Department of Biomedical Engineering, Georgia Institute of Technology, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Nguyen",
+    "fore_name": "Tony",
+    "initials": "T",
+    "affiliations": [
+     "Department of Biomedical Informatics, Emory University, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Shaw",
+    "fore_name": "Corey",
+    "initials": "C",
+    "affiliations": [
+     "Department of Biomedical Informatics, Emory University, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Newton",
+    "fore_name": "Brittney",
+    "initials": "B",
+    "affiliations": [
+     "Nucleus Health Communications, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Francis",
+    "fore_name": "Sherilyn",
+    "initials": "S",
+    "affiliations": [
+     "Nucleus Health Communications, Atlanta, GA, United States.",
+     "School of Interactive Computing, Georgia Institute of Technology, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Salari",
+    "fore_name": "Mohsen",
+    "initials": "M",
+    "affiliations": [
+     "Department of Biomedical Informatics, Emory University, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Evans",
+    "fore_name": "Chad",
+    "initials": "C",
+    "affiliations": [
+     "Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara",
+    "initials": "C",
+    "affiliations": [
+     "Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Akintobi",
+    "fore_name": "Tabia Henry",
+    "initials": "TH",
+    "affiliations": [
+     "Prevention Research Center & Community Engagement, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Taylor",
+    "fore_name": "Herman",
+    "initials": "H",
+    "affiliations": [
+     "Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "01",
+   "day": "11"
+  },
+  "keywords": [
+   "African American",
+   "agile design",
+   "cardiovascular disease",
+   "community-based participatory research",
+   "exposome",
+   "minority health",
+   "mobile phone",
+   "user-centered design"
+  ],
+  "mesh_terms": [],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "34982327",
+   "doi": "10.1007/s10995-021-03284-3",
+   "pii": "10.1007/s10995-021-03284-3"
+  },
+  "title": "Developing Tools to Report Racism in Maternal Health for the CDC Maternal Mortality Review Information Application (MMRIA): Findings from the MMRIA Racism & Discrimination Working Group.",
+  "abstract": "The purpose of this report from the field is to describe the process by which an multidisciplinary workgroup, selected by the CDC Foundation in partnership with maternal health experts, developed a definition of racism that would be specifically appropriate for inclusion on the Maternal Mortality Review Information Application (MMRIA) form.\n\nIn the United States Black women are nearly 4 times more likely to experience a pregnancy-related death. Recent evidence points to racism as a fundamental cause of this inequity. Furthermore, the CDC reports that 3 of 5 pregnancy related deaths are preventable. With these startling facts in mind, the CDC created the Maternal Mortality Review Information Application (MMRIA) for use by Maternal Mortality Review Committees (MMRC) to support standardized data abstraction, case narrative development, documentation of committee decisions, and analysis on maternal mortality to inform practices and policies for preventing maternal mortality.\n\nCharged with the task of defining racism and discrimination as contributors to pregnancy related mortality, the work group established four goals to define their efforts: (1) the desire to create a product that was inclusive of all forms of racism and discrimination experienced by birthing people; (2) an acknowledgement of the legacy of racism in the U.S. and the norms in health care delivery that perpetuate racist ideology; (3) an acknowledgement of the racist narratives surrounding the issue of maternal mortality and morbidity that often leads to victim blaming; and (4) that the product would be user friendly for MMRCs.\n\nThe working group developed three definitions and a list of recommendations for action to help MMRC members provide suggested interventions to adopt when discrimination or racism were contributing factors to a maternal death. The specification of these definitions will allow the systematic tracking of the contribution of racism to maternal mortality through the MMRIA and allow a greater standardization of its identification across participating jurisdictions with MMRCs that use the form.",
+  "journal": {
+   "title": "Maternal and child health journal",
+   "iso_abbreviation": "Matern Child Health J"
+  },
+  "authors": [
+   {
+    "last_name": "Hardeman",
+    "fore_name": "Rachel R",
+    "initials": "RR",
+    "affiliations": [
+     "Center for Antiracism Research for Health Equity, Division of Health Policy Management, School of Public Health, University of Minnesota, 420 Delaware St SE MMC 729, Minneapolis, MN, 55455, USA. Hard0222@umn.edu."
+    ]
+   },
+   {
+    "last_name": "Kheyfets",
+    "fore_name": "Anna",
+    "initials": "A",
+    "affiliations": [
+     "Tufts University School of Medicine, Boston, MA, USA."
+    ]
+   },
+   {
+    "last_name": "Mantha",
+    "fore_name": "Allison Bryant",
+    "initials": "AB",
+    "affiliations": [
+     "Department of Obstetrics and Gynecology, Massachusetts General Hospital, Boston, MA, USA."
+    ]
+   },
+   {
+    "last_name": "Cornell",
+    "fore_name": "Andria",
+    "initials": "A",
+    "affiliations": [
+     "Association of Maternal &, Child Health Programs, Washington, DC, USA."
+    ]
+   },
+   {
+    "last_name": "Crear-Perry",
+    "fore_name": "Joia",
+    "initials": "J",
+    "affiliations": [
+     "National Birth Equity Collaborative, New Orleans, LA, USA."
+    ]
+   },
+   {
+    "last_name": "Graves",
+    "fore_name": "Cornelia",
+    "initials": "C",
+    "affiliations": [
+     "Tennessee Maternal Fetal Medicine, PLCDivision of Perinatal Services, Baptist Hospital, Nashville, TN, USA."
+    ]
+   },
+   {
+    "last_name": "Grobman",
+    "fore_name": "William",
+    "initials": "W",
+    "affiliations": [
+     "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA."
+    ]
+   },
+   {
+    "last_name": "James-Conterelli",
+    "fore_name": "Sascha",
+    "initials": "S",
+    "affiliations": [
+     "Yale School of Nursing, Yale University, New Haven, CT, USA.",
+     "New York State Association of Licensed Midwives, New York, NY, USA."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara",
+    "initials": "C",
+    "affiliations": [
+     "Morehouse School of Medicine, Atlanta, GA, USA."
+    ]
+   },
+   {
+    "last_name": "Lipscomb",
+    "fore_name": "Breana",
+    "initials": "B",
+    "affiliations": [
+     "Center for Reproductive Rights, Atlanta, GA, USA."
+    ]
+   },
+   {
+    "last_name": "Ortique",
+    "fore_name": "Carla",
+    "initials": "C",
+    "affiliations": [
+     "Department of Obstetrics, Texas Children's Hospital, Houston, TX, USA."
+    ]
+   },
+   {
+    "last_name": "Stuebe",
+    "fore_name": "Alison",
+    "initials": "A",
+    "affiliations": [
+     "Division of Maternal-Fetal MedicineSchool of Medicine, Department of Obstetrics and Gynecology, School of Medicine, Department of Maternal and Child HealthGillings School of Global Public Health, University of North Carolina Carolina Global Breastfeeding InstituteUniversity of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+    ]
+   },
+   {
+    "last_name": "Welsh",
+    "fore_name": "Kaprice",
+    "initials": "K",
+    "affiliations": [
+     "Georgia OBGyn Society, Atlanta, GA, USA.",
+     "Byrdine F. Lewis College of Nursing and Health Professions, Georgia State University, Atlanta, GA, USA."
+    ]
+   },
+   {
+    "last_name": "Howell",
+    "fore_name": "Elizabeth A",
+    "initials": "EA",
+    "affiliations": [
+     "Tufts University School of Medicine, Boston, MA, USA.",
+     "Department of Obstetrics and Gynecology in the Perelman School of Medicine, University of Pennsylvania, Philadelphia, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "01",
+   "day": "04"
+  },
+  "keywords": [
+   "Discrimination",
+   "Health equity",
+   "Maternal morbidity",
+   "Maternal mortality",
+   "Racism"
+  ],
+  "mesh_terms": [
+   "Centers for Disease Control and Prevention, U.S.",
+   "Female",
+   "Humans",
+   "Maternal Death",
+   "Maternal Health",
+   "Maternal Mortality",
+   "Pregnancy",
+   "Racism",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "34789476",
+   "pmc": "PMC8823929",
+   "doi": "10.2215/CJN.04890421",
+   "pii": "01277230-202202000-00022"
+  },
+  "title": "Use of Race in Kidney Research and Medicine: Concepts, Principles, and Practice.",
+  "abstract": "Black Americans and other racially and ethnically minoritized individuals are disproportionately burdened by higher morbidity and mortality from kidney disease when compared with their White peers. Yet, kidney researchers and clinicians have struggled to fully explain or rectify causes of these inequalities. Many studies have sought to identify hypothesized genetic and/or ancestral origins of biologic or behavioral deficits as singular explanations for racial and ethnic inequalities in kidney health. However, these approaches reinforce essentialist beliefs that racial groups are inherently biologically and behaviorally different. These approaches also often conflate the complex interactions of individual-level biologic differences with aggregated population-level disparities that are due to structural racism (i.e., sociopolitical policies and practices that created and perpetuate harmful health outcomes through inequities of opportunities and resources). We review foundational misconceptions about race, racism, genetics, and ancestry that shape research and clinical practice with a focus on kidney disease and related health outcomes. We also provide recommendations on how to embed key equity-enhancing concepts, terms, and principles into research, clinical practice, and medical publishing standards.",
+  "journal": {
+   "title": "Clinical journal of the American Society of Nephrology : CJASN",
+   "iso_abbreviation": "Clin J Am Soc Nephrol"
+  },
+  "authors": [
+   {
+    "last_name": "Mohottige",
+    "fore_name": "Dinushika",
+    "initials": "D",
+    "affiliations": [
+     "Division of Nephrology, Department of Medicine, Duke University School of Medicine, Durham, North Carolina.",
+     "Center for Community and Population Health Improvement, Duke Clinical and Translational Science Institute, Duke University School of Medicine, Durham, North Carolina."
+    ]
+   },
+   {
+    "last_name": "Boulware",
+    "fore_name": "L Ebony",
+    "initials": "LE",
+    "affiliations": [
+     "Center for Community and Population Health Improvement, Duke Clinical and Translational Science Institute, Duke University School of Medicine, Durham, North Carolina.",
+     "Division of General Internal Medicine, Department of Medicine, Duke University School of Medicine, Durham, North Carolina."
+    ]
+   },
+   {
+    "last_name": "Ford",
+    "fore_name": "Chandra L",
+    "initials": "CL",
+    "affiliations": [
+     "Department of Community Health Science, University of California, Los Angeles School of Public Health, Los Angeles, California.",
+     "Center for the Study of Racism, Social Justice & Health, University of California, Los Angeles School of Public Health, Los Angeles, California."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara",
+    "initials": "C",
+    "affiliations": [
+     "Department of Community Health and Preventive Medicine, Morehouse School of Medicine, Atlanta, Georgia.",
+     "Department of Epidemiology, Rollins School of Public Health at Emory University, Atlanta, Georgia.",
+     "Department of Behavioral Sciences and Health Education, Rollins School of Public Health at Emory University, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Norris",
+    "fore_name": "Keith C",
+    "initials": "KC",
+    "affiliations": [
+     "Center for the Study of Racism, Social Justice & Health, University of California, Los Angeles School of Public Health, Los Angeles, California.",
+     "Division of General Internal Medicine and Health Services Research, David Geffen School of Medicine at University of California, Los Angeles, Los Angeles, California."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "11",
+   "day": "17"
+  },
+  "keywords": [
+   "ancestry",
+   "disparity",
+   "equity",
+   "race",
+   "race-consciousness",
+   "racism",
+   "research"
+  ],
+  "mesh_terms": [
+   "Biomedical Research",
+   "Guidelines as Topic",
+   "Healthcare Disparities",
+   "Humans",
+   "Kidney Diseases",
+   "Racial Groups",
+   "Racism",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "34249843",
+   "pmc": "PMC8265203",
+   "doi": "10.3389/fpubh.2021.676784"
+  },
+  "title": "Declaring Racism a Public Health Crisis in the United States: Cure, Poison, or Both?",
+  "abstract": "Declaring racism a public health crisis has the potential to shepherd meaningful anti-racism policy forward and bridge long standing divisions between policy-makers, community organizers, healers, and public health practitioners. At their best, the declarations are a first step to address long standing inaction in the face of need. At their worst, the declarations poison or sedate grassroots momentum toward anti-racism structural change by delivering politicians unearned publicity and slowing progress on health equity. Declaring racism as a public health crisis is a tool that must be used with clarity and caution in order to maximize impact. Key to holding public institutions accountable for creating declarations is the direct involvement of Black and Indigenous People of Color (BIPOC) led groups and organizers. Sharing power, centering their voices and working in tandem, these collaborations ensure that declarations push for change from the lens of those most impacted and authentically engage with the demands of communities and their legacies. Superficial diversity and inclusion efforts that bring BIPOC people and organizers into the conversation and then fail to implement their ideas repeat historical patterns of harm, stall momentum for structural change at best, and poison the strategy at worst. In this paper we will examine three declarations in the United States and analyze them utilizing evaluative criteria aligned with health equity and anti-racism practices. Finally, we offer recommendations to inform anti-racist public health work for meaningful systematic change toward decentralization and empowerment of communities in their health futures.",
+  "journal": {
+   "title": "Frontiers in public health",
+   "iso_abbreviation": "Front Public Health"
+  },
+  "authors": [
+   {
+    "last_name": "Paine",
+    "fore_name": "Lilliann",
+    "initials": "L",
+    "affiliations": [
+     "National Birth Equity Collaborative, Washington, DC, United States.",
+     "National Birth Equity Collaborative, New Orleans, LO, United States.",
+     "EqualHealth's Global Campaign Against Racism, Brookline, MA, United States."
+    ]
+   },
+   {
+    "last_name": "de la Rocha",
+    "fore_name": "Patanjali",
+    "initials": "P",
+    "affiliations": [
+     "EqualHealth's Global Campaign Against Racism, Brookline, MA, United States.",
+     "Department of Global Health, University of Washington, Seattle, WA, United States.",
+     "UCLA Center for the Study of Racism, Social Justice, and Health, UCLA and Charles Drew University Covid-19 Equity Taskforce, Los Angeles, CA, United States."
+    ]
+   },
+   {
+    "last_name": "Eyssallenne",
+    "fore_name": "Antonia P",
+    "initials": "AP",
+    "affiliations": [
+     "EqualHealth's Global Campaign Against Racism, Brookline, MA, United States.",
+     "Cityblock Health, Brooklyn, NY, United States."
+    ]
+   },
+   {
+    "last_name": "Andrews",
+    "fore_name": "Courtni Alexis",
+    "initials": "CA",
+    "affiliations": [
+     "EqualHealth's Global Campaign Against Racism, Brookline, MA, United States."
+    ]
+   },
+   {
+    "last_name": "Loo",
+    "fore_name": "Leanne",
+    "initials": "L",
+    "affiliations": [
+     "EqualHealth's Global Campaign Against Racism, Brookline, MA, United States.",
+     "Department of Anthropology, Tufts University, Medford, MA, United States."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "EqualHealth's Global Campaign Against Racism, Brookline, MA, United States.",
+     "Rollins School of Public Health at Emory University, Atlanta, GA, United States.",
+     "Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Collins",
+    "fore_name": "Anne Marie",
+    "initials": "AM",
+    "affiliations": [
+     "EqualHealth's Global Campaign Against Racism, Brookline, MA, United States."
+    ]
+   },
+   {
+    "last_name": "Morse",
+    "fore_name": "Michelle",
+    "initials": "M",
+    "affiliations": [
+     "EqualHealth's Global Campaign Against Racism, Brookline, MA, United States."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "06",
+   "day": "18"
+  },
+  "keywords": [
+   "accountability",
+   "black lives matter",
+   "decolonial practice",
+   "health equity",
+   "pharmakon",
+   "public health crisis",
+   "social justice policy",
+   "structural racism"
+  ],
+  "mesh_terms": [
+   "Black or African American",
+   "Health Equity",
+   "Humans",
+   "Poisons",
+   "Public Health",
+   "Racism",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "34143380",
+   "pmc": "PMC8212792",
+   "doi": "10.1007/s40615-021-01082-9",
+   "pii": "10.1007/s40615-021-01082-9"
+  },
+  "title": "The COVID-19 Vaccine and the Black Community: Addressing the Justified Questions.",
+  "abstract": "Established in 2019, the Roundtable on Black Men and Black Women in STEM convenes a broad array of stakeholders that focus on the barriers and opportunities encountered by Black men and Black women as they navigate the pathways from K-12 and postsecondary education to careers in science, engineering, and medicine. Through meetings, public workshops, and publications, the Roundtable advances discussions that raise awareness and/or highlight promising practices for increasing the representation, retention, and inclusiveness of Black men and Black women in STEM. In keeping with the charge of the Roundtable, Roundtable leadership and leaders of the COVID-19 action group conducted an informational video in January 2021 to provide an in-depth discussion around common, justified questions in the Black community pertaining to the COVID-19 vaccine. The manuscript addresses selected questions and answers relating to the different types of COVID-19 vaccines and their development, administration, and effectiveness. Discussion focuses on addressing vaccine misconceptions, misinformation, mistrust, and hesitancy; challenges in prioritizing vaccinations in diverse populations and communities; dealing with racism in medicine and public health; optimizing communication and health education; and offering practical strategies and recommendations for improving vaccine acceptance by clinicians, health care workers, and the Black community. This manuscript summarizes the content in the YouTube video ( https://www.youtube.com/watch?v=wdEC9c48A_k ).",
+  "journal": {
+   "title": "Journal of racial and ethnic health disparities",
+   "iso_abbreviation": "J Racial Ethn Health Disparities"
+  },
+  "authors": [
+   {
+    "last_name": "Laurencin",
+    "fore_name": "Cato T",
+    "initials": "CT",
+    "affiliations": [
+     "Connecticut Convergence Institute for Translation in Regenerative Engineering, University of Connecticut Health Center, 263 Farmington Avenue L7036, Farmington, CT, 06030, USA. laurencin@uchc.edu.",
+     "Raymond and Beverly Sackler Center for Biomedical, Biological, Physical and Engineering Sciences, Farmington, CT, USA. laurencin@uchc.edu.",
+     "Department of Orthopaedic Surgery, University of Connecticut Health Center, Farmington, CT, USA. laurencin@uchc.edu.",
+     "Department of Materials Science & Engineering, University of Connecticut, Storrs, CT, USA. laurencin@uchc.edu.",
+     "Department of Biomedical Engineering, University of Connecticut, Storrs, CT, USA. laurencin@uchc.edu.",
+     "Department of Chemical & Biomolecular Engineering, University of Connecticut, Storrs, CT, USA. laurencin@uchc.edu.",
+     "The National Academies Roundtable for Black Men and Black Women in Science, Engineering and Medicine, Washington, D.C., USA. laurencin@uchc.edu."
+    ]
+   },
+   {
+    "last_name": "Valantine",
+    "fore_name": "Hannah",
+    "initials": "H",
+    "affiliations": [
+     "The National Academies Roundtable for Black Men and Black Women in Science, Engineering and Medicine, Washington, D.C., USA.",
+     "Stanford University, Stanford, CA, USA."
+    ]
+   },
+   {
+    "last_name": "Yancy",
+    "fore_name": "Clyde",
+    "initials": "C",
+    "affiliations": [
+     "The National Academies Roundtable for Black Men and Black Women in Science, Engineering and Medicine, Washington, D.C., USA.",
+     "Northwestern University Feinberg School of Medicine, Chicago, USA.",
+     "Northwestern Memorial Hospital, Chicago, USA."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "The National Academies Roundtable for Black Men and Black Women in Science, Engineering and Medicine, Washington, D.C., USA.",
+     "Radcliffe Institute for Advanced Study at Harvard University, Cambridge, MA, USA.",
+     "American Public Health Association, Washington, DC, USA.",
+     "Morehouse School of Medicine, Atlanta, GA, USA.",
+     "Rollins School of Public Health, Emory University, Atlanta, GA, USA."
+    ]
+   },
+   {
+    "last_name": "Bright",
+    "fore_name": "Cedric",
+    "initials": "C",
+    "affiliations": [
+     "The National Academies Roundtable for Black Men and Black Women in Science, Engineering and Medicine, Washington, D.C., USA.",
+     "Brody School of Medicine, Greenville, NC, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "06",
+   "day": "18"
+  },
+  "keywords": [
+   "Black",
+   "Community",
+   "Covid-19",
+   "Hesitancy",
+   "Roundtable",
+   "Vaccine"
+  ],
+  "mesh_terms": [
+   "Black or African American",
+   "COVID-19",
+   "COVID-19 Vaccines",
+   "Health Communication",
+   "Humans"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Video-Audio Media"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "33994057",
+   "doi": "10.1016/j.jacc.2021.04.004",
+   "pii": "S0735-1097(21)01185-2"
+  },
+  "title": "2020 American Heart Association and American College of Cardiology Consensus Conference on Professionalism and Ethics: A Consensus Conference Report.",
+  "abstract": "",
+  "journal": {
+   "title": "Journal of the American College of Cardiology",
+   "iso_abbreviation": "J Am Coll Cardiol"
+  },
+  "authors": [
+   {
+    "last_name": "Executive Committee",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   },
+   {
+    "last_name": "Benjamin",
+    "fore_name": "Ivor J",
+    "initials": "IJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Valentine",
+    "fore_name": "C Michael",
+    "initials": "CM",
+    "affiliations": []
+   },
+   {
+    "last_name": "Oetgen",
+    "fore_name": "William J",
+    "initials": "WJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Sheehan",
+    "fore_name": "Katherine A",
+    "initials": "KA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Task Force 1",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   },
+   {
+    "last_name": "Brindis",
+    "fore_name": "Ralph G",
+    "initials": "RG",
+    "affiliations": []
+   },
+   {
+    "last_name": "Roach",
+    "fore_name": "William H",
+    "initials": "WH",
+    "affiliations": []
+   },
+   {
+    "last_name": "Harrington",
+    "fore_name": "Robert A",
+    "initials": "RA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Levine",
+    "fore_name": "Glenn N",
+    "initials": "GN",
+    "affiliations": []
+   },
+   {
+    "last_name": "Redberg",
+    "fore_name": "Rita F",
+    "initials": "RF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Broccolo",
+    "fore_name": "Bernadette M",
+    "initials": "BM",
+    "affiliations": []
+   },
+   {
+    "last_name": "Hernandez",
+    "fore_name": "Adrian F",
+    "initials": "AF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Task Force 2",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   },
+   {
+    "last_name": "Douglas",
+    "fore_name": "Pamela S",
+    "initials": "PS",
+    "affiliations": []
+   },
+   {
+    "last_name": "Piña",
+    "fore_name": "Ileana L",
+    "initials": "IL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Benjamin",
+    "fore_name": "Emelia J",
+    "initials": "EJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Coylewright",
+    "fore_name": "Megan J",
+    "initials": "MJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Saucedo",
+    "fore_name": "Jorge F",
+    "initials": "JF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Ferdinand",
+    "fore_name": "Keith C",
+    "initials": "KC",
+    "affiliations": []
+   },
+   {
+    "last_name": "Hayes",
+    "fore_name": "Sharonne N",
+    "initials": "SN",
+    "affiliations": []
+   },
+   {
+    "last_name": "Poppas",
+    "fore_name": "Athena",
+    "initials": "A",
+    "affiliations": []
+   },
+   {
+    "last_name": "Task Force 3",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   },
+   {
+    "last_name": "Furie",
+    "fore_name": "Karen L",
+    "initials": "KL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Mehta",
+    "fore_name": "Laxmi S",
+    "initials": "LS",
+    "affiliations": []
+   },
+   {
+    "last_name": "Erwin",
+    "fore_name": "John P",
+    "initials": "JP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Mieres",
+    "fore_name": "Jennifer H",
+    "initials": "JH",
+    "affiliations": []
+   },
+   {
+    "last_name": "Murphy",
+    "fore_name": "Daniel J",
+    "initials": "DJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Weissman",
+    "fore_name": "Gaby",
+    "initials": "G",
+    "affiliations": []
+   },
+   {
+    "last_name": "West",
+    "fore_name": "Colin P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Task Force 4",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   },
+   {
+    "last_name": "Lawrence",
+    "fore_name": "Willie E",
+    "initials": "WE",
+    "affiliations": []
+   },
+   {
+    "last_name": "Masoudi",
+    "fore_name": "Frederick A",
+    "initials": "FA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Matlock",
+    "fore_name": "Daniel D",
+    "initials": "DD",
+    "affiliations": []
+   },
+   {
+    "last_name": "Miller",
+    "fore_name": "Jennifer E",
+    "initials": "JE",
+    "affiliations": []
+   },
+   {
+    "last_name": "Spertus",
+    "fore_name": "John A",
+    "initials": "JA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Todman",
+    "fore_name": "Lynn",
+    "initials": "L",
+    "affiliations": []
+   },
+   {
+    "last_name": "Task Force 5",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   },
+   {
+    "last_name": "Biga",
+    "fore_name": "Cathleen",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Chazal",
+    "fore_name": "Richard A",
+    "initials": "RA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Creager",
+    "fore_name": "Mark A",
+    "initials": "MA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Fry",
+    "fore_name": "Edward T",
+    "initials": "ET",
+    "affiliations": []
+   },
+   {
+    "last_name": "Mack",
+    "fore_name": "Michael J",
+    "initials": "MJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Yancy",
+    "fore_name": "Clyde W",
+    "initials": "CW",
+    "affiliations": []
+   },
+   {
+    "last_name": "Anderson",
+    "fore_name": "Richard E",
+    "initials": "RE",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "05",
+   "day": "11"
+  },
+  "keywords": [
+   "clinical coding",
+   "conflict of interest",
+   "cultural diversity",
+   "delivery of health care",
+   "documentation",
+   "electronic health records",
+   "ethics",
+   "health equity",
+   "personal autonomy",
+   "privacy",
+   "professionalism",
+   "racism",
+   "social justice"
+  ],
+  "mesh_terms": [
+   "American Heart Association",
+   "Cardiology",
+   "Cardiovascular Diseases",
+   "Ethics, Medical",
+   "Humans",
+   "Professionalism",
+   "Research Report",
+   "United States"
+  ],
+  "article_types": [
+   "Consensus Statement",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "33974449",
+   "doi": "10.1161/CIR.0000000000000963"
+  },
+  "title": "2020 American Heart Association and American College of Cardiology Consensus Conference on Professionalism and Ethics: A Consensus Conference Report.",
+  "abstract": "",
+  "journal": {
+   "title": "Circulation",
+   "iso_abbreviation": "Circulation"
+  },
+  "authors": [
+   {
+    "last_name": "Benjamin",
+    "fore_name": "Ivor J",
+    "initials": "IJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Valentine",
+    "fore_name": "C Michael",
+    "initials": "CM",
+    "affiliations": []
+   },
+   {
+    "last_name": "Oetgen",
+    "fore_name": "William J",
+    "initials": "WJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Sheehan",
+    "fore_name": "Katherine A",
+    "initials": "KA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Brindis",
+    "fore_name": "Ralph G",
+    "initials": "RG",
+    "affiliations": []
+   },
+   {
+    "last_name": "Roach",
+    "fore_name": "William H",
+    "initials": "WH",
+    "affiliations": []
+   },
+   {
+    "last_name": "Harrington",
+    "fore_name": "Robert A",
+    "initials": "RA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Levine",
+    "fore_name": "Glenn N",
+    "initials": "GN",
+    "affiliations": []
+   },
+   {
+    "last_name": "Redberg",
+    "fore_name": "Rita F",
+    "initials": "RF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Broccolo",
+    "fore_name": "Bernadette M",
+    "initials": "BM",
+    "affiliations": []
+   },
+   {
+    "last_name": "Hernandez",
+    "fore_name": "Adrian F",
+    "initials": "AF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Douglas",
+    "fore_name": "Pamela S",
+    "initials": "PS",
+    "affiliations": []
+   },
+   {
+    "last_name": "Piña",
+    "fore_name": "Ileana L",
+    "initials": "IL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Benjamin",
+    "fore_name": "Emelia J",
+    "initials": "EJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Coylewright",
+    "fore_name": "Megan J",
+    "initials": "MJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Saucedo",
+    "fore_name": "Jorge F",
+    "initials": "JF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Ferdinand",
+    "fore_name": "Keith C",
+    "initials": "KC",
+    "affiliations": []
+   },
+   {
+    "last_name": "Hayes",
+    "fore_name": "Sharonne N",
+    "initials": "SN",
+    "affiliations": []
+   },
+   {
+    "last_name": "Poppas",
+    "fore_name": "Athena",
+    "initials": "A",
+    "affiliations": []
+   },
+   {
+    "last_name": "Furie",
+    "fore_name": "Karen L",
+    "initials": "KL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Mehta",
+    "fore_name": "Laxmi S",
+    "initials": "LS",
+    "affiliations": []
+   },
+   {
+    "last_name": "Erwin",
+    "fore_name": "John P",
+    "initials": "JP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Mieres",
+    "fore_name": "Jennifer H",
+    "initials": "JH",
+    "affiliations": []
+   },
+   {
+    "last_name": "Murphy",
+    "fore_name": "Daniel J",
+    "initials": "DJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Weissman",
+    "fore_name": "Gaby",
+    "initials": "G",
+    "affiliations": []
+   },
+   {
+    "last_name": "West",
+    "fore_name": "Colin P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Lawrence",
+    "fore_name": "Willie E",
+    "initials": "WE",
+    "affiliations": []
+   },
+   {
+    "last_name": "Masoudi",
+    "fore_name": "Frederick A",
+    "initials": "FA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Matlock",
+    "fore_name": "Daniel D",
+    "initials": "DD",
+    "affiliations": []
+   },
+   {
+    "last_name": "Miller",
+    "fore_name": "Jennifer E",
+    "initials": "JE",
+    "affiliations": []
+   },
+   {
+    "last_name": "Spertus",
+    "fore_name": "John A",
+    "initials": "JA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Todman",
+    "fore_name": "Lynn",
+    "initials": "L",
+    "affiliations": []
+   },
+   {
+    "last_name": "Biga",
+    "fore_name": "Cathleen",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Chazal",
+    "fore_name": "Richard A",
+    "initials": "RA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Creager",
+    "fore_name": "Mark A",
+    "initials": "MA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Fry",
+    "fore_name": "Edward T",
+    "initials": "ET",
+    "affiliations": []
+   },
+   {
+    "last_name": "Mack",
+    "fore_name": "Michael J",
+    "initials": "MJ",
+    "affiliations": []
+   },
+   {
+    "last_name": "Yancy",
+    "fore_name": "Clyde W",
+    "initials": "CW",
+    "affiliations": []
+   },
+   {
+    "last_name": "Anderson",
+    "fore_name": "Richard E",
+    "initials": "RE",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "05",
+   "day": "11"
+  },
+  "keywords": [
+   "clinical coding",
+   "conflict of interest",
+   "cultural diversity",
+   "delivery of health care",
+   "documentation",
+   "electronic health records",
+   "ethics",
+   "health equity",
+   "personal autonomy",
+   "privacy",
+   "professionalism",
+   "racism",
+   "social justice"
+  ],
+  "mesh_terms": [
+   "Advisory Committees",
+   "American Heart Association",
+   "Cardiology",
+   "Humans",
+   "Maryland",
+   "Professionalism",
+   "Quality of Health Care",
+   "Research Report",
+   "United States"
+  ],
+  "article_types": [
+   "Consensus Statement",
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "33678298",
+   "doi": "10.1016/j.pcl.2021.01.002",
+   "pii": "S0031-3955(21)00002-X"
+  },
+  "title": "Addressing Violence Against Children Through Anti-racism Action.",
+  "abstract": "Racism is a system of structuring opportunity and assigning value based on the social interpretation of how one looks (which is what we call \"race\"). Racism unfairly disadvantages some individuals and communities, unfairly advantages other individuals and communities, and saps the strength of the whole society through the waste of human resources. There are 7 barriers to achieving health equity that are deeply embedded in US culture. These serve as values targets for anti-racism action. This article is an invitation to all who love children to become actively anti-racism.",
+  "journal": {
+   "title": "Pediatric clinics of North America",
+   "iso_abbreviation": "Pediatr Clin North Am"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "Department of Behavioral Sciences and Health Education, Rollins School of Public Health, Emory University, Atlanta, GA, USA; Department of Epidemiology, Rollins School of Public Health, Emory University, Atlanta, GA, USA; Department of Community Health and Preventive Medicine and Satcher Health Leadership Institute, Morehouse School of Medicine, Atlanta, GA, USA. Electronic address: cpjones@msm.edu."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "Apr"
+  },
+  "keywords": [
+   "Anti-racism",
+   "Racism",
+   "Racism denial"
+  ],
+  "mesh_terms": [
+   "Adolescent",
+   "Child",
+   "Child Advocacy",
+   "Humans",
+   "Racism",
+   "United States",
+   "Violence"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "33091358",
+   "pmc": "PMC7572098",
+   "doi": "10.1016/S0140-6736(20)32140-1",
+   "pii": "S0140-6736(20)32140-1"
+  },
+  "title": "In the 2020 US election, we can choose a just future.",
+  "abstract": "",
+  "journal": {
+   "title": "Lancet (London, England)",
+   "iso_abbreviation": "Lancet"
+  },
+  "authors": [
+   {
+    "last_name": "Boyd",
+    "fore_name": "Rhea W",
+    "initials": "RW",
+    "affiliations": [
+     "Palo Alto Medical Foundation, San Francisco, CA, USA. Electronic address: rhea@cachildrenstrust.org."
+    ]
+   },
+   {
+    "last_name": "Krieger",
+    "fore_name": "Nancy",
+    "initials": "N",
+    "affiliations": [
+     "Department of Social and Behavioral Sciences, Harvard T H Chan School of Public Health, Harvard University, Cambridge, MA, USA."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "Radcliffe Institute for Advanced Study, Harvard University, Cambridge, MA, USA; Morehouse School of Medicine, Atlanta, GA, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2020",
+   "month": "10",
+   "day": "19"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "COVID-19",
+   "Humans",
+   "Pandemics",
+   "Policy",
+   "Politics",
+   "SARS-CoV-2",
+   "Social Problems",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "32673258",
+   "pmc": "PMC7380980",
+   "doi": "10.2196/16699",
+   "pii": "v9i7e16699"
+  },
+  "title": "Preventing Cardiovascular Disease Among Urban African Americans With a Mobile Health App (the MOYO App): Protocol for a Usability Study.",
+  "abstract": "Cardiovascular disease (CVD) disparities are a particularly devastating manifestation of health inequity. Despite advancements in prevention and treatment, CVD is still the leading cause of death in the United States. Additionally, research indicates that African American (AA) and other ethnic-minority populations are affected by CVD at earlier ages than white Americans. Given that AAs are the fastest-growing population of smartphone owners and users, mobile health (mHealth) technologies offer the unparalleled potential to prevent or improve self-management of chronic disease among this population.\n\nTo address the unmet need for culturally tailored primordial prevention CVD-focused mHealth interventions, the MOYO app was cocreated with the involvement of young people from this priority community. The overall project aims to develop and evaluate the effectiveness of a novel smartphone app designed to reduce CVD risk factors among urban-AAs, 18-29 years of age.\n\nThe theoretical underpinning will combine the principles of community-based participatory research and the agile software development framework. The primary outcome goals of the study will be to determine the usability, acceptability, and functionality of the MOYO app, and to build a cloud-based data collection infrastructure suitable for digital epidemiology in a disparity population. Changes in health-related parameters over a 24-week period as determined by both passive (eg, physical activity levels, sleep duration, social networking) and active (eg, use of mood measures, surveys, uploading pictures of meals and blood pressure readings) measures will be the secondary outcome. Participants will be recruited from a majority AA \"large city\" school district, 2 historically black colleges or universities, and 1 urban undergraduate college. Following baseline screening for inclusion (administered in person), participants will receive the beta version of the MOYO app. Participants will be monitored during a 24-week pilot period. Analyses of varying data including social network dynamics, standard metrics of activity, percentage of time away from a given radius of home, circadian rhythm metrics, and proxies for sleep will be performed. Together with external variables (eg, weather, pollution, and socioeconomic indicators such as food access), these metrics will be used to train machine-learning frameworks to regress them on the self-reported quality of life indicators.\n\nThis 5-year study (2015-2020) is currently in the implementation phase. We believe that MOYO can build upon findings of classical epidemiology and longitudinal studies like the Jackson Heart Study by adding greater granularity to our knowledge of the exposures and behaviors that affect health and disease, and creating a channel for outreach capable of launching interventions, clinical trials, and enhancements of health literacy.\n\nThe results of this pilot will provide valuable information about community cocreation of mHealth programs, efficacious design features, and essential infrastructure for digital epidemiology among young AA adults.\n\nDERR1-10.2196/16699.",
+  "journal": {
+   "title": "JMIR research protocols",
+   "iso_abbreviation": "JMIR Res Protoc"
+  },
+  "authors": [
+   {
+    "last_name": "Taylor",
+    "fore_name": "Herman A",
+    "initials": "HA",
+    "affiliations": [
+     "Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Francis",
+    "fore_name": "Sherilyn",
+    "initials": "S",
+    "affiliations": [
+     "Nucleus Health Communications, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Evans",
+    "fore_name": "Chad Ray",
+    "initials": "CR",
+    "affiliations": [
+     "Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Harvey",
+    "fore_name": "Marques",
+    "initials": "M",
+    "affiliations": [
+     "Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Newton",
+    "fore_name": "Brittney A",
+    "initials": "BA",
+    "affiliations": [
+     "Nucleus Health Communications, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": [
+     "Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Akintobi",
+    "fore_name": "Tabia Henry",
+    "initials": "TH",
+    "affiliations": [
+     "Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA, United States."
+    ]
+   },
+   {
+    "last_name": "Clifford",
+    "fore_name": "Gari",
+    "initials": "G",
+    "affiliations": [
+     "Emory University, Atlanta, GA, United States.",
+     "Georgia Institute of Technology, Atlanta, GA, United States."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2020",
+   "month": "07",
+   "day": "09"
+  },
+  "keywords": [
+   "African Americans",
+   "agile design",
+   "cardiovascular",
+   "community-based participatory research",
+   "mHealth"
+  ],
+  "mesh_terms": [],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "31308603",
+   "pmc": "PMC6604784",
+   "doi": "10.18865/ed.29.S2.345",
+   "pii": "ed.29.S2.345"
+  },
+  "title": "Strategies for Achieving Health Equity: Concern about the Whole Plus Concern about the Hole.",
+  "abstract": "Health equity is a process, assurance of the conditions for optimal health for all people, which requires valuing all individuals and populations equally, recognizing and rectifying historical injustices, and providing resources according to need. At the heart of health equity is concern about the whole of society, not just a single individual or group. Also, at the heart of health equity is concern about the holes in society, about gaps of opportunity and gaps of being valued that are experienced by many. Strategies to achieve health equity that reflect concern about the w(hole) require the examination of a practical roadmap that combines citizenship (WHOLE) with a gap analysis (HOLE). This shorthand of operationalizing health equity as concern about the (w)hole may prove to be useful in generating further strategies for achieving health equity.",
+  "journal": {
+   "title": "Ethnicity & disease",
+   "iso_abbreviation": "Ethn Dis"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": [
+     "Morehouse School of Medicine, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Holden",
+    "fore_name": "Kisha B",
+    "initials": "KB",
+    "affiliations": [
+     "Morehouse School of Medicine, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Belton",
+    "fore_name": "Allyson",
+    "initials": "A",
+    "affiliations": [
+     "Morehouse School of Medicine, Atlanta, Georgia."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2019",
+   "month": "06",
+   "day": "13"
+  },
+  "keywords": [
+   "Citizenship",
+   "Gap Analysis",
+   "Health Equity",
+   "Population Health"
+  ],
+  "mesh_terms": [
+   "Guidelines as Topic",
+   "Health Equity",
+   "Health Policy",
+   "Health Status Disparities",
+   "Healthcare Disparities",
+   "Humans",
+   "United States"
+  ],
+  "article_types": [
+   "Editorial",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "30116091",
+   "pmc": "PMC6092166",
+   "doi": "10.18865/ed.28.S1.231",
+   "pii": "ed.28.S1.231"
+  },
+  "title": "Toward the Science and Practice of Anti-Racism: Launching a National Campaign Against Racism.",
+  "abstract": "",
+  "journal": {
+   "title": "Ethnicity & disease",
+   "iso_abbreviation": "Ethn Dis"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "Satcher Health Leadership Institute and Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, GA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2018",
+   "month": "08",
+   "day": "09"
+  },
+  "keywords": [
+   "Anti-Racism",
+   "National Campaign Against Racism",
+   "Racism"
+  ],
+  "mesh_terms": [
+   "Cooperative Behavior",
+   "Humans",
+   "Psychology, Social",
+   "Racism",
+   "Social Behavior",
+   "United States"
+  ],
+  "article_types": [
+   "Editorial"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "29659346",
+   "doi": "10.1177/0890334418759963"
+  },
+  "title": "#MeToo Against Racism.",
+  "abstract": "",
+  "journal": {
+   "title": "Journal of human lactation : official journal of International Lactation Consultant Association",
+   "iso_abbreviation": "J Hum Lact"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "1 Morehouse School of Medicine, Atlanta, GA, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2018",
+   "month": "May"
+  },
+  "keywords": [],
+  "mesh_terms": [],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "27626326",
+   "pmc": "PMC5024400",
+   "doi": "10.2105/AJPH.2016.303406"
+  },
+  "title": "Overcoming Helplessness, Overcoming Fear, Overcoming Inaction in the Face of Need.",
+  "abstract": "",
+  "journal": {
+   "title": "American journal of public health",
+   "iso_abbreviation": "Am J Public Health"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "APHA President."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2016",
+   "month": "Oct"
+  },
+  "keywords": [],
+  "mesh_terms": [],
+  "article_types": [
+   "News"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "26672406",
+   "pmc": "PMC4969181",
+   "doi": "10.1097/PHH.0000000000000378"
+  },
+  "title": "Early Childhood Education to Promote Health Equity: A Community Guide Systematic Review.",
+  "abstract": "Children in low-income and racial and ethnic minority families often experience delays in development by 3 years of age and may benefit from center-based early childhood education.\n\nA meta-analysis on the effects of early childhood education by Kay and Pennucci best met Community Guide criteria and forms the basis of this review.\n\nThere were increases in intervention compared with control children in standardized test scores (median = 0.29 SD) and high school graduation (median = 0.20 SD) and decreases in grade retention (median = 0.23 SD) and special education assignment (median = 0.28 SD). There were decreases in crime (median = 0.23 SD) and teen births (median = 0.46 SD) and increases in emotional self-regulation (median = 0.21 SD) and emotional development (median = 0.04 SD). All effects were favorable, but not all were statistically significant. Effects were also long-lasting.\n\nBecause many programs are designed to increase enrollment for high-risk students and communities, they are likely to advance health equity.",
+  "journal": {
+   "title": "Journal of public health management and practice : JPHMP",
+   "iso_abbreviation": "J Public Health Manag Pract"
+  },
+  "authors": [
+   {
+    "last_name": "Hahn",
+    "fore_name": "Robert A",
+    "initials": "RA",
+    "affiliations": [
+     "Community Guide Branch, Division of Public Health Information Dissemination, Center for Surveillance, Epidemiology, and Laboratory Services (Drs Hahn and Knopf), Centers for Disease Control and Prevention (CDC), Atlanta, Georgia; National Institute for Early Education Research, Rutgers University, New Brunswick, New Jersey (Dr Barnett); Office of the Associate Director for Science (Dr Truman) and Division of Adolescent & School Health (Dr Hunt), National Center for HIV/AIDS, Viral Hepatitis, STD & TB Prevention, CDC, Atlanta, Georgia; UMDNJ-New Jersey Medical School, Newark (Dr Johnson); UCLA Fielding School of Public Health, Los Angeles, California (Dr Fielding); University of Toronto, Toronto, Ontario, Canada (Dr Muntaner); Morehouse School of Medicine, Atlanta, Georgia (Dr Jones); and Departments of Public Health and Psychiatry, Columbia University, New York (Dr Fullilove)."
+    ]
+   },
+   {
+    "last_name": "Barnett",
+    "fore_name": "W Steven",
+    "initials": "WS",
+    "affiliations": []
+   },
+   {
+    "last_name": "Knopf",
+    "fore_name": "John A",
+    "initials": "JA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Truman",
+    "fore_name": "Benedict I",
+    "initials": "BI",
+    "affiliations": []
+   },
+   {
+    "last_name": "Johnson",
+    "fore_name": "Robert L",
+    "initials": "RL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Fielding",
+    "fore_name": "Jonathan E",
+    "initials": "JE",
+    "affiliations": []
+   },
+   {
+    "last_name": "Muntaner",
+    "fore_name": "Carles",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Fullilove",
+    "fore_name": "Mindy T",
+    "initials": "MT",
+    "affiliations": []
+   },
+   {
+    "last_name": "Hunt",
+    "fore_name": "Pete C",
+    "initials": "PC",
+    "affiliations": []
+   },
+   {
+    "last_name": "Community Preventive Services Task Force",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2016"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Child, Preschool",
+   "Female",
+   "Health Education",
+   "Health Equity",
+   "Health Promotion",
+   "Humans",
+   "Income",
+   "Male",
+   "Minority Groups",
+   "Racial Groups",
+   "Risk Factors",
+   "Students",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "26062096",
+   "pmc": "PMC4714952",
+   "doi": "10.1097/PHH.0000000000000268"
+  },
+  "title": "Out-of-School-Time Academic Programs to Improve School Achievement: A Community Guide Health Equity Systematic Review.",
+  "abstract": "Low-income and minority status in the United States are associated with poor educational outcomes, which, in turn, reduce the long-term health benefits of education.\n\nThis systematic review assessed the extent to which out-of-school-time academic (OSTA) programs for at-risk students, most of whom are from low-income and racial/ethnic minority families, can improve academic achievement. Because most OSTA programs serve low-income and ethnic/racial minority students, programs may improve health equity.\n\nMethods of the Guide to Community Preventive Services were used. An existing systematic review assessing the effects of OSTA programs on academic outcomes (Lauer et al 2006; search period 1985-2003) was supplemented with a Community Guide update (search period 2003-2011).\n\nStandardized mean difference.\n\nThirty-two studies from the existing review and 25 studies from the update were combined and stratified by program focus (ie, reading-focused, math-focused, general academic programs, and programs with minimal academic focus). Focused programs were more effective than general or minimal academic programs. Reading-focused programs were effective only for students in grades K-3. There was insufficient evidence to determine effectiveness on behavioral outcomes and longer-term academic outcomes.\n\nOSTA programs, particularly focused programs, are effective in increasing academic achievement for at-risk students. Ongoing school and social environments that support learning and development may be essential to ensure the longer-term benefits of OSTA programs.",
+  "journal": {
+   "title": "Journal of public health management and practice : JPHMP",
+   "iso_abbreviation": "J Public Health Manag Pract"
+  },
+  "authors": [
+   {
+    "last_name": "Knopf",
+    "fore_name": "John A",
+    "initials": "JA",
+    "affiliations": [
+     "Community Guide Branch, Division of Epidemiology, Analysis and Library Services, Office of Public Health Scientific Services (Mr Knopf, Drs Hahn and Chattopadhyay, and Mss Proia and Qu), Office of the Associate Director for Science, National Center for HIV/AIDS, Viral Hepatitis, STD & TB Prevention (Dr Truman), Division of Adolescent & School Health, National Center for Chronic Disease Prevention and Health Promotion (Mr Hunt), and Epidemiology and Analysis Program Office, Centers for Disease Control and Prevention, Atlanta, Georgia (Dr Jones); Hygeia Dynamics, Boston, Massachusetts (Dr Milstein); Rutgers New Jersey Medical School, Newark, New Jersey (Dr Johnson); University of Toronto, Toronto, Ontario (Dr Muntaner); UCLA Fielding School of Public Health (Dr Fielding); and Columbia University, New York, New York (Dr Fullilove)."
+    ]
+   },
+   {
+    "last_name": "Hahn",
+    "fore_name": "Robert A",
+    "initials": "RA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Proia",
+    "fore_name": "Krista K",
+    "initials": "KK",
+    "affiliations": []
+   },
+   {
+    "last_name": "Truman",
+    "fore_name": "Benedict I",
+    "initials": "BI",
+    "affiliations": []
+   },
+   {
+    "last_name": "Johnson",
+    "fore_name": "Robert L",
+    "initials": "RL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Muntaner",
+    "fore_name": "Carles",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Fielding",
+    "fore_name": "Jonathan E",
+    "initials": "JE",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Fullilove",
+    "fore_name": "Mindy T",
+    "initials": "MT",
+    "affiliations": []
+   },
+   {
+    "last_name": "Hunt",
+    "fore_name": "Pete C",
+    "initials": "PC",
+    "affiliations": []
+   },
+   {
+    "last_name": "Qu",
+    "fore_name": "Shuli",
+    "initials": "S",
+    "affiliations": []
+   },
+   {
+    "last_name": "Chattopadhyay",
+    "fore_name": "Sajal K",
+    "initials": "SK",
+    "affiliations": []
+   },
+   {
+    "last_name": "Milstein",
+    "fore_name": "Bobby",
+    "initials": "B",
+    "affiliations": []
+   },
+   {
+    "last_name": "Community Preventive Services Task Force",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2015"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Child",
+   "Child, Preschool",
+   "Educational Status",
+   "Humans",
+   "Learning",
+   "Schools",
+   "Students",
+   "Teaching",
+   "Time Factors",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Systematic Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "25818117",
+   "pmc": "PMC4681508",
+   "doi": "10.1016/j.amepre.2014.12.005",
+   "pii": "S0749-3797(14)00709-0"
+  },
+  "title": "Programs to increase high school completion: a community guide systematic health equity review.",
+  "abstract": "High school completion (HSC) is an established predictor of long-term morbidity and mortality. U.S. rates of HSC are substantially lower among students from low-income families and most racial/ethnic minority populations than students from high-income families and the non-Hispanic white population. This systematic review assesses the effectiveness of programs to increase HSC and the potential of these programs to improve lifelong health among at-risk students.\n\nA search located a meta-analysis (search period 1985-2010/2011) on the effects of programs to increase HSC or General Educational Development (GED) diploma receipt; the meta-analysis was concordant with Community Guide definitions and methodologic standards. Programs were assessed separately for the general student population (152 studies) and students who were parents or pregnant (15 studies). A search for studies published between 2010 and August 2012 located ten more recent studies, which were assessed for consistency with the meta-analysis. Analyses were conducted in 2013.\n\nThe review focused on the meta-analysis. Program effectiveness was measured as the increased rate of HSC (or GED receipt) by the intervention group compared with controls. All assessed program types were effective in increasing HSC in the general student population: vocational training, alternative schooling, social-emotional skills training, college-oriented programming, mentoring and counseling, supplemental academic services, school and class restructuring, multiservice packages, attendance monitoring and contingencies, community service, and case management. For students who had children or were pregnant, attendance monitoring and multiservice packages were effective. Ten studies published after the search period for the meta-analysis were consistent with its findings.\n\nThere is strong evidence that a variety of HSC programs can improve high school or GED completion rates. Because many programs are targeted to high-risk students and communities, they are likely to advance health equity.",
+  "journal": {
+   "title": "American journal of preventive medicine",
+   "iso_abbreviation": "Am J Prev Med"
+  },
+  "authors": [
+   {
+    "last_name": "Hahn",
+    "fore_name": "Robert A",
+    "initials": "RA",
+    "affiliations": [
+     "Community Guide Branch, Division of Epidemiology, Analysis, and Library Services. Electronic address: rhahn@cdc.gov."
+    ]
+   },
+   {
+    "last_name": "Knopf",
+    "fore_name": "John A",
+    "initials": "JA",
+    "affiliations": [
+     "Community Guide Branch, Division of Epidemiology, Analysis, and Library Services."
+    ]
+   },
+   {
+    "last_name": "Wilson",
+    "fore_name": "Sandra Jo",
+    "initials": "SJ",
+    "affiliations": [
+     "Peabody Research Institute, Vanderbilt University, Nashville, Tennessee."
+    ]
+   },
+   {
+    "last_name": "Truman",
+    "fore_name": "Benedict I",
+    "initials": "BI",
+    "affiliations": [
+     "Office of the Associate Director For Science of the National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention."
+    ]
+   },
+   {
+    "last_name": "Milstein",
+    "fore_name": "Bobby",
+    "initials": "B",
+    "affiliations": [
+     "Hygeia Dynamics, Cambridge, Massachusetts."
+    ]
+   },
+   {
+    "last_name": "Johnson",
+    "fore_name": "Robert L",
+    "initials": "RL",
+    "affiliations": [
+     "UMDNJ-New Jersey Medical School, Newark, New Jersey."
+    ]
+   },
+   {
+    "last_name": "Fielding",
+    "fore_name": "Jonathan E",
+    "initials": "JE",
+    "affiliations": [
+     "UCLA Fielding School of Public Health, Los Angeles, California."
+    ]
+   },
+   {
+    "last_name": "Muntaner",
+    "fore_name": "Carles J M",
+    "initials": "CJ",
+    "affiliations": [
+     "Dalla Lana School of Public Health, University of Toronto."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "Analytic Tools And Methods Branch, Division of Epidemiology, Analysis, and Library Services."
+    ]
+   },
+   {
+    "last_name": "Fullilove",
+    "fore_name": "Mindy T",
+    "initials": "MT",
+    "affiliations": [
+     "Departments of Public Health and Psychiatry, Columbia University, New York, New York."
+    ]
+   },
+   {
+    "last_name": "Moss",
+    "fore_name": "Regina Davis",
+    "initials": "RD",
+    "affiliations": [
+     "American Association of Public Health, Washington, District of Columbia."
+    ]
+   },
+   {
+    "last_name": "Ueffing",
+    "fore_name": "Erin",
+    "initials": "E",
+    "affiliations": [
+     "Ottawa Hospital Research Institute, Centre for Practice-Changing Research, University of Ottawa, Ontario, Canada."
+    ]
+   },
+   {
+    "last_name": "Hunt",
+    "fore_name": "Pete C",
+    "initials": "PC",
+    "affiliations": [
+     "Division of Adolescent & School Health, CDC, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Community Preventive Services Task Force",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2015",
+   "month": "03",
+   "day": "26"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adolescent",
+   "Educational Status",
+   "Health Equity",
+   "Humans",
+   "Schools"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Research Support, Non-U.S. Gov't",
+   "Systematic Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "25295606",
+   "pmc": "PMC4202962",
+   "doi": "10.2105/AJPH.2014.104112072"
+  },
+  "title": "The Society for the Analysis of African-American Public Health Issues (SAAPHI).",
+  "abstract": "",
+  "journal": {
+   "title": "American journal of public health",
+   "iso_abbreviation": "Am J Public Health"
+  },
+  "authors": [
+   {
+    "last_name": "Hasson",
+    "fore_name": "Rebecca E",
+    "initials": "RE",
+    "affiliations": [
+     "Rebecca E. Hasson is with the Schools of Kinesiology and Public Health, University of Michigan, Ann Arbor. Diane L. Rowley is with the Gillings School of Global Public Health, Department of Maternal and Child Health, University of North Carolina, Chapel Hill. Cheryl Blackmore Prince is with the Society for the Analysis of African-American Public Health Issues, Decatur, GA. Camara P. Jones is with the Rollins School of Public Health, Department of Epidemiology and Department of Behavioral Sciences and Health Education, Emory University, Atlanta, GA. William C. Jenkins is with the Department of Community Health and Preventive Medicine, Morehouse School of Medicine, Atlanta, GA."
+    ]
+   },
+   {
+    "last_name": "Rowley",
+    "fore_name": "Diane L",
+    "initials": "DL",
+    "affiliations": []
+   },
+   {
+    "last_name": "Blackmore Prince",
+    "fore_name": "Cheryl",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jenkins",
+    "fore_name": "William C",
+    "initials": "WC",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2014",
+   "month": "Nov"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Black or African American",
+   "History, 20th Century",
+   "History, 21st Century",
+   "Humans",
+   "Public Health",
+   "Public Health Administration",
+   "Societies, Medical",
+   "United States"
+  ],
+  "article_types": [
+   "Historical Article",
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "25215922",
+   "doi": "10.1097/MLR.0000000000000216",
+   "pii": "00005650-201410001-00012"
+  },
+  "title": "Systems of power, axes of inequity: parallels, intersections, braiding the strands.",
+  "abstract": "This commentary builds on work examining the impacts of racism on health to identify parallels and intersections with regard to able-ism and health. The \"Cliff Analogy\" framework for distinguishing between five levels of health intervention is used to sort the Healthy People 2020 goals on Disability and Health along an array from medical care to addressing the social determinants of equity. Parallels between racism and able-ism as systems of power, similarities and differences between \"race\" and disability status as axes of inequity, intersections of \"race\" and disability status in individuals and in communities, and the promise of convergent strength between the anti-racism community and the disability rights community are highlighted. With health equity defined as assurance of the conditions for optimal health for all people, it is noted that achieving health equity requires valuing all individuals and populations equally, recognizing and rectifying historical injustices, and providing resources according to need.",
+  "journal": {
+   "title": "Medical care",
+   "iso_abbreviation": "Med Care"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": [
+     "Satcher Health Leadership Institute, Morehouse School of Medicine, Atlanta, GA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2014",
+   "month": "Oct"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Persons with Disabilities",
+   "Ethnicity",
+   "Health Policy",
+   "Health Services Accessibility",
+   "Health Services Needs and Demand",
+   "Health Services Research",
+   "Health Status Disparities",
+   "Healthcare Disparities",
+   "Humans",
+   "Prejudice",
+   "Racial Groups",
+   "Risk Factors",
+   "Social Justice",
+   "Socioeconomic Factors"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "24512872",
+   "doi": "10.1016/j.amepre.2013.12.003",
+   "pii": "S0749-3797(13)00649-1"
+  },
+  "title": "Effects of full-day kindergarten on the long-term health prospects of children in low-income and racial/ethnic-minority populations: a community guide systematic review.",
+  "abstract": "Children from low-income and minority families are often behind higher-income and majority children in language, cognitive, and social development even before they enter school. Because educational achievement has been shown to improve long-term health, addressing these delays may foster greater health equity. This systematic review assesses the extent to which full-day kindergarten (FDK), compared with half-day kindergarten (HDK), prepares children, particularly those from low-income and minority families, to succeed in primary and secondary school and improve lifelong health.\n\nA meta-analysis (2010) on the effects of FDK versus HDK among U.S. children measured educational achievement at the end of kindergarten. The meta-analysis was concordant with Community Guide criteria. Findings on the longer-term effects of FDK suggested \"fade-out\" by third grade. The present review used evidence on the longer-term effects of pre-K education to explore the loss of FDK effects over time.\n\nFDK improved academic achievement by an average of 0.35 SDs (Cohen's d; 95% CI=0.23, 0.46). The effect on verbal achievement was 0.46 (Cohen's d; 95% CI=0.32, 0.61) and that on math achievement was 0.24 (Cohen's d; 95% CI=0.06, 0.43). Evidence of \"fade-out\" from pre-K education found that better-designed studies indicated both residual benefits over multiple years and the utility of educational boosters to maintain benefits, suggesting analogous longer-term effects of FDK.\n\nThere is strong evidence that FDK improves academic achievement, a predictor of longer-term health benefits. To sustain early benefits, intensive elementary school education is needed. If targeted to low-income and minority communities, FDK can advance health equity.",
+  "journal": {
+   "title": "American journal of preventive medicine",
+   "iso_abbreviation": "Am J Prev Med"
+  },
+  "authors": [
+   {
+    "last_name": "Hahn",
+    "fore_name": "Robert A",
+    "initials": "RA",
+    "affiliations": [
+     "Community Guide Branch, CDC, Atlanta, Georgia. Electronic address: RHahn@cdc.gov."
+    ]
+   },
+   {
+    "last_name": "Rammohan",
+    "fore_name": "Veda",
+    "initials": "V",
+    "affiliations": [
+     "Community Guide Branch, CDC, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Truman",
+    "fore_name": "Benedict I",
+    "initials": "BI",
+    "affiliations": [
+     "Office of the Associate Director for Science of the National Center for HIV/AIDS, Viral Hepatitis, STD & TB Prevention, CDC, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Milstein",
+    "fore_name": "Bobby",
+    "initials": "B",
+    "affiliations": [
+     "Hygeia Dynamics, Brookline, Massachusetts."
+    ]
+   },
+   {
+    "last_name": "Johnson",
+    "fore_name": "Robert L",
+    "initials": "RL",
+    "affiliations": [
+     "UMDNJ-New Jersey Medical School, Newark, New Jersey."
+    ]
+   },
+   {
+    "last_name": "Muntañer",
+    "fore_name": "Carles",
+    "initials": "C",
+    "affiliations": [
+     "University of Toronto, Toronto, Canada."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": [
+     "Epidemiology and Analysis Program Office, CDC, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Fullilove",
+    "fore_name": "Mindy T",
+    "initials": "MT",
+    "affiliations": [
+     "Columbia University, New York, New York."
+    ]
+   },
+   {
+    "last_name": "Chattopadhyay",
+    "fore_name": "Sajal K",
+    "initials": "SK",
+    "affiliations": [
+     "Community Guide Branch, CDC, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Hunt",
+    "fore_name": "Pete C",
+    "initials": "PC",
+    "affiliations": [
+     "Division of Adolescent & School Health, CDC, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Abraido-Lanza",
+    "fore_name": "Ana F",
+    "initials": "AF",
+    "affiliations": [
+     "Columbia University, New York, New York."
+    ]
+   },
+   {
+    "last_name": "Community Preventive Services Task Force",
+    "fore_name": "",
+    "initials": "",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2014",
+   "month": "Mar"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Child",
+   "Education",
+   "Educational Status",
+   "Health Status",
+   "Health Status Disparities",
+   "Humans",
+   "Minority Groups",
+   "Poverty",
+   "Schools",
+   "Socioeconomic Factors",
+   "Time Factors"
+  ],
+  "article_types": [
+   "Comparative Study",
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "23864583",
+   "pmc": "PMC3790452",
+   "doi": "10.1093/ajh/hpt116",
+   "pii": "hpt116"
+  },
+  "title": "Association of race consciousness with the patient-physician relationship, medication adherence, and blood pressure in urban primary care patients.",
+  "abstract": "Race consciousness (the frequency with which one thinks about his or her own race) is a measure that may be useful in assessing whether racial discrimination negatively impacts blood pressure (BP). However, the relation between race consciousness and BP has yet to be empirically tested, especially within the context of the patient-physician relationship and medication adherence.\n\nRace-stratified generalized estimating equations were used to assess the relationship of race consciousness on BP, measures of the patient-physician relationship, and self-reported medication adherence, controlling for patients being nested within physicians and for patient age and sex.\n\nThe mean age of the patients was 61.3 years, 62% were black, and 65% were women. Black patients were more likely to ever think about race than were white patients (49% vs. 21%; P < 0.001). Race-conscious blacks had significantly higher diastolic BP (79.4 vs. 74.5 mm Hg; P = 0.004) and somewhat higher systolic BP (138.8 vs. 134.7 mm Hg; P = 0.13) than blacks who were not race conscious. Race-conscious whites were more likely to perceive respect from their physician (57.1% vs. 25.8%; P = 0.01) but had lower medication adherence (62.4% vs. 82.9%; P = 0.05) than whites who were not race-conscious.\n\nAmong blacks, race consciousness was associated with higher diastolic BP. In contrast, among whites, there was no association between race consciousness and BP, but race consciousness was associated with poor ratings of adherence, despite more favorable ratings of the patient-physician relationship. Future work should explore disparities in race consciousness and its impact on health and health-care disparities.",
+  "journal": {
+   "title": "American journal of hypertension",
+   "iso_abbreviation": "Am J Hypertens"
+  },
+  "authors": [
+   {
+    "last_name": "Brewer",
+    "fore_name": "LaPrincess C",
+    "initials": "LC",
+    "affiliations": [
+     "Department of Medicine, Mayo Clinic, Rochester, Minnesota; Division of Cardiovascular Diseases, Mayo Clinic, Rochester, Minnesota;"
+    ]
+   },
+   {
+    "last_name": "Carson",
+    "fore_name": "Kathryn A",
+    "initials": "KA",
+    "affiliations": [
+     "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland; Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland;"
+    ]
+   },
+   {
+    "last_name": "Williams",
+    "fore_name": "David R",
+    "initials": "DR",
+    "affiliations": [
+     "Harvard School of Public Health, Boston, Massachusetts;"
+    ]
+   },
+   {
+    "last_name": "Allen",
+    "fore_name": "Allyssa",
+    "initials": "A",
+    "affiliations": [
+     "Department of Community & Applied Social Psychology, University of Maryland, Baltimore County, Baltimore, Maryland;"
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": [
+     "Morehouse School of Medicine, Atlanta, Georgia; Department of Epidemiology, Rollins School of Public Health, Emory University, Atlanta, Georgia."
+    ]
+   },
+   {
+    "last_name": "Cooper",
+    "fore_name": "Lisa A",
+    "initials": "LA",
+    "affiliations": [
+     "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland; Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland; lisa.cooper@jhmi.edu."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2013",
+   "month": "07",
+   "day": "17"
+  },
+  "keywords": [
+   "adherence",
+   "blood pressure",
+   "blood pressure discrimination",
+   "disparities",
+   "hypertension",
+   "perceived quality of care",
+   "race",
+   "racism."
+  ],
+  "mesh_terms": [
+   "Aged",
+   "Baltimore",
+   "Blood Pressure",
+   "Female",
+   "Humans",
+   "Male",
+   "Medication Adherence",
+   "Middle Aged",
+   "Physician-Patient Relations",
+   "Primary Health Care",
+   "Racial Groups",
+   "Stress, Psychological",
+   "Urban Population",
+   "Drug Monitoring"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "21305822"
+  },
+  "title": "Understanding racial and ethnic disparities in colorectal cancer screening: Behavioral Risk Factor Surveillance System, 2002 and 2004.",
+  "abstract": "Racial/ethnic disparities in colorectal cancer (CRC) screening exist. The literature suggests that differential treatment by race may influence health behaviors and health outcomes.\n\nWe examined the impact of Reactions to Race-based treatment on being up-to-date with colorectal cancer screening with endoscopy or fecal occult blood testing (FOBT) among non-Hispanic White, non-Hispanic Black, and Hispanic men and women aged > or = 50 years.\n\nSecondary data analysis of the Reactions to Race Module on the 2002 and 2004 Behavioral Risk Factor Surveillance System (BRFSS) was performed. Using logistic regression, we examined the strength of association between Reactions to Race-based treatment variables with up-to-date CRC screening tests after adjusting for demographic and access variables.\n\nCRC screening tests were analyzed independently as FOBT within 2 years (n = 30,134) and endoscopy (colonoscopy or sigmoidoscopy) within 5 years (n = 30,210).\n\nAmong Whites, 34% reported FOBT, compared with 30.6% of Blacks and 15.3% of Hispanics (P < .05). Forty-five percent of Whites reported endoscopy, compared with 40.7% of Blacks and 32.1% of Hispanics (P < .05). After adjusting for sociodemographic characteristics, Hispanics who always thought about their race were 73% (OR = .27; 95% CI: .13-.57) less likely to receive FOBT.\n\nWhile screening disparities were largest among persons without insurance and a usual source of care, more research is needed to understand the influence of Reactions to Race-based treatment as an additional barrier to CRC screening.",
+  "journal": {
+   "title": "Ethnicity & disease",
+   "iso_abbreviation": "Ethn Dis"
+  },
+  "authors": [
+   {
+    "last_name": "Crawford",
+    "fore_name": "Natalie D",
+    "initials": "ND",
+    "affiliations": [
+     "Department of Epidemiology, Mailman School of Public Health, Columbia University, USA."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Richardson",
+    "fore_name": "Lisa C",
+    "initials": "LC",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2010"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Behavioral Risk Factor Surveillance System",
+   "Colonoscopy",
+   "Colorectal Neoplasms",
+   "Female",
+   "Humans",
+   "Logistic Models",
+   "Male",
+   "Mass Screening",
+   "Middle Aged",
+   "Occult Blood",
+   "Risk Factors",
+   "Sigmoidoscopy"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "20168027",
+   "doi": "10.1353/hpu.0.0228",
+   "pii": "S1548686909400251"
+  },
+  "title": "Addressing the social determinants of children's health: a cliff analogy.",
+  "abstract": "This paper presents a \"Cliff Analogy\" illustrating three dimensions of health intervention to help people who are falling off of the cliff of good health: providing health services, addressing the social determinants of health, and addressing the social determinants of equity. In the terms of the analogy, health services include an ambulance at the bottom of the cliff, a net or trampoline halfway down, and a fence at the top of the cliff. Addressing the social determinants of health involves the deliberate movement of the population away from the edge of the cliff. Addressing the social determinants of equity acknowledges that the cliff is three-dimensional and involves interventions on the structures, policies, practices, norms, and values that differentially distribute resources and risks along the cliff face. The authors affirm that we need to address both the social determinants of health, including poverty, and the social determinants of equity, including racism, if we are to improve health outcomes and eliminate health disparities.",
+  "journal": {
+   "title": "Journal of health care for the poor and underserved",
+   "iso_abbreviation": "J Health Care Poor Underserved"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "Division of Adult and Community Health, National Center for Chronic Disease Prevention and Health Promotion, Coordinating Center for Health Promotion, Centers for Disease Control and Prevention, Atlanta, GA 30341, USA. cdj9@cdc.gov"
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Clara Yvonne",
+    "initials": "CY",
+    "affiliations": []
+   },
+   {
+    "last_name": "Perry",
+    "fore_name": "Geraldine S",
+    "initials": "GS",
+    "affiliations": []
+   },
+   {
+    "last_name": "Barclay",
+    "fore_name": "Gillian",
+    "initials": "G",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camille Arnel",
+    "initials": "CA",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2009"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Child",
+   "Child Health Services",
+   "Child Welfare",
+   "Health Policy",
+   "Health Services Accessibility",
+   "Health Status Disparities",
+   "Healthcare Disparities",
+   "Humans",
+   "Prejudice",
+   "Risk Factors",
+   "Social Justice",
+   "Socioeconomic Factors"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "19157256"
+  },
+  "title": "Using \"socially assigned race\" to probe white advantages in health status.",
+  "abstract": "We explore the relationships between socially assigned race (\"How do other people usually classify you in this country?\"), self-identified race/ethnicity, and excellent or very good general health status. We then take advantage of subgroups which are discordant on self-identified race/ethnicity and socially assigned race to examine whether being classified by others as White conveys an advantage in health status, even for those who do not self-identify as White.\n\nAnalyses were conducted using pooled data from the eight states that used the Reactions to Race module of the 2004 Behavioral Risk Factor Surveillance System.\n\nThe agreement of socially assigned race with self-identified race/ethnicity varied across the racial/ethnic groups currently defined by the United States government. Included among those usually classified by others as White were 26.8% of those who self-identified as Hispanic, 47.6% of those who self-identified as American Indian, and 59.5% of those who self-identified with More than one race. Among those who self-identified as Hispanic, the age-, education-, and language-adjusted proportion reporting excellent or very good health was 8.7 percentage points higher for those socially assigned as White than for those socially assigned as Hispanic (P=.04); among those who self-identified as American Indian, that proportion was 15.4 percentage points higher for those socially assigned as White than for those socially assigned as American Indian (P=.05); and among those who self-identified with More than one race, that proportion was 23.6 percentage points higher for those socially assigned as White than for those socially assigned as Black (P<.01). On the other hand, no significant differences were found between those socially assigned as White who self-identified as White and those socially assigned as White who self-identified as Hispanic, as American Indian, or with More than one race.\n\nBeing classified by others as White is associated with large and statistically significant advantages in health status, no matter how one self-identifies.",
+  "journal": {
+   "title": "Ethnicity & disease",
+   "iso_abbreviation": "Ethn Dis"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara Phyllis",
+    "initials": "CP",
+    "affiliations": [
+     "Division of Adult and Community Health, Centers for Disease Control and Prevention, 4770 Buford Highway NE, Mailstop K-67, Atlanta, Georgia 30341, USA. cdj9@cdc.gov"
+    ]
+   },
+   {
+    "last_name": "Truman",
+    "fore_name": "Benedict I",
+    "initials": "BI",
+    "affiliations": []
+   },
+   {
+    "last_name": "Elam-Evans",
+    "fore_name": "Laurie D",
+    "initials": "LD",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camille A",
+    "initials": "CA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Clara Y",
+    "initials": "CY",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jiles",
+    "fore_name": "Ruth",
+    "initials": "R",
+    "affiliations": []
+   },
+   {
+    "last_name": "Rumisha",
+    "fore_name": "Susan F",
+    "initials": "SF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Perry",
+    "fore_name": "Geraldine S",
+    "initials": "GS",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2008"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Black or African American",
+   "Asian",
+   "Behavioral Risk Factor Surveillance System",
+   "Health Status",
+   "Health Status Disparities",
+   "Hispanic or Latino",
+   "Humans",
+   "Indians, North American",
+   "Racial Groups",
+   "United States",
+   "White People"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "18463971",
+   "pmc": "PMC3051354",
+   "doi": "10.1007/s10995-008-0357-x"
+  },
+  "title": "\"It's the skin you're in\": African-American women talk about their experiences of racism. an exploratory study to develop measures of racism for birth outcome studies.",
+  "abstract": "Stress due to experiences of racism could contribute to African-American women's adverse birth outcomes, but systematic efforts to measure relevant experiences among childbearing women have been limited. We explored the racism experiences of childbearing African-American women to inform subsequent development of improved measures for birth outcomes research.\n\nSix focus groups were conducted with a total of 40 socioeconomically diverse African-American women of childbearing age in four northern California cities.\n\nWomen reported experiencing racism (1) throughout the lifecourse, with childhood experiences seeming particularly salient and to have especially enduring effects (2) directly and vicariously, particularly in relation to their children; (3) in interpersonal, institutional, and internalized forms; (4) across different life domains; (5) with active and passive responses; and (6) with pervasive vigilance, anticipating threats to themselves and their children.\n\nThis exploratory study's findings support the need for measures reflecting the complexity of childbearing African-American women's racism experiences. In addition to discrete, interpersonal experiences across multiple domains and active/passive responses, which have been measured, birth outcomes research should also measure women's childhood experiences and their potentially enduring impact, perceptions of institutionalized racism and internalized negative stereotypes, vicarious experiences related to their children, vigilance in anticipating future racism events, as well as the pervasiveness and chronicity of racism exposure, all of which could be sources of ongoing stress with potentially serious implications for birth outcomes. Measures of racism addressing these issues should be developed and formally tested.",
+  "journal": {
+   "title": "Maternal and child health journal",
+   "iso_abbreviation": "Matern Child Health J"
+  },
+  "authors": [
+   {
+    "last_name": "Nuru-Jeter",
+    "fore_name": "Amani",
+    "initials": "A",
+    "affiliations": [
+     "Divisions of Community Health and Human Development; and Epidemiology, School of Public Health, University of California, 50 University Hall, Berkeley, CA 94720-7360, USA. anjeter@berkeley.edu"
+    ]
+   },
+   {
+    "last_name": "Dominguez",
+    "fore_name": "Tyan Parker",
+    "initials": "TP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Hammond",
+    "fore_name": "Wizdom Powell",
+    "initials": "WP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Leu",
+    "fore_name": "Janxin",
+    "initials": "J",
+    "affiliations": []
+   },
+   {
+    "last_name": "Skaff",
+    "fore_name": "Marilyn",
+    "initials": "M",
+    "affiliations": []
+   },
+   {
+    "last_name": "Egerter",
+    "fore_name": "Susan",
+    "initials": "S",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Braveman",
+    "fore_name": "Paula",
+    "initials": "P",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2008",
+   "month": "05",
+   "day": "08"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adult",
+   "Black or African American",
+   "Child",
+   "Child, Preschool",
+   "Female",
+   "Humans",
+   "Infant",
+   "Infant, Newborn",
+   "Nutritional Support",
+   "Pregnancy",
+   "Pregnancy Complications",
+   "Pregnancy Outcome",
+   "Prejudice",
+   "Program Development",
+   "Research Design",
+   "Socioeconomic Factors",
+   "Stress, Psychological",
+   "Young Adult"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "18300536",
+   "doi": "10.1016/s0027-9684(15)31207-4",
+   "pii": "S0027-9684(15)31207-4"
+  },
+  "title": "Understanding the role of reactions to race-based treatment in breast and cervical cancer screening.",
+  "abstract": "Racial and ethnic disparities in breast and cervical cancer mortality persist despite effective screening methods. We examined associations between race/ethnicity and Pap testing within three years or mammography within two years, controlling for a composite reactions-to-race-based-treatment variable created using data from the 2002 and 2004 Behavioral Risk Factor Surveillance System Reactions to Race module, which assessed respondents experiences based on one's race. We calculated prevalence of Pap testing (for women aged > or = 18) and mammography (for women aged > or = 40) by race, and fit logistic regression models to estimate the strength of association of reactions to race-based treatment with screening and race--before and after controlling for demographics, socioeconomic status, health status, smoking and healthcare access. In the reduced model, black women were more likely (2.03: 95% CI: 1.55-2.65) to be screened for cervical cancer than whites. Reactions to race-based treatment did not impact the odds of black women receiving Pap tests or mammograms. Given current racial and ethnic disparities in breast and cervical cancer mortality, we suggest that more attention needs to be focused on follow-up of abnormal results and state-of-the art treatment for black and Hispanic women.",
+  "journal": {
+   "title": "Journal of the National Medical Association",
+   "iso_abbreviation": "J Natl Med Assoc"
+  },
+  "authors": [
+   {
+    "last_name": "Crawford",
+    "fore_name": "Natalie D",
+    "initials": "ND",
+    "affiliations": [
+     "Department of Epidemiology, Mailman School of Public Health, Columbia University, New York, NY 10032, USA. ndcrawford@gmail.com"
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Richardson",
+    "fore_name": "Lisa C",
+    "initials": "LC",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2008",
+   "month": "Feb"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adolescent",
+   "Adult",
+   "Aged",
+   "Attitude to Health",
+   "Breast Neoplasms",
+   "Ethnicity",
+   "Female",
+   "Health Behavior",
+   "Health Care Surveys",
+   "Health Status",
+   "Health Status Disparities",
+   "Humans",
+   "Mammography",
+   "Mass Screening",
+   "Middle Aged",
+   "Prevalence",
+   "Racial Groups",
+   "Socioeconomic Factors",
+   "Uterine Cervical Neoplasms",
+   "Vaginal Smears"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "14759673",
+   "doi": "10.1016/S0277-9536(03)00317-4",
+   "pii": "S0277953603003174"
+  },
+  "title": "Employment status, social ties, and caregivers' mental health.",
+  "abstract": "The purpose of this study of mid-life and older women was to assess the relation between informal care provision and depressive symptoms, taking into account concurrent demands on women's time (including multiple caregiving roles and employment outside the home) as well as participants' access to potentially supportive social ties. This cross-sectional study included women ages 46-71, free from major disease, who provided complete health and social information in the 1992 Nurses' Health Study follow-up survey (n = 61,383). In logistic regression models predicting depressive symptoms, we examined the interaction between employment outside the home and informal care provision for a disabled or ill spouse or parent. We also investigated level of social ties, measured with the Berkman-Syme Social Network Index, as a potential modifier of the association between informal care provision and depressive symptoms. In all analyses, higher weekly time commitment to informal care for a spouse or parent was associated with increased risk of depressive symptoms. This relationship persisted whether women were not employed outside the home, were employed full-time, or were employed part-time. Higher weekly time commitment to informal care provision was associated with increased risk of depressive symptoms whether women were socially integrated or socially isolated. However, both informal care provision and social ties were potent independent correlates of depressive symptoms. Therefore, women who reported high spousal care time commitment and few social ties experienced a dramatic elevation in depressive symptoms, compared to women with no spousal care responsibilities and many social ties (OR for depressive symptoms=11.8; 95% CI 4.8, 28.9). We observed the same pattern among socially isolated women who cared for their parent(s) many hours per week, but the association was not as strong (OR for depressive symptoms=6.5; 95% CI 3.4, 12.7). In this cross-sectional study, employment status did not seem to confer additional mental health risk or benefit to informal caregivers, while access to extensive social ties was associated with more favorable caregiver health outcomes.",
+  "journal": {
+   "title": "Social science & medicine (1982)",
+   "iso_abbreviation": "Soc Sci Med"
+  },
+  "authors": [
+   {
+    "last_name": "Cannuscio",
+    "fore_name": "Carolyn C",
+    "initials": "CC",
+    "affiliations": [
+     "Merck Research Laboratories, Department of Epidemiology, Blue Bell, PA 19422, USA. carolyn_cannuscio@merck.com"
+    ]
+   },
+   {
+    "last_name": "Colditz",
+    "fore_name": "Graham A",
+    "initials": "GA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Rimm",
+    "fore_name": "Eric B",
+    "initials": "EB",
+    "affiliations": []
+   },
+   {
+    "last_name": "Berkman",
+    "fore_name": "Lisa F",
+    "initials": "LF",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Kawachi",
+    "fore_name": "Ichiro",
+    "initials": "I",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2004",
+   "month": "Apr"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adult",
+   "Aged",
+   "Caregivers",
+   "Cross-Sectional Studies",
+   "Depression",
+   "Employment",
+   "Female",
+   "Humans",
+   "Middle Aged",
+   "Social Support",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "12144989",
+   "pmc": "PMC1447235",
+   "doi": "10.2105/ajph.92.8.1305"
+  },
+  "title": "Reverberations of family illness: a longitudinal assessment of informal caregiving and mental health status in the Nurses' Health Study.",
+  "abstract": ". This study examined the association between caregiving for disabled or ill family members, estimated to occur in more than 22 million US households, and change in mental health.\n\nWe assessed 4-year change in mental health among 37 742 Nurses' Health Study participants with the Medical Outcomes Study Short-Form 36.\n\nWomen who provided 36 or more weekly hours of care to a disabled spouse were almost 6 times more likely than noncaregivers to experience depressive or anxious symptoms (multivariate odds ratio [OR] = 5.6; 95% confidence interval [CI] = 3.8, 8.3). Caring for a disabled or ill parent (>or= 36 weekly hours) was associated with a less dramatic elevation in depressive or anxious symptoms (multivariate OR = 2.0; 95% CI = 0.9, 4.3).\n\nIn this population, caregiving was associated with increased risk of depressive or anxious symptoms.",
+  "journal": {
+   "title": "American journal of public health",
+   "iso_abbreviation": "Am J Public Health"
+  },
+  "authors": [
+   {
+    "last_name": "Cannuscio",
+    "fore_name": "Carolyn C",
+    "initials": "CC",
+    "affiliations": [
+     "Department of Health and Social Behavior, Harvard School of Public Health, Boston, MA 02115, USA."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara",
+    "initials": "C",
+    "affiliations": []
+   },
+   {
+    "last_name": "Kawachi",
+    "fore_name": "Ichiro",
+    "initials": "I",
+    "affiliations": []
+   },
+   {
+    "last_name": "Colditz",
+    "fore_name": "Graham A",
+    "initials": "GA",
+    "affiliations": []
+   },
+   {
+    "last_name": "Berkman",
+    "fore_name": "Lisa",
+    "initials": "L",
+    "affiliations": []
+   },
+   {
+    "last_name": "Rimm",
+    "fore_name": "Eric",
+    "initials": "E",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2002",
+   "month": "Aug"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adult",
+   "Aged",
+   "Anxiety",
+   "Caregivers",
+   "Cohort Studies",
+   "Cost of Illness",
+   "Depressive Disorder",
+   "Family Health",
+   "Female",
+   "Home Nursing",
+   "Humans",
+   "Longitudinal Studies",
+   "Mental Health",
+   "Middle Aged",
+   "Odds Ratio",
+   "Parents",
+   "Sickness Impact Profile",
+   "Spouses",
+   "United States",
+   "Women's Health"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "11913627"
+  },
+  "title": "The impact of racism on health.",
+  "abstract": "",
+  "journal": {
+   "title": "Ethnicity & disease",
+   "iso_abbreviation": "Ethn Dis"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara",
+    "initials": "C",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2002"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Delivery of Health Care",
+   "Female",
+   "Health Behavior",
+   "Health Services Accessibility",
+   "Health Status Indicators",
+   "Humans",
+   "Male",
+   "Outcome Assessment, Health Care",
+   "Poverty",
+   "Prejudice",
+   "Risk Assessment",
+   "Risk Factors",
+   "Socioeconomic Factors",
+   "United States"
+  ],
+  "article_types": [
+   "Comparative Study",
+   "Journal Article"
+  ],
+  "language": "eng"
+ },
+ {
+  "identifiers": {
+   "pmid": "11877563",
+   "doi": "10.1053/ajkd.2002.31388",
+   "pii": "S0272-6386(02)22706-7"
+  },
+  "title": "Microalbuminuria in the US population: third National Health and Nutrition Examination Survey.",
+  "abstract": "Microalbuminuria (MA) is associated with adverse health outcomes in diabetic and hypertensive adults. The prevalence and clinical significance of MA in nondiabetic populations is less clear. The purpose of this study was to generate national estimates of the prevalence of MA in the US population. Untimed urinary albumin concentrations (UACs) and creatinine concentrations were evaluated in a nationally representative sample of 22,244 participants aged 6 years and older. Persons with hematuria and menstruating or pregnant women were excluded from analysis. The percent prevalence of clinical proteinuria (UAC > or = 300 mg/L) was similar for males and females. However, the prevalence of MA (urinary albumin-creatinine ratio [ACR], 30 to 299 mg/g) was significantly lower in males (6.1%) compared with females (9.7%). MA prevalence was greater in children than young adults and increased continuously starting at 40 years of age. MA prevalence was greater in non-Hispanic blacks and Mexican Americans aged 40 to 79 years compared with similar-aged non-Hispanic whites. MA prevalence was 28.8% in persons with previously diagnosed diabetes, 16.0% in those with hypertension, and 5.1% in those without diabetes, hypertension, cardiovascular disease, or elevated serum creatinine levels. In adults aged 40+ years, after excluding persons with clinical proteinuria, albuminuria (defined as ACR > or = 30 mg/g) was independently associated with older age, non-Hispanic black and Mexican American ethnicity, diabetes, hypertension, and elevated serum creatinine concentration. MA is common, even among persons without diabetes or hypertension. Age, sex, race/ethnicity, and concomitant disease contribute to the variability of MA prevalence estimates.",
+  "journal": {
+   "title": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+   "iso_abbreviation": "Am J Kidney Dis"
+  },
+  "authors": [
+   {
+    "last_name": "Jones",
+    "fore_name": "Camille A",
+    "initials": "CA",
+    "affiliations": [
+     "Division of Genetics and Epidemiology, Joslin Diabetes Center, Boston, MA, 02215, USA. camille.jones@joslin.harvard.edu"
+    ]
+   },
+   {
+    "last_name": "Francis",
+    "fore_name": "Mildred E",
+    "initials": "ME",
+    "affiliations": []
+   },
+   {
+    "last_name": "Eberhardt",
+    "fore_name": "Mark S",
+    "initials": "MS",
+    "affiliations": []
+   },
+   {
+    "last_name": "Chavers",
+    "fore_name": "Blanche",
+    "initials": "B",
+    "affiliations": []
+   },
+   {
+    "last_name": "Coresh",
+    "fore_name": "Josef",
+    "initials": "J",
+    "affiliations": []
+   },
+   {
+    "last_name": "Engelgau",
+    "fore_name": "Michael",
+    "initials": "M",
+    "affiliations": []
+   },
+   {
+    "last_name": "Kusek",
+    "fore_name": "John W",
+    "initials": "JW",
+    "affiliations": []
+   },
+   {
+    "last_name": "Byrd-Holt",
+    "fore_name": "Danita",
+    "initials": "D",
+    "affiliations": []
+   },
+   {
+    "last_name": "Narayan",
+    "fore_name": "K M Venkat",
+    "initials": "KM",
+    "affiliations": []
+   },
+   {
+    "last_name": "Herman",
+    "fore_name": "William H",
+    "initials": "WH",
+    "affiliations": []
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Camara P",
+    "initials": "CP",
+    "affiliations": []
+   },
+   {
+    "last_name": "Salive",
+    "fore_name": "Marcel",
+    "initials": "M",
+    "affiliations": []
+   },
+   {
+    "last_name": "Agodoa",
+    "fore_name": "Lawrence Y",
+    "initials": "LY",
+    "affiliations": []
+   }
+  ],
+  "publication_date": {
+   "year": "2002",
+   "month": "Mar"
+  },
+  "keywords": [],
+  "mesh_terms": [
+   "Adolescent",
+   "Adult",
+   "Age Distribution",
+   "Aged",
+   "Albuminuria",
+   "Child",
+   "Creatinine",
+   "Cross-Sectional Studies",
+   "Diabetes Mellitus",
+   "Female",
+   "Humans",
+   "Hypertension",
+   "Male",
+   "Middle Aged",
+   "Population Surveillance",
+   "Prevalence",
+   "Proteinuria",
+   "Risk Factors",
+   "Sampling Studies",
+   "Sex Distribution",
+   "United States"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng"
+ }
+]

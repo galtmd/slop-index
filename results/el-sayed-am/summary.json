@@ -1,0 +1,129 @@
+{
+  "all_authorships": {
+    "papers": 70,
+    "papers_classified": 69,
+    "papers_no_abstract": 1,
+    "tiers": {
+      "A": 47,
+      "B": 10,
+      "C": 12
+    },
+    "subtypes": {
+      "observational": 46,
+      "commentary": 12,
+      "review": 6,
+      "modeling": 4,
+      "trial": 1
+    },
+    "empirical_share": 0.681,
+    "synthesis_share": 0.145,
+    "commentary_share": 0.174,
+    "h_index": 27,
+    "h_empirical": 22,
+    "h_commentary": 4,
+    "slop_index": 0.185,
+    "total_citations": 2011,
+    "citations_to_commentary_share": 0.074,
+    "citations_to_empirical_share": 0.642,
+    "topic_share_any": 0.826,
+    "topic_counts": {
+      "race_ethnicity": 27,
+      "social_determinants": 29,
+      "policy_politics": 22,
+      "equity_justice": 20
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.391,
+      "social_determinants": 0.42,
+      "policy_politics": 0.319,
+      "equity_justice": 0.29
+    },
+    "needs_review": 7,
+    "designs": {
+      "observational": 20,
+      "registry": 14,
+      "commentary": 12,
+      "survey": 8,
+      "review": 6,
+      "modeling": 4,
+      "cohort": 3,
+      "quasi_experimental": 1,
+      "major_trial": 1
+    },
+    "identity_topic_share": 0.507,
+    "penalized_topic_share": 0.696,
+    "rescued_full": 1,
+    "rescued_partial": 5,
+    "mean_paper_value": -1.56,
+    "median_paper_value": -2,
+    "share_positive_value": 0.304,
+    "h_substantive": 18,
+    "total_slop_index": 0.625,
+    "total_slop_index_citation_weighted": 0.513
+  },
+  "lead_authorships": {
+    "papers": 45,
+    "papers_classified": 45,
+    "papers_no_abstract": 0,
+    "tiers": {
+      "A": 27,
+      "B": 8,
+      "C": 10
+    },
+    "subtypes": {
+      "observational": 26,
+      "commentary": 10,
+      "review": 5,
+      "modeling": 3,
+      "trial": 1
+    },
+    "empirical_share": 0.6,
+    "synthesis_share": 0.178,
+    "commentary_share": 0.222,
+    "h_index": 20,
+    "h_empirical": 15,
+    "h_commentary": 4,
+    "slop_index": 0.25,
+    "total_citations": 1083,
+    "citations_to_commentary_share": 0.112,
+    "citations_to_empirical_share": 0.542,
+    "topic_share_any": 0.844,
+    "topic_counts": {
+      "race_ethnicity": 16,
+      "social_determinants": 22,
+      "policy_politics": 14,
+      "equity_justice": 10
+    },
+    "topic_shares": {
+      "race_ethnicity": 0.356,
+      "social_determinants": 0.489,
+      "policy_politics": 0.311,
+      "equity_justice": 0.222
+    },
+    "needs_review": 5,
+    "designs": {
+      "observational": 14,
+      "commentary": 10,
+      "registry": 6,
+      "review": 5,
+      "survey": 4,
+      "modeling": 3,
+      "quasi_experimental": 1,
+      "cohort": 1,
+      "major_trial": 1
+    },
+    "identity_topic_share": 0.489,
+    "penalized_topic_share": 0.689,
+    "rescued_full": 0,
+    "rescued_partial": 3,
+    "mean_paper_value": -2.5,
+    "median_paper_value": -3,
+    "share_positive_value": 0.244,
+    "h_substantive": 10,
+    "total_slop_index": 0.658,
+    "total_slop_index_citation_weighted": 0.573
+  },
+  "slug": "el-sayed-am",
+  "surname_matched": "El-Sayed",
+  "excluded": 3
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slop Index · Limitations</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="./">Slop Index <small>a companion to the h-index</small></a>
+  <nav><a href="./">Score an author</a><a href="methodology.html">Methodology</a><a href="interpretation.html">Interpretation</a><a class="current" href="limitations.html">Limitations</a></nav>
+</div></header>
+<main>
+  <h1>Limitations</h1>
+  <p class="lede">The tool is honest about what it measures only if it is honest about what it cannot. These are the known failure modes, so that nobody has to discover them.</p>
+
+  <h2>Name collisions</h2>
+  <p>PubMed's Full Author Name field is far cleaner than initials, but it is not unique. "Williams, David R" collides with hundreds of people; "El-Sayed AM" by initials returns 260 papers, most of them by an Egyptian pharmacognosist, a New Zealand entomologist, and a physicist. The scoring page lets you untick papers that are not the author's and recomputes instantly; do it before quoting anything. The raw-query mode accepts affiliation filters for the hard cases.</p>
+
+  <h2>What PubMed does not index</h2>
+  <p>Books, book chapters, op-eds, policy reports, working papers, and most economics and social-science journals are absent. This cuts both ways. Economists and sociologists are undercounted. Physicians who write a great deal of commentary in medical journals are counted in full, which overstates their commentary share relative to a complete CV. A Google Scholar h-index will usually be higher than the iCite h-index reported here, because Scholar counts citations from everything.</p>
+
+  <h2>The 2002 line</h2>
+  <p>PubMed began indexing full author names around 2002. Earlier papers carry initials only, which means early careers are clipped unless you accept the collision risk of an initials search. James Watson, for instance, cannot be scored meaningfully: the double-helix era is indexed as "Watson JD," shared with hundreds of others.</p>
+
+  <h2>What the classifier gets wrong</h2>
+  <p>The classifier is rule-based, and rules miss things. It was tuned on seventeen records across bench science, trials, epidemiology, health economics, and sociology; every rule change is in the commit history. Known weak spots: terse economics abstracts with no first-person verbs, older records with no abstract at all (held out as unclassifiable rather than guessed), molecular biology vocabulary outside the current word list, and research letters that carry data despite the "Letter" publication type. Papers it cannot place land in commentary with a low-confidence flag, which errs against the author; the per-paper evidence is visible so the call can be checked.</p>
+
+  <h2>Citation counts</h2>
+  <p>The NIH iCite citation count includes only citations from PubMed-indexed papers, so it undercounts relative to Google Scholar or Web of Science. It is consistent across people, which is what matters for comparison. The Relative Citation Ratio normalizes for field and year against NIH-funded work and is not available for papers less than about a year old; those receive zero impact points rather than a penalty.</p>
+
+  <h2>The editorial position</h2>
+  <p>The identity and social-determinants penalties, and the rescue bars that waive them, are a choice, stated as one. The tool does not claim they are neutral. It claims they are visible: the weights panel exposes every number, the topic-neutral preset removes the penalties entirely, and both scores should be quoted together. The disagreement worth having is about whether cross-sectional surveys of self-reported outcomes with a demographic label as the exposure deserve the same credit as a trial. That is an argument about standards, and the table on the interpretation page is where it should be had.</p>
+
+  <h2>What a score is not</h2>
+  <p>It is not a measure of a person's intelligence, integrity, or worth, and it is not a measure of whether their conclusions are true. It is a measure of how a bibliography was built: what fraction is original data, what it is about, and how much of it clears a stated bar for design, endpoints, and impact. Two people can hold opposite views and score identically, and the research band on the interpretation page contains both.</p>
+  <footer>Open source under the MIT license. Written as Julian Galt, MD.</footer>
+</main>
+</body>
+</html>

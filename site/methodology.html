@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slop Index · Methodology</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="./">Slop Index <small>a companion to the h-index</small></a>
+  <nav><a href="./">Score an author</a><a class="current" href="methodology.html">Methodology</a><a href="interpretation.html">Interpretation</a><a href="limitations.html">Limitations</a></nav>
+</div></header>
+<main>
+  <h1>Methodology</h1>
+  <p class="lede">Three axes, each reported on its own, then a composite. The first is objective, the second is transparent but value-laden, and the third encodes an editorial position and says so. Every rule and every weight is in the open-source code.</p>
+
+  <h2>Axis 1: study type</h2>
+  <p>Each paper is placed in one tier using PubMed publication types, MeSH study-design headings, and the language of the abstract.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Tier</th><th>Meaning</th><th>Subtypes</th></tr></thead>
+    <tbody>
+      <tr><td>A</td><td>Original empirical work</td><td>trial, bench, observational, case report</td></tr>
+      <tr><td>B</td><td>Synthesis or modeling, no primary data</td><td>review, meta-analysis, modeling, methods</td></tr>
+      <tr><td>C</td><td>Commentary</td><td>editorial, letter, perspective, viewpoint, opinion</td></tr>
+      <tr><td>U</td><td>No abstract in PubMed; cannot be classified</td><td>counted in the h-index, held out of the shares</td></tr>
+    </tbody>
+  </table></div>
+  <p>From this come the first headline numbers. The <b>empirical h-index</b> is the h-index recomputed over Tier A papers only. The <b>Slop Index</b> is the gap:</p>
+  <div class="formula">Slop Index = 1 − (h_empirical / h)</div>
+  <p>Someone with h = 30 and h_empirical = 10 has a Slop Index of 0.67: two thirds of their citation impact comes from papers that contain no original data. Everything is computed twice, over all authorships and over lead authorships (first, last, or sole author), because a middle-author slot on a large trial says little about the person being scored.</p>
+  <p>PubMed's publication-type field is thin; most observational research is tagged only "Journal Article." So the classifier leans on MeSH design headings (Cross-Sectional Studies, Cohort Studies, Logistic Models, and so on) and on abstract language that signals data collection and analysis: "we analyzed," "data were collected," sample sizes, p-values, confidence intervals, odds ratios, structured METHODS and RESULTS headings, study-design vocabulary. Each signal adds to an empirical score; a paper lands in Tier A only when there is concrete evidence of original data. Ambiguous papers fall to Tier C with a low-confidence flag.</p>
+
+  <h2>Axis 2: topic</h2>
+  <p>Each paper is flagged if its MeSH terms, keywords, or title fall into any of four buckets: race and ethnicity, social determinants, policy and politics, equity and justice. These are reported as shares. On their own they carry no penalty; a rigorous cross-sectional analysis of racial disparities is still a Tier A paper. The topic axis says what someone writes about; the study-type axis says whether they generate evidence or opine on it.</p>
+
+  <h2>Axis 3: substance</h2>
+  <p>Having data is a floor, not a standard. A cross-sectional survey reporting that one group says it exercises less than another, followed by a paragraph of cultural speculation, passes the Tier A gate and should not get full credit. This axis asks whether the paper adds actionable science. Each paper gets a value built from six signals, every one visible in the per-paper table.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Signal</th><th>What it detects</th><th>Default points</th></tr></thead>
+    <tbody>
+      <tr><td>Design</td><td>major trial, trial, bench, quasi-experimental, cohort, registry, survey, case report, modeling, review, commentary</td><td>+10 down to −3</td></tr>
+      <tr><td>Outcome</td><td>hard endpoints (death, disease, birth weight, biomarkers, complications) vs soft (self-report, attitudes, perceptions, lived experience)</td><td>+2 / −2</td></tr>
+      <tr><td>Exposure</td><td>an intervention, drug, procedure, gene or pathway vs a demographic label as the thing being studied</td><td>+2 / −3</td></tr>
+      <tr><td>Hedge</td><td>conclusion states effect sizes vs "may," "suggests," "warrants further research"</td><td>+1 / −1</td></tr>
+      <tr><td>Impact</td><td>NIH iCite Relative Citation Ratio (1.0 = field average for NIH-funded work)</td><td>+4 down to −2; capped at +1 for commentary</td></tr>
+      <tr><td>Self-similarity</td><td>the same dataset sliced into many near-duplicate papers</td><td>−2 when a paper has 3+ near-twins</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>The topic penalty and the rescue rules</h3>
+  <p>A paper whose subject is an identity topic (race, ethnicity, gender identity, sexual orientation, discrimination, lived experience, equity) or a social-determinants topic (socioeconomic position, neighborhood, housing, food insecurity, insurance status, incarceration, policing) <b>starts at −5</b>, or −8 if it is an opinion piece. That penalty is waived only if the paper clears all three rescue criteria: a design at cohort level or better, a hard endpoint, and a Relative Citation Ratio of at least 1.5. Missing one criterion halves the penalty; missing two keeps it in full. Policy as a subject is not penalized by itself.</p>
+  <p>This is the one editorial choice in the tool, and it is made on purpose. Most of the social-determinants literature establishes, at length, that poverty, bad neighborhoods, and incarceration are associated with worse health, which nobody disputed, and then frames conditions that follow from choices as things that happened to people. Treating that work like identity-topic work means it has to earn credit with design, endpoints, and impact, exactly as any other paper does. A county-level cohort analysis of incarceration and cause-specific mortality with a Relative Citation Ratio above 4 clears the bar; a cross-sectional survey of self-rated health by neighborhood does not.</p>
+
+  <h2>The composite</h2>
+  <p>The per-paper value is clipped to [−12, +16] and mapped to [0, 1]. The Total Slop Index is one minus the mean:</p>
+  <div class="formula">Total Slop Index = 1 − mean( (value − (−12)) / 28 )</div>
+  <p>Zero means every paper is a major trial or a discovery; one means every paper is identity-topic commentary; a bibliography of papers with nothing to recommend and nothing to penalize scores 0.57. A citation-weighted version is reported alongside it, as is a substantive h-index (the h-index over papers with positive value only).</p>
+  <p>The weights panel on the <a href="./">scoring page</a> exposes every number. The topic-neutral preset sets the two topic penalties to zero; the difference between the default score and the neutral score is exactly how much of a verdict is the editorial position rather than the methodology. Anyone quoting a score should quote both.</p>
+
+  <h2>Data sources</h2>
+  <p>Records come from PubMed through the NCBI E-utilities, searched on the Full Author Name field, which is far cleaner than initials. Citation counts and the Relative Citation Ratio come from the NIH iCite API (the NIH Open Citation Collection). Both are free, keyless, and public, which is why the whole tool can run in a browser with no server. The command-line version in the repository does the same from a terminal and caches everything so a run is reproducible.</p>
+  <footer>Open source under the MIT license. Written as Julian Galt, MD.</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+ "COMMENTARY_ON_IDENTITY": -3,
+ "COMMENTARY_RCR_CAP": 1,
+ "CONCRETE_BONUS": 1,
+ "DEMOGRAPHIC_EXPOSURE": -3,
+ "DESIGN_BASE": {
+  "major_trial": 10,
+  "trial": 8,
+  "bench": 8,
+  "quasi_experimental": 6,
+  "cohort": 5,
+  "registry": 3,
+  "survey": 1,
+  "case_report": 1,
+  "observational": 2,
+  "meta-analysis": 3,
+  "modeling": 2,
+  "review": 0,
+  "methods": 1,
+  "commentary": -3
+ },
+ "HARD_OUTCOME_BONUS": 2,
+ "HEDGE_HIGH_PENALTY": -1,
+ "IDENTITY_TOPIC_PENALTY": -5,
+ "MAJOR_TRIAL_N": 500,
+ "MECHANISTIC_BONUS": 2,
+ "POLICY_TOPIC_PENALTY": 0,
+ "RCR_BANDS": [
+  [
+   3.0,
+   4
+  ],
+  [
+   2.0,
+   3
+  ],
+  [
+   1.0,
+   1
+  ],
+  [
+   0.5,
+   0
+  ],
+  [
+   0.0,
+   -2
+  ]
+ ],
+ "RCR_MISSING": 0,
+ "RESCUE_FULL_WAIVER": 1.0,
+ "RESCUE_MIN_DESIGN": 5,
+ "RESCUE_MIN_RCR": 1.5,
+ "RESCUE_NEEDS_HARD": true,
+ "RESCUE_PARTIAL_WAIVER": 0.5,
+ "SELF_SIMILAR_JACCARD": 0.2,
+ "SELF_SIMILAR_MIN": 3,
+ "SELF_SIMILAR_PENALTY": -2,
+ "SOCIAL_TOPIC_PENALTY": -5,
+ "SOFT_OUTCOME_PENALTY": -2,
+ "VALUE_MAX": 16,
+ "VALUE_MIN": -12
+}
