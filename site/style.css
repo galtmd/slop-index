@@ -183,3 +183,14 @@ input[type=checkbox] { accent-color: var(--accent); }
 .intro h1 { margin-top: 0; }
 .intro p { font-family: var(--serif); font-size: 19px; line-height: 1.55; color: var(--ink-2); margin: 0 0 14px; }
 h1.second { font-size: clamp(26px, 3.5vw, 34px); margin-top: 0; }
+
+/* Dial emblem shared by the masthead, introduction, and favicon. */
+header.site .brand { align-items: center; flex-wrap: wrap; }
+.brand-icon { width: 36px; height: 36px; flex-shrink: 0; }
+.brand-icon, .intro-icon { --mark-gold: var(--mixed); }
+.intro-title { display: flex; align-items: center; gap: 16px; }
+.intro-icon { width: clamp(48px, 7vw, 64px); height: auto; flex-shrink: 0; }
+@media (max-width: 480px) {
+  header.site .brand { column-gap: 10px; row-gap: 2px; }
+  header.site .brand small { flex-basis: 100%; margin-left: 46px; }
+}
