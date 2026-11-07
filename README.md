@@ -131,7 +131,7 @@ results/<slug>/
 | Chandra Ford (public health critical race praxis, UCLA) | 72 (2) | 29 / 10 / 31 | 24 | 13 | 0.458 | 0.957 | 0/4 | 0.129 | -6.5 | **0.794** | 0.813 | 0.821 (42) |
 | Lisa Bowleg (intersectionality in public health, GWU) | 99 (4) | 44 / 14 / 37 | 30 | 21 | 0.3 | 0.947 | 0/3 | 0.084 | -7 | **0.8** | 0.747 | 0.809 (68) |
 
-How to read it. The Total Slop Index runs from 0 (every paper a major trial or discovery) to 1 (every paper identity-topic commentary); a bibliography of papers with nothing to recommend and nothing to penalize scores 0.57. The table falls into three bands.
+How to read it. The Total Slop Index runs from 0 (every paper a major trial or discovery) to 1 (every paper identity-topic commentary). The cutoff is 0.57: a bibliography whose average paper has nothing to recommend it and nothing to penalize scores exactly that, so above it the typical paper is net negative and below it the typical paper adds something. The calibration table falls into three bands: below 0.47 is a research record, 0.47 to 0.65 is mixed, above 0.65 is a commentary record.
 
 The top band (0.18 to 0.44) is bench science, trials, and clinical or statistical research with hard endpoints: Karikó, Charpentier, Mega, Oz, Makary, Kulldorff, Gupta. These people disagree about plenty, but their bibliographies are built the same way: mostly original data, low topic penalties, positive median paper value.
 

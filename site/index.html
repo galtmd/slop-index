@@ -45,6 +45,15 @@
     <p class="note">Tier A = original data, B = synthesis or modeling, C = commentary, U = no abstract in PubMed (held out). RCR is the NIH Relative Citation Ratio (1.0 = field average). Value is the per-paper substance score before normalization; see <a href="methodology.html">Methodology</a>.</p>
   </section>
 
+
+  <h2>Reading the number</h2>
+  <div class="scale">
+    <div class="scale-bar"><span class="seg top" style="width:47%"></span><span class="seg mid" style="width:18%"></span><span class="seg low" style="width:35%"></span><i class="tick" style="left:57%" title="0.57: an average paper with nothing to recommend and nothing to penalize"></i></div>
+    <div class="scale-labels"><span>0</span><span style="left:47%">0.47</span><span style="left:57%">0.57</span><span style="left:65%">0.65</span><span style="right:0">1</span></div>
+  </div>
+  <p>Zero is good and one is bad, and the useful cutoff is <b>0.57</b>. That number is not arbitrary: it is the score of a bibliography whose average paper has nothing to recommend it and nothing to penalize, so anything above it means the typical paper is net negative under the weights, and anything below it means the typical paper adds something. The calibration table turns that into three practical bands. <b>Below 0.47 is a research record</b>: bench scientists, trialists, and surgeons and statisticians with hard endpoints land here, from about 0.18 (Karikó) to 0.44. <b>0.47 to 0.65 is mixed</b>: real empirical work with enough penalized topics or commentary to pull the average toward zero; health economists and the senator-elect epidemiologist sit here. <b>Above 0.65 is a commentary record</b>: the median paper is negative, most of the output is penalized topics, a third or more is opinion. Nobody on the calibration table scored above 0.80 or below 0.18, so a result outside that range deserves a second look at the author match before it is believed.</p>
+  <p>Two cautions on any single number. A short record (under about 15 papers) swings wildly on one or two papers, so quote the band rather than the decimal. And always quote the topic-neutral score beside it; the gap between the two is the size of the editorial position, and the reader is entitled to know it.</p>
+
   <h2>Read before quoting a number</h2>
   <p>A score is only as good as the author match and the index behind it. PubMed does not index books, op-eds, policy reports, or most economics and social-science journals, and its full-name indexing begins around 2002, so early careers are clipped. The classifier is rule-based and conservative; a paper it cannot place lands in commentary with a low-confidence flag. The <a href="interpretation.html">interpretation page</a> shows where seventeen named researchers fall, so you can see what 0.3 or 0.7 means before you quote one.</p>
   <footer>Open source under the MIT license. The code, the rules, and every weight are public; disagreement about any of them is the point. Written as Julian Galt, MD.</footer>

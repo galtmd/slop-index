@@ -109,7 +109,7 @@ function render() {
     ["Rescued full / partial", `${a.rescued_full} / ${a.rescued_partial}`],
     ["Median paper value", fmt(a.median_paper_value, 1)],
     ["Lead-author TSI (n)", `${fmt(l.total_slop_index)} (${l.papers})`],
-  ].map(([k, v, hero, cls]) => `<div class="stat ${hero ? "hero" : ""}"><div class="k">${k}</div><div class="v">${v}</div>${cls ? `<span class="${cls}">${band === "top" ? "research band" : band === "mid" ? "mixed band" : "commentary band"}</span>` : ""}</div>`).join("");
+  ].map(([k, v, hero, cls]) => `<div class="stat ${hero ? "hero" : ""}"><div class="k">${k}</div><div class="v">${v}</div>${cls ? `<span class="${cls}">${band === "top" ? "research band (below 0.47)" : band === "mid" ? "mixed band (0.47 to 0.65)" : "commentary band (above 0.65)"}</span>` : ""}</div>`).join("");
   const tbody = rows.map((r) => `<tr class="${r.excluded ? "excluded" : ""}">
     <td><input type="checkbox" data-pmid="${r.pmid}" ${r.excluded ? "" : "checked"} title="uncheck to exclude (name collision)"></td>
     <td>${r.year || ""}</td><td>${r.role}</td>

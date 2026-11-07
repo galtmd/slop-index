@@ -76,3 +76,10 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
 .band { padding: 2px 6px; border-radius: 4px; font-size: 12px; }
 .band.top { background: var(--band-top); } .band.mid { background: var(--band-mid); } .band.low { background: var(--band-low); }
 @media (max-width: 640px) { h1 { font-size: 28px; } header.site nav a { margin-left: 10px; } }
+
+.scale { margin: 10px 0 6px; max-width: 72ch; }
+.scale-bar { position: relative; display: flex; height: 14px; border-radius: 7px; overflow: hidden; border: 1px solid var(--line); }
+.scale-bar .seg.top { background: var(--good); opacity: .7; } .scale-bar .seg.mid { background: #c9a84c; opacity: .7; } .scale-bar .seg.low { background: var(--bad); opacity: .7; }
+.scale-bar .tick { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--ink); }
+.scale-labels { position: relative; height: 18px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.scale-labels span { position: absolute; top: 2px; transform: translateX(-50%); } .scale-labels span:first-child { transform: none; left: 0; } .scale-labels span:last-child { transform: none; }
