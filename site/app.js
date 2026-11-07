@@ -112,8 +112,8 @@ function verdictHtml(a, l) {
   const who = state.surname ? esc(state.surname) : "This author";
   const emp = a.papers ? Math.round(100 * a.tiers.A / Math.max(1, a.tiers.A + a.tiers.B + a.tiers.C)) : 0;
   const pen = Math.round(100 * (a.penalized_topic_share ?? 0));
-  const opening = band === "top" ? `<b>${who}'s record is built on original data.</b>` : band === "mid" ? `<b>${who}'s record is mixed.</b>` : `<b>${who}'s record is mostly commentary and penalized topics.</b>`;
-  return `${opening} ${a.tiers.A} of ${a.tiers.A + a.tiers.B + a.tiers.C} classified papers (${emp}%) report original data, ${pen}% fall under a penalized topic, and ${a.rescued_full} of those clear every rescue bar. The h-index is ${a.h_index}; over empirical papers alone it is ${a.h_empirical}. ${state.neutral == null ? "" : `With the topic penalties switched off the score would be <b>${fmt(state.neutral)}</b>; the gap of ${fmt(Math.abs(a.total_slop_index - state.neutral))} is the size of the editorial position.`}`;
+  const opening = band === "top" ? `<b>${who}'s record is built on original data.</b>` : band === "mid" ? `<b>${who}'s record is mixed.</b>` : `<b>${who}'s record is mostly commentary and highly politicized topics.</b>`;
+  return `${opening} ${a.tiers.A} of ${a.tiers.A + a.tiers.B + a.tiers.C} classified papers (${emp}%) report original data, ${pen}% fall under highly politicized topics and political agenda, and ${a.rescued_full} of those clear every rescue bar. The h-index is ${a.h_index}; over empirical papers alone it is ${a.h_empirical}. ${state.neutral == null ? "" : `With the topic penalties switched off the score would be <b>${fmt(state.neutral)}</b>; the gap of ${fmt(Math.abs(a.total_slop_index - state.neutral))} is the size of the editorial position.`}`;
 }
 
 function render() {
@@ -130,7 +130,7 @@ function render() {
     ["Slop Index (axis 1)", fmt(a.slop_index)],
     ["h-index / empirical h", `${a.h_index} / ${a.h_empirical}`],
     ["Papers A / B / C", `${a.tiers.A} / ${a.tiers.B} / ${a.tiers.C}`],
-    ["Penalized-topic share", fmt(a.penalized_topic_share)],
+    ["Politicized-topic share", fmt(a.penalized_topic_share)],
     ["Rescued full / partial", `${a.rescued_full} / ${a.rescued_partial}`],
     ["Median paper value", fmt(a.median_paper_value, 1)],
     ["Lead-author TSI (n)", `${fmt(l.total_slop_index)} (${l.papers})`],

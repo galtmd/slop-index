@@ -43,7 +43,7 @@
   <div class="tablewrap"><table>
     <thead><tr><th>Signal</th><th>What it detects</th><th>Default points</th></tr></thead>
     <tbody>
-      <tr><td>Design</td><td>major trial, trial, bench, quasi-experimental, cohort, registry, survey, case report, modeling, review, commentary, qualitative</td><td>+10 down to −6</td></tr>
+      <tr><td>Design</td><td>major trial, trial, bench, quasi-experimental, cohort, registry, survey, case report, modeling, review, commentary</td><td>+10 down to −3</td></tr>
       <tr><td>Outcome</td><td>hard endpoints (death, disease, birth weight, biomarkers, complications) vs soft (self-report, attitudes, perceptions, lived experience)</td><td>+2 / −2</td></tr>
       <tr><td>Exposure</td><td>an intervention, drug, procedure, gene or pathway vs a demographic label as the thing being studied</td><td>+2 / −3</td></tr>
       <tr><td>Hedge</td><td>conclusion states effect sizes vs "may," "suggests," "warrants further research"</td><td>+1 / −1</td></tr>
@@ -53,34 +53,14 @@
   </table></div>
 
   <h3>The topic penalty and the rescue rules</h3>
-  <p>A paper whose subject falls in a penalized topic <b>starts at −5</b>, or −8 if it is an opinion piece. That penalty is waived only if the paper clears all three rescue criteria: a design at cohort level or better, a hard endpoint, and a Relative Citation Ratio of at least 1.5. Missing one criterion halves the penalty; missing two keeps it in full. Policy as a subject is not penalized by itself.</p>
-  <p>The penalized topics are the ones whose literature, taken as a whole, meets three tests: the modal design is a survey, an ecological comparison, or a model with assumed inputs; the conclusion is a policy prescription rather than a finding; and the field has a preferred answer before the study starts, so that a paper reaching the other conclusion would struggle to be published. The penalty is defined by the topic, not by the paper's conclusion, and it falls on everyone who writes about the topic without a real design. The current list has eleven buckets, each detected from MeSH headings, title, and keywords, and each reported separately in the per-paper table.</p>
-  <div class="tablewrap"><table>
-    <thead><tr><th>Bucket</th><th>What it catches</th></tr></thead>
-    <tbody>
-      <tr><td>Identity</td><td>race and ethnicity, gender identity, sexual orientation, discrimination, lived experience, equity and justice framing, diversity and inclusion, implicit bias</td></tr>
-      <tr><td>Social determinants</td><td>socioeconomic position, neighborhood, housing, food insecurity, insurance status, incarceration, policing, adverse childhood experiences</td></tr>
-      <tr><td>Climate</td><td>climate change and health, heat attribution, planetary health, carbon footprint of care, environmental justice</td></tr>
-      <tr><td>Firearms</td><td>gun violence as a public health problem, firearm law comparisons, mass shootings</td></tr>
-      <tr><td>Paternalism</td><td>sugar and soda taxes, minimum pricing, menu labeling, advertising bans, "commercial determinants," nudges</td></tr>
-      <tr><td>Misinformation</td><td>misinformation and disinformation, vaccine hesitancy, trust in science, social media exposure, health literacy</td></tr>
-      <tr><td>Reproductive policy</td><td>abortion, Dobbs, reproductive justice, contraception access</td></tr>
-      <tr><td>Immigration</td><td>immigration status or enforcement as the exposure, refugees, asylum, deportation</td></tr>
-      <tr><td>Weight stigma</td><td>weight bias, fat acceptance, Health at Every Size, body positivity</td></tr>
-      <tr><td>Drug policy</td><td>harm reduction, safe supply, supervised consumption, decriminalization</td></tr>
-      <tr><td>Algorithmic bias</td><td>fairness audits of clinical algorithms and models, race-corrected equations</td></tr>
-    </tbody>
-  </table></div>
-  <p>Two areas were considered and left off. Physician burnout and wellness is survey-heavy but not agenda-driven in this sense. COVID policy (lockdowns, masks, school closures) had two preferred answers depending on the journal, and a topic penalty would fall on both sides equally, which is a fair outcome but not an informative one.</p>
+  <p>A paper whose subject is an identity topic (race, ethnicity, gender identity, sexual orientation, discrimination, lived experience, equity) or a social-determinants topic (socioeconomic position, neighborhood, housing, food insecurity, insurance status, incarceration, policing) <b>starts at −5</b>, or −8 if it is an opinion piece. That penalty is waived only if the paper clears all three rescue criteria: a design at cohort level or better, a hard endpoint, and a Relative Citation Ratio of at least 1.5. Missing one criterion halves the penalty; missing two keeps it in full. Policy as a subject is not penalized by itself.</p>
   <p>This is the one editorial choice in the tool, and it is made on purpose. Most of the social-determinants literature establishes, at length, that poverty, bad neighborhoods, and incarceration are associated with worse health, which nobody disputed, and then frames conditions that follow from choices as things that happened to people. Treating that work like identity-topic work means it has to earn credit with design, endpoints, and impact, exactly as any other paper does. A county-level cohort analysis of incarceration and cause-specific mortality with a Relative Citation Ratio above 4 clears the bar; a cross-sectional survey of self-rated health by neighborhood does not.</p>
-  <h3>Qualitative and participatory designs</h3>
-  <p>Interview studies, focus groups, photovoice, community-based participatory research, and work framed through "critical" or "decolonizing" theory are placed in a <b>qualitative</b> design tier that is the floor of the scale, below commentary. The design base is −6, a further unrescuable −6 is added, no outcome or exposure modifier applies, and citations are capped as they are for an opinion piece. That puts the paper at the minimum value before any topic penalty. The reasoning is that these designs measure no endpoint and test no hypothesis; they are slop by construction rather than by subject, and no amount of citation can rescue a method that produces no finding. This is a methodology rule rather than a topic rule: it applies regardless of subject.</p>
 
   <h2>The composite</h2>
   <p>The per-paper value is clipped to [−12, +16] and mapped to [0, 1]. The Total Slop Index is one minus the mean:</p>
   <div class="formula">Total Slop Index = 1 − mean( (value − (−12)) / 28 )</div>
   <p>Zero means every paper is a major trial or a discovery; one means every paper is identity-topic commentary; a bibliography of papers with nothing to recommend and nothing to penalize scores 0.57. A citation-weighted version is reported alongside it, as is a substantive h-index (the h-index over papers with positive value only).</p>
-  <p>The weights panel on the <a href="./">scoring page</a> exposes every number. The topic-neutral preset sets every topic penalty to zero; the difference between the default score and the neutral score is exactly how much of a verdict is the editorial position rather than the methodology. Anyone quoting a score should quote both.</p>
+  <p>The weights panel on the <a href="./">scoring page</a> exposes every number. The topic-neutral preset sets the two topic penalties to zero; the difference between the default score and the neutral score is exactly how much of a verdict is the editorial position rather than the methodology. Anyone quoting a score should quote both.</p>
 
   <h2>Data sources</h2>
   <p>Records come from PubMed through the NCBI E-utilities, searched on the Full Author Name field, which is far cleaner than initials. Citation counts and the Relative Citation Ratio come from the NIH iCite API (the NIH Open Citation Collection). Both are free, keyless, and public, which is why the whole tool can run in a browser with no server. The command-line version in the repository does the same from a terminal and caches everything so a run is reproducible.</p>
