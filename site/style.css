@@ -24,6 +24,7 @@
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   --serif: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --display: "Archivo", "Inter", system-ui, Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -52,7 +53,7 @@ code { font-family: var(--mono); font-size: .9em; background: var(--surface-2); 
 header.site { border-bottom: 1px solid var(--line); background: var(--surface); }
 header.site .wrap { max-width: 1080px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 18px 20px; }
 header.site .brand { display: flex; align-items: baseline; gap: 12px; color: var(--ink); text-decoration: none; }
-header.site .brand .mark { font-family: var(--serif); font-weight: 700; font-size: 22px; letter-spacing: .08em; text-transform: uppercase; }
+header.site .brand .mark { font-family: var(--display); font-weight: 700; font-size: 22px; letter-spacing: .08em; text-transform: uppercase; }
 header.site .brand small { color: var(--muted); font-family: var(--serif); font-style: italic; font-size: 15px; }
 header.site nav { display: flex; gap: 4px; flex-wrap: wrap; }
 header.site nav a { padding: 6px 10px; font-size: 14px; color: var(--muted); text-decoration: none; border-radius: 6px; }
@@ -61,9 +62,9 @@ header.site nav a.current { color: var(--ink); font-weight: 500; box-shadow: ins
 
 /* ---------- layout and type ---------- */
 main { max-width: 1080px; margin: 0 auto; padding: 36px 20px 72px; }
-h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(32px, 4.5vw, 46px); line-height: 1.1; margin: 8px 0 14px; letter-spacing: -0.015em; }
-h2 { font-family: var(--serif); font-weight: 600; font-size: 27px; line-height: 1.2; margin: 44px 0 12px; letter-spacing: -0.01em; }
-h3 { font-family: var(--serif); font-weight: 600; font-size: 20px; margin: 28px 0 8px; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(32px, 4.5vw, 46px); line-height: 1.1; margin: 8px 0 14px; letter-spacing: -0.015em; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 27px; line-height: 1.2; margin: 44px 0 12px; letter-spacing: -0.01em; }
+h3 { font-family: var(--display); font-weight: 600; font-size: 20px; margin: 28px 0 8px; }
 p, li { max-width: none; }
 .lede { font-family: var(--serif); font-size: 20px; line-height: 1.5; color: var(--ink-2); margin: 0 0 24px; }
 .kicker { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
@@ -162,7 +163,7 @@ input[type=checkbox] { accent-color: var(--accent); }
 .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 18px 0; }
 .legend .box { border-radius: 12px; padding: 14px 16px; border: 1px solid var(--line); }
 .legend .box.top { background: var(--research-bg); } .legend .box.mid { background: var(--mixed-bg); } .legend .box.low { background: var(--commentary-bg); }
-.legend .box .t { font-family: var(--serif); font-weight: 600; font-size: 18px; }
+.legend .box .t { font-family: var(--display); font-weight: 600; font-size: 18px; }
 .legend .box.top .t { color: var(--research); } .legend .box.mid .t { color: var(--mixed); } .legend .box.low .t { color: var(--commentary); }
 .legend .box .r { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .legend .box p { font-size: 14px; margin: 6px 0 0; font-family: var(--sans); color: var(--ink-2); }
