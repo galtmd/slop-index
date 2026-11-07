@@ -105,3 +105,18 @@ class SubstanceTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_agenda_buckets_and_qualitative_design():
+    from slop_index.substance import agenda_of, design_of
+    gun = {"title": "State firearm laws and firearm mortality: an ecological analysis", "abstract": "", "mesh_terms": [], "keywords": []}
+    assert "firearms" in agenda_of(gun)
+    tax = {"title": "Projected health impact of a sugar-sweetened beverage tax", "abstract": "", "mesh_terms": [], "keywords": []}
+    assert "paternalism" in agenda_of(tax)
+    bench = {"title": "Machine learning predicts protein folding from sequence", "abstract": "We trained a model. Accuracy was high.",
+             "mesh_terms": ["Machine Learning", "Algorithms"], "keywords": []}
+    assert agenda_of(bench) == []   # broad MeSH alone must not trigger
+    qual = {"title": "Lived experiences of discrimination: a photovoice study", "mesh_terms": ["Qualitative Research"],
+            "article_types": ["Journal Article"],
+            "abstract": "We conducted semi-structured interviews and focus groups with 24 participants. Thematic analysis identified three themes."}
+    assert design_of("A", "observational", qual) == "qualitative"

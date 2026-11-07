@@ -139,6 +139,7 @@ def run(args: argparse.Namespace) -> int:
             "self_similar": sub.self_similar,
             "identity": sub.identity,
             "social": sub.social,
+            "agenda": sub.agenda,
             "topic_penalty": sub.topic_penalty,
             "rescued": sub.rescued,
             "value": sub.value,
@@ -159,7 +160,7 @@ def run(args: argparse.Namespace) -> int:
     # ---- write
     fields = ["pmid", "year", "role", "n_authors", "journal", "title", "pubtypes", "tier", "subtype",
               "confidence", "needs_review", "topics", "citation_count", "rcr",
-              "design", "outcome", "exposure", "hedge", "self_similar", "identity", "social", "topic_penalty",
+              "design", "outcome", "exposure", "hedge", "self_similar", "identity", "social", "agenda", "topic_penalty",
               "rescued", "value", "value_norm", "components", "excluded",
               "exclude_reason", "evidence", "doi"]
     with (rdir / "papers.csv").open("w", newline="", encoding="utf-8") as f:
@@ -186,7 +187,7 @@ def print_summary(s: dict) -> None:
               f"Slop Index = {b['slop_index']}")
         print(f"  citations: total {b['total_citations']}, share to commentary {b['citations_to_commentary_share']}")
         print(f"  topic share (any flag): {b['topic_share_any']}   {b['topic_shares']}")
-        print(f"  identity-topic share {b['identity_topic_share']}  penalized (identity or SDOH) share {b['penalized_topic_share']}  rescued full/partial {b['rescued_full']}/{b['rescued_partial']}")
+        print(f"  identity-topic share {b['identity_topic_share']}  penalized-topic share {b['penalized_topic_share']}  rescued full/partial {b['rescued_full']}/{b['rescued_partial']}")
         print(f"  mean paper value {b['mean_paper_value']}   share with positive value {b['share_positive_value']}   h_substantive = {b['h_substantive']}")
         print(f"  TOTAL SLOP INDEX = {b['total_slop_index']}   (citation-weighted {b['total_slop_index_citation_weighted']})")
         if b["needs_review"]:
@@ -211,7 +212,7 @@ def render_report(slug: str, rows: list[dict], s: dict) -> str:
             f"| Topic shares | {', '.join(f'{k} {v}' for k, v in b['topic_shares'].items())} |\n"
             f"| Flagged for manual review | {b['needs_review']} |\n"
             f"| Identity-topic share | {b['identity_topic_share']} |\n"
-            f"| Penalized-topic share (identity or SDOH) | {b['penalized_topic_share']} (rescued full {b['rescued_full']}, partial {b['rescued_partial']}) |\n"
+            f"| Penalized-topic share (identity, SDOH, or agenda bucket) | {b['penalized_topic_share']} (rescued full {b['rescued_full']}, partial {b['rescued_partial']}) |\n"
             f"| Designs | {', '.join(f'{k} {v}' for k, v in b['designs'].items())} |\n"
             f"| Mean paper value / share positive | {b['mean_paper_value']} / {b['share_positive_value']} |\n"
             f"| Substantive h-index (positive-value papers) | {b['h_substantive']} |\n"
@@ -227,7 +228,7 @@ def render_report(slug: str, rows: list[dict], s: dict) -> str:
         if r["excluded"]:
             continue
         flag = "*" if r["needs_review"] else ""
-        tag = "identity" if r['identity'] else ("sdoh" if r['social'] else "")
+        tag = "identity" if r['identity'] else ("sdoh" if r['social'] else (r.get('agenda') or ""))
         ident = (tag + (f" ({r['rescued']})" if r['rescued'] in ("full", "partial") else "")) if tag else ""
         lines.append(f"| {r['year']} | {r['role']} | {r['tier']}{flag} | {r['design']} | {r['outcome']} | {r['exposure']} | "
                      f"{r['rcr']} | {ident} | {r['value']} | {r['title'][:80]} | {r['journal']} |")
@@ -292,7 +293,7 @@ def compare(args: argparse.Namespace) -> int:
     rows.sort(key=lambda r: (r[1]["total_slop_index"] is None, r[1]["total_slop_index"] or 0))
     lines = ["# Comparison\n",
              "PubMed-indexed papers only; citations from NIH iCite. Sorted by Total Slop Index, best first. "
-             "Lead = first, last, or sole author. Penalized = identity or social-determinants topic. "
+             "Lead = first, last, or sole author. Penalized = identity, social-determinants, or agenda-bucket topic. "
              "\"No abstract\" papers count toward the h-index but not toward tier shares or the composite.\n",
              "| Author | Papers (no abstract) | A / B / C | h | hₑ | Slop Index | Penalized share | Rescued full/partial | Positive-value share | Median value | **Total Slop Index** | Cite-weighted | Lead TSI (n) |",
              "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]

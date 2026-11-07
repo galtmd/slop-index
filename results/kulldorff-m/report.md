@@ -17,11 +17,11 @@
 | Topic shares | race_ethnicity 0.029, policy_politics 0.094, social_determinants 0.035, equity_justice 0.012 |
 | Flagged for manual review | 34 |
 | Identity-topic share | 0.041 |
-| Penalized-topic share (identity or SDOH) | 0.059 (rescued full 0, partial 1) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.065 (rescued full 0, partial 2) |
 | Designs | observational 42, registry 37, cohort 29, commentary 24, methods 10, quasi_experimental 9, trial 6, modeling 5, survey 4, review 2, major_trial 1, bench 1 |
-| Mean paper value / share positive | 4.06 / 0.8 |
+| Mean paper value / share positive | 4.04 / 0.8 |
 | Substantive h-index (positive-value papers) | 48 |
-| **TOTAL SLOP INDEX** (composite) | **0.427** (citation-weighted 0.34) |
+| **TOTAL SLOP INDEX** (composite) | **0.428** (citation-weighted 0.342) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -41,11 +41,11 @@
 | Topic shares | policy_politics 0.113, social_determinants 0.057, race_ethnicity 0.038, equity_justice 0.019 |
 | Flagged for manual review | 14 |
 | Identity-topic share | 0.057 |
-| Penalized-topic share (identity or SDOH) | 0.094 (rescued full 0, partial 0) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.113 (rescued full 0, partial 1) |
 | Designs | commentary 15, registry 9, cohort 8, observational 7, methods 5, modeling 4, quasi_experimental 4, trial 1 |
-| Mean paper value / share positive | 1.83 / 0.642 |
+| Mean paper value / share positive | 1.78 / 0.642 |
 | Substantive h-index (positive-value papers) | 19 |
-| **TOTAL SLOP INDEX** (composite) | **0.507** (citation-weighted 0.389) |
+| **TOTAL SLOP INDEX** (composite) | **0.508** (citation-weighted 0.394) |
 
 
 ### Papers
@@ -154,7 +154,7 @@
 | 2014 | last | A | registry | hard | mechanistic | 0.63 |  | 7.0 | Minimizing signal detection time in postmarket sequential analysis: balancing po | Pharmacoepidemiol Drug Saf |
 | 2014 | last | A | cohort | unclear | other | 0.45 |  | 1.0 | Maximum linkage space-time permutation scan statistics for disease outbreak dete | Int J Health Geogr |
 | 2015 | middle | C* | commentary | unclear | mechanistic | 2.15 |  | -2.0 | Evaluation overview for the Massachusetts Childhood Obesity Research Demonstrati | Child Obes |
-| 2015 | last | A | cohort | soft | mechanistic | 6.59 |  | 10.0 | Geographic clusters in underimmunization and vaccine refusal. | Pediatrics |
+| 2015 | last | A | cohort | soft | mechanistic | 6.59 | misinformation (partial) | 7.5 | Geographic clusters in underimmunization and vaccine refusal. | Pediatrics |
 | 2015 | first | C | commentary | unclear | other | 0.49 |  | -5.0 | Comments on 'a critical look at prospective surveillance using a scan statistic' | Stat Med |
 | 2015 | middle | A | registry | hard | mechanistic | 0.65 |  | 8.0 | Febrile Seizures After 2010-2011 Trivalent Inactivated Influenza Vaccine. | Pediatrics |
 | 2015 | middle | A | quasi_experimental | unclear | other | 0.22 |  | 5.0 | Quantifying the impact of time-varying baseline risk adjustment in the self-cont | Pharmacoepidemiol Drug Saf |

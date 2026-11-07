@@ -17,7 +17,7 @@
 | Topic shares | equity_justice 0.032 |
 | Flagged for manual review | 3 |
 | Identity-topic share | 0.032 |
-| Penalized-topic share (identity or SDOH) | 0.032 (rescued full 0, partial 1) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.032 (rescued full 0, partial 1) |
 | Designs | bench 49, review 5, commentary 5, trial 2, observational 1 |
 | Mean paper value / share positive | 11.01 / 0.919 |
 | Substantive h-index (positive-value papers) | 44 |
@@ -41,7 +41,7 @@
 | Topic shares |  |
 | Flagged for manual review | 0 |
 | Identity-topic share | 0.0 |
-| Penalized-topic share (identity or SDOH) | 0.0 (rescued full 0, partial 0) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.0 (rescued full 0, partial 0) |
 | Designs | bench 18, review 4, commentary 3 |
 | Mean paper value / share positive | 10.0 / 0.88 |
 | Substantive h-index (positive-value papers) | 19 |

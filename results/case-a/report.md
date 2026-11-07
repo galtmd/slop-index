@@ -17,7 +17,7 @@
 | Topic shares | social_determinants 0.538, policy_politics 0.192, race_ethnicity 0.115 |
 | Flagged for manual review | 12 |
 | Identity-topic share | 0.115 |
-| Penalized-topic share (identity or SDOH) | 0.654 (rescued full 1, partial 6) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.654 (rescued full 1, partial 6) |
 | Designs | observational 8, commentary 8, cohort 4, survey 3, review 2, quasi_experimental 1 |
 | Mean paper value / share positive | -0.27 / 0.577 |
 | Substantive h-index (positive-value papers) | 13 |
@@ -41,7 +41,7 @@
 | Topic shares | social_determinants 0.56, policy_politics 0.2, race_ethnicity 0.12 |
 | Flagged for manual review | 11 |
 | Identity-topic share | 0.12 |
-| Penalized-topic share (identity or SDOH) | 0.68 (rescued full 1, partial 6) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.68 (rescued full 1, partial 6) |
 | Designs | observational 8, commentary 7, cohort 4, survey 3, review 2, quasi_experimental 1 |
 | Mean paper value / share positive | -0.08 / 0.6 |
 | Substantive h-index (positive-value papers) | 13 |

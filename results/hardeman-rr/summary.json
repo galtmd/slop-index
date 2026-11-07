@@ -42,25 +42,32 @@
     "needs_review": 28,
     "designs": {
       "commentary": 33,
-      "survey": 20,
       "cohort": 16,
+      "survey": 14,
       "registry": 11,
+      "qualitative": 7,
       "review": 6,
-      "observational": 6,
+      "observational": 5,
       "modeling": 3,
       "bench": 2,
       "case_report": 1
     },
     "identity_topic_share": 0.857,
-    "penalized_topic_share": 0.918,
+    "penalized_topic_share": 0.929,
+    "agenda_topic_counts": {
+      "weight_stigma": 4,
+      "reproductive_policy": 3,
+      "immigration": 1,
+      "climate": 1
+    },
     "rescued_full": 1,
     "rescued_partial": 20,
-    "mean_paper_value": -3.52,
-    "median_paper_value": -3.8,
+    "mean_paper_value": -3.7,
+    "median_paper_value": -4.0,
     "share_positive_value": 0.296,
     "h_substantive": 23,
-    "total_slop_index": 0.695,
-    "total_slop_index_citation_weighted": 0.608
+    "total_slop_index": 0.702,
+    "total_slop_index_citation_weighted": 0.612
   },
   "lead_authorships": {
     "papers": 46,
@@ -105,25 +112,30 @@
     "needs_review": 12,
     "designs": {
       "commentary": 17,
-      "survey": 9,
+      "qualitative": 5,
+      "survey": 5,
       "registry": 4,
       "cohort": 3,
-      "observational": 3,
       "review": 2,
+      "observational": 2,
       "modeling": 1,
       "case_report": 1,
       "bench": 1
     },
     "identity_topic_share": 0.902,
     "penalized_topic_share": 0.951,
+    "agenda_topic_counts": {
+      "climate": 1,
+      "reproductive_policy": 1
+    },
     "rescued_full": 0,
     "rescued_partial": 7,
-    "mean_paper_value": -5.11,
+    "mean_paper_value": -5.26,
     "median_paper_value": -6,
     "share_positive_value": 0.22,
     "h_substantive": 8,
-    "total_slop_index": 0.751,
-    "total_slop_index_citation_weighted": 0.77
+    "total_slop_index": 0.756,
+    "total_slop_index_citation_weighted": 0.772
   },
   "slug": "hardeman-rr",
   "surname_matched": "Hardeman",

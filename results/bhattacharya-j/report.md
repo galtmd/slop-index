@@ -17,11 +17,11 @@
 | Topic shares | race_ethnicity 0.07, social_determinants 0.219, policy_politics 0.461, equity_justice 0.07 |
 | Flagged for manual review | 31 |
 | Identity-topic share | 0.094 |
-| Penalized-topic share (identity or SDOH) | 0.266 (rescued full 5, partial 7) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.281 (rescued full 6, partial 8) |
 | Designs | observational 34, commentary 27, cohort 20, registry 16, quasi_experimental 16, survey 12, modeling 1, major_trial 1, meta-analysis 1 |
-| Mean paper value / share positive | 2.76 / 0.648 |
+| Mean paper value / share positive | 2.74 / 0.648 |
 | Substantive h-index (positive-value papers) | 33 |
-| **TOTAL SLOP INDEX** (composite) | **0.472** (citation-weighted 0.34) |
+| **TOTAL SLOP INDEX** (composite) | **0.473** (citation-weighted 0.341) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -41,11 +41,11 @@
 | Topic shares | policy_politics 0.529, social_determinants 0.255, race_ethnicity 0.039, equity_justice 0.059 |
 | Flagged for manual review | 17 |
 | Identity-topic share | 0.059 |
-| Penalized-topic share (identity or SDOH) | 0.275 (rescued full 0, partial 3) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.314 (rescued full 1, partial 4) |
 | Designs | observational 16, commentary 13, cohort 7, survey 6, quasi_experimental 4, registry 3, modeling 1, meta-analysis 1 |
-| Mean paper value / share positive | 1.7 / 0.588 |
+| Mean paper value / share positive | 1.65 / 0.588 |
 | Substantive h-index (positive-value papers) | 18 |
-| **TOTAL SLOP INDEX** (composite) | **0.51** (citation-weighted 0.375) |
+| **TOTAL SLOP INDEX** (composite) | **0.511** (citation-weighted 0.377) |
 
 
 ### Papers
@@ -79,7 +79,7 @@
 | 2012 | middle | A | cohort | hard | other | 3.76 |  | 12.0 | HIV development assistance and adult mortality in Africa. | JAMA |
 | 2012 | middle | A* | registry | unclear | mechanistic | 0.38 |  | 3.0 | An economic analysis of conservative management versus active treatment for men  | J Natl Cancer Inst Monogr |
 | 2013 | last | A | observational | hard | other | 1.24 | identity | 1 | Variation in nephrologist visits to patients on hemodialysis across dialysis fac | Clin J Am Soc Nephrol |
-| 2013 | last | A* | cohort | hard | mechanistic | 2.23 |  | 11.0 | Nutritional policy changes in the supplemental nutrition assistance program: a m | Med Decis Making |
+| 2013 | last | A* | cohort | hard | mechanistic | 2.23 | paternalism (full) | 11.0 | Nutritional policy changes in the supplemental nutrition assistance program: a m | Med Decis Making |
 | 2013 | last | A* | survey | unclear | mechanistic | 0.17 |  | 1.0 | Are prescription drug insurance choices consistent with expected utility theory? | Health Psychol |
 | 2013 | last | A* | observational | unclear | other | 0.0 | sdoh | -5 | Small increases to employer premiums could shift millions of people to the excha | Health Aff (Millwood) |
 | 2013 | middle | A | observational | hard | mechanistic | 2.48 |  | 10.0 | Cleft palate surgery: an evaluation of length of stay, complications, and costs  | Cleft Palate Craniofac J |
@@ -89,7 +89,7 @@
 | 2014 | last | A | observational | hard | other | 1.35 |  | 6.0 | The relationship of health aid to population health improvements. | JAMA Intern Med |
 | 2014 | last | A | quasi_experimental | hard | other | 3.33 |  | 11.0 | Physician visits and 30-day hospital readmissions in patients receiving hemodial | J Am Soc Nephrol |
 | 2014 | last | A | cohort | hard | mechanistic | 1.28 |  | 11.0 | Utilization trends of anti-TNF agents and health outcomes in adults and children | Inflamm Bowel Dis |
-| 2014 | last | A | observational | hard | mechanistic | 2.35 |  | 9.0 | Ending SNAP subsidies for sugar-sweetened beverages could reduce obesity and typ | Health Aff (Millwood) |
+| 2014 | last | A | observational | hard | mechanistic | 2.35 | paternalism (partial) | 6.5 | Ending SNAP subsidies for sugar-sweetened beverages could reduce obesity and typ | Health Aff (Millwood) |
 | 2014 | middle | A | observational | hard | other | 0.61 |  | 4.0 | Seasonal patterns in human A (H5N1) virus infection: analysis of global cases. | PLoS One |
 | 2014 | middle | A | observational | unclear | mechanistic | 1.28 | sdoh | 1 | Differences in healthcare expenditures for inflammatory bowel disease by insuran | PeerJ |
 | 2014 | last | A | quasi_experimental | hard | other | 0.47 |  | 6.0 | Exposing physicians to reduced residency work hours did not adversely affect pat | Health Aff (Millwood) |

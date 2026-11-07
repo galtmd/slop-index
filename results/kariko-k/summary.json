@@ -42,6 +42,9 @@
     },
     "identity_topic_share": 0.032,
     "penalized_topic_share": 0.032,
+    "agenda_topic_counts": {
+      "misinformation": 1
+    },
     "rescued_full": 0,
     "rescued_partial": 1,
     "mean_paper_value": 11.01,
@@ -86,6 +89,7 @@
     },
     "identity_topic_share": 0.0,
     "penalized_topic_share": 0.0,
+    "agenda_topic_counts": {},
     "rescued_full": 0,
     "rescued_partial": 0,
     "mean_paper_value": 10.0,

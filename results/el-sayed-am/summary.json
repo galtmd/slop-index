@@ -52,6 +52,11 @@
     },
     "identity_topic_share": 0.507,
     "penalized_topic_share": 0.696,
+    "agenda_topic_counts": {
+      "immigration": 6,
+      "paternalism": 1,
+      "drug_policy": 1
+    },
     "rescued_full": 1,
     "rescued_partial": 5,
     "mean_paper_value": -1.56,
@@ -114,6 +119,10 @@
     },
     "identity_topic_share": 0.489,
     "penalized_topic_share": 0.689,
+    "agenda_topic_counts": {
+      "immigration": 4,
+      "paternalism": 1
+    },
     "rescued_full": 0,
     "rescued_partial": 3,
     "mean_paper_value": -2.5,

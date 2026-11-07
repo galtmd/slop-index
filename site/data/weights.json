@@ -1,4 +1,5 @@
 {
+ "AGENDA_TOPIC_PENALTY": -5,
  "COMMENTARY_ON_IDENTITY": -3,
  "COMMENTARY_RCR_CAP": 1,
  "CONCRETE_BONUS": 1,
@@ -11,6 +12,7 @@
   "cohort": 5,
   "registry": 3,
   "survey": 1,
+  "qualitative": 0,
   "case_report": 1,
   "observational": 2,
   "meta-analysis": 3,

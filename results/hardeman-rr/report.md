@@ -17,11 +17,11 @@
 | Topic shares | race_ethnicity 0.745, social_determinants 0.327, policy_politics 0.286, equity_justice 0.673 |
 | Flagged for manual review | 28 |
 | Identity-topic share | 0.857 |
-| Penalized-topic share (identity or SDOH) | 0.918 (rescued full 1, partial 20) |
-| Designs | commentary 33, survey 20, cohort 16, registry 11, review 6, observational 6, modeling 3, bench 2, case_report 1 |
-| Mean paper value / share positive | -3.52 / 0.296 |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.929 (rescued full 1, partial 20) |
+| Designs | commentary 33, cohort 16, survey 14, registry 11, qualitative 7, review 6, observational 5, modeling 3, bench 2, case_report 1 |
+| Mean paper value / share positive | -3.7 / 0.296 |
 | Substantive h-index (positive-value papers) | 23 |
-| **TOTAL SLOP INDEX** (composite) | **0.695** (citation-weighted 0.608) |
+| **TOTAL SLOP INDEX** (composite) | **0.702** (citation-weighted 0.612) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -41,19 +41,19 @@
 | Topic shares | race_ethnicity 0.829, social_determinants 0.317, policy_politics 0.268, equity_justice 0.756 |
 | Flagged for manual review | 12 |
 | Identity-topic share | 0.902 |
-| Penalized-topic share (identity or SDOH) | 0.951 (rescued full 0, partial 7) |
-| Designs | commentary 17, survey 9, registry 4, cohort 3, observational 3, review 2, modeling 1, case_report 1, bench 1 |
-| Mean paper value / share positive | -5.11 / 0.22 |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.951 (rescued full 0, partial 7) |
+| Designs | commentary 17, qualitative 5, survey 5, registry 4, cohort 3, review 2, observational 2, modeling 1, case_report 1, bench 1 |
+| Mean paper value / share positive | -5.26 / 0.22 |
 | Substantive h-index (positive-value papers) | 8 |
-| **TOTAL SLOP INDEX** (composite) | **0.751** (citation-weighted 0.77) |
+| **TOTAL SLOP INDEX** (composite) | **0.756** (citation-weighted 0.772) |
 
 
 ### Papers
 
 | Year | Role | Tier | Design | Outcome | Exposure | RCR | Penalized | Value | Title | Journal |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2009 | last | A | survey | soft | other | 0.08 | identity | -8 | Context matters: where would you be the least worse off in the US if you were un | Health Policy |
-| 2012 | first | A | survey | soft | other | 0.06 | identity | -8 | Where would you rather live if you were insured? Assessing community uninsurance | J Immigr Minor Health |
+| 2009 | last | A | qualitative | soft | other | 0.08 | identity | -9 | Context matters: where would you be the least worse off in the US if you were un | Health Policy |
+| 2012 | first | A | qualitative | soft | other | 0.06 | identity | -9 | Where would you rather live if you were insured? Assessing community uninsurance | J Immigr Minor Health |
 | 2013 | middle | A | registry | hard | other | 7.45 |  | 10.0 | Doula care, birth outcomes, and costs among Medicaid beneficiaries. | Am J Public Health |
 | 2013 | middle | A* | survey | soft | other | 1.67 | identity | -4 | Stigma, discrimination, or symptomatology differences in self-reported mental he | Am J Public Health |
 | 2013 | middle | C* | commentary | unclear | other | 3.24 | identity | -10 | Doula care supports near-universal breastfeeding initiation among diverse, low-i | J Midwifery Womens Health |
@@ -66,7 +66,7 @@
 | 2015 | middle | A | survey | soft | other | 8.7 | identity | -4 | Do Contact and Empathy Mitigate Bias Against Gay and Lesbian People Among Hetero | Acad Med |
 | 2015 | middle | A | cohort | soft | demographic | 4.35 | identity (partial) | 0.5 | A Comparison of the Mental Health and Well-Being of Sexual Minority and Heterose | Acad Med |
 | 2015 | middle | A | cohort | soft | demographic | 11.53 | identity (partial) | 0.5 | Medical School Experiences Associated with Change in Implicit Racial Bias Among  | J Gen Intern Med |
-| 2015 | middle | C* | commentary | soft | mechanistic | 1.0 |  | -2.0 | Beliefs about the causes of obesity in a national sample of 4th year medical stu | Patient Educ Couns |
+| 2015 | middle | C* | commentary | soft | mechanistic | 1.0 | weight_stigma | -10 | Beliefs about the causes of obesity in a national sample of 4th year medical stu | Patient Educ Couns |
 | 2015 | middle | A | survey | soft | mechanistic | 3.57 | identity | -1 | The Adverse Effect of Weight Stigma on the Well-Being of Medical Students with O | J Gen Intern Med |
 | 2015 | middle | A | cohort | unclear | other | 4.64 | identity (partial) | 4.5 | The mixed impact of medical school on medical students' implicit and explicit we | Med Educ |
 | 2015 | first | A | cohort | unclear | demographic | 3.94 | identity (partial) | 2.5 | Mental Well-Being in First Year Medical Students: A Comparison by Race and Gende | J Racial Ethn Health Disparities |
@@ -74,7 +74,7 @@
 | 2015 | middle | A | cohort | soft | demographic | 1.73 | identity (partial) | -3.5 | The Impact of Everyday Discrimination and Racial Identity Centrality on African  | J Racial Ethn Health Disparities |
 | 2016 | middle | A | registry | hard | other | 8.17 |  | 10.0 | Modeling the Cost-Effectiveness of Doula Care Associated with Reductions in Pret | Birth |
 | 2016 | last | U* | observational | unclear | other | 2.52 | sdoh | 0 | Coverage for Doula Services: How State Medicaid Programs Can Address Concerns ab | Birth |
-| 2016 | middle | A | survey | hard | other | 7.6 | identity (partial) | 4.5 | Disrupting the Pathways of Social Determinants of Health: Doula Support during P | J Am Board Fam Med |
+| 2016 | middle | A | qualitative | hard | other | 7.6 | identity (partial) | 1.5 | Disrupting the Pathways of Social Determinants of Health: Doula Support during P | J Am Board Fam Med |
 | 2016 | last | C | commentary | unclear | other | 0.28 | identity | -13 | Reducing maternal health disparities: the rural context. | Am J Obstet Gynecol |
 | 2016 | middle | A* | survey | soft | other | 0.79 | identity | -6 | Medical students' learning orientation regarding interracial interactions affect | BMC Med Educ |
 | 2016 | first | C | commentary | unclear | demographic | 14.45 | identity | -10 | Structural Racism and Supporting Black Lives - The Role of Health Professionals. | N Engl J Med |
@@ -90,7 +90,7 @@
 | 2017 | middle | C* | commentary | soft | demographic | 0.89 | identity | -11 | Informal Training Experiences and Explicit Bias Against African Americans among  | Soc Psychol Q |
 | 2018 | first | B | review | soft | other | 8.3 | identity | -3 | Naming Institutionalized Racism in the Public Health Literature: A Systematic Li | Public Health Rep |
 | 2018 | middle | C* | commentary | unclear | other | 0.0 |  | -7.0 | Correction to: Medical School Factors Associated with Changes in Implicit and Ex | J Gen Intern Med |
-| 2018 | first | A* | observational | unclear | other | 2.42 | identity | 0 | Developing a Medical School Curriculum on Racism: Multidisciplinary, Multiracial | Ethn Dis |
+| 2018 | first | A* | qualitative | unclear | other | 2.42 | identity | -2 | Developing a Medical School Curriculum on Racism: Multidisciplinary, Multiracial | Ethn Dis |
 | 2018 | middle | A | cohort | soft | other | 23.86 |  | 8.0 | Association of Clinical Specialty With Symptoms of Burnout and Career Choice Reg | JAMA |
 | 2019 | middle | A | cohort | unclear | other | 1.35 | sdoh | 1 | A Prognostic Index to Identify the Risk of Developing Depression Symptoms Among  | Acad Med |
 | 2019 | middle | A | observational | unclear | other | 0.99 | sdoh | -3 | Health Insurance Gains After Implementation of the Affordable Care Act Among Ind | J Gen Intern Med |
@@ -101,7 +101,7 @@
 | 2019 | middle | A | cohort | soft | other | 7.77 | identity (partial) | 5.5 | Association of Racial Bias With Burnout Among Resident Physicians. | JAMA Netw Open |
 | 2019 | first | A | case_report | unclear | demographic | 3.37 | identity | -3 | Roots Community Birth Center: A culturally-centered care model for improving val | Healthc (Amst) |
 | 2019 | middle | A | survey | soft | other | 3.36 | identity | -2 | Identifying the Key Elements of Racially Concordant Care in a Freestanding Birth | J Midwifery Womens Health |
-| 2019 | last | A | survey | unclear | demographic | 1.05 | identity | -6 | The Experience and Motivations of Midwives of Color in Minnesota: Nothing for Us | J Midwifery Womens Health |
+| 2019 | last | A | qualitative | unclear | demographic | 1.05 | identity | -7 | The Experience and Motivations of Midwives of Color in Minnesota: Nothing for Us | J Midwifery Womens Health |
 | 2019 | first | U* | observational | unclear | demographic | 6.19 | identity | -2 | Applying a critical race lens to relationship-centered care in pregnancy and chi | Birth |
 | 2019 | last | C* | commentary | soft | other | 5.35 | identity | -10 | The Tuskegee Study of Untreated Syphilis: A Case Study in Peripheral Trauma with | J Gen Intern Med |
 | 2019 | middle | A | cohort | unclear | other | 2.63 | identity (partial) | 5.5 | The Value of Interracial Contact for Reducing Anti-Black Bias Among Non-Black Ph | Psychol Sci |
@@ -109,7 +109,7 @@
 | 2019 | middle | A | registry | hard | demographic | 3.64 | identity (partial) | 3.5 | Rural Counties With Majority Black Or Indigenous Populations Suffer The Highest  | Health Aff (Millwood) |
 | 2019 | middle | A | observational | hard | demographic | 2.34 | identity (partial) | 1.5 | Mass incarceration and public health: the association between black jail incarce | BMC Pregnancy Childbirth |
 | 2020 | last | A | survey | soft | other | 7.41 | identity | -2 | Police Brutality and Mistrust in Medical Institutions. | J Racial Ethn Health Disparities |
-| 2020 | last | A | survey | soft | other | 0.6 | identity | -6 | Why Bias Matters in Medicine: Qualitative Insights from Anonymous, Online Report | J Natl Med Assoc |
+| 2020 | last | A | qualitative | soft | other | 0.6 | identity | -7 | Why Bias Matters in Medicine: Qualitative Insights from Anonymous, Online Report | J Natl Med Assoc |
 | 2020 | last | A | registry | unclear | other | 12.79 | identity | 2 | Perinatal depression screening practices in a large health system: identifying c | Arch Womens Ment Health |
 | 2020 | first | C | commentary | unclear | other | 5.56 | identity | -10 | Stolen Breaths. | N Engl J Med |
 | 2020 | middle | B | review | unclear | demographic | 7.05 | identity | -4 | Community-informed models of perinatal and reproductive health services provisio | Semin Perinatol |
@@ -142,9 +142,9 @@
 | 2022 | last | C* | commentary | unclear | demographic | 1.74 | identity | -10 | Race-based medicine in the point-of-care clinical resource UpToDate: A systemati | EClinicalMedicine |
 | 2022 | last | C | commentary | unclear | other | 6.33 | identity | -10 | Abortion Access as a Racial Justice Issue. | N Engl J Med |
 | 2022 | last | C | commentary | unclear | demographic | 0.6 | identity | -13 | Advancing the Measurement of Structural Racism Through the Lens of Antiabortion  | Am J Public Health |
-| 2022 | last | U* | observational | unclear | other | 2.35 |  | 5.0 | Dobbs and disability: Implications of abortion restrictions for people with chro | Health Serv Res |
+| 2022 | last | U* | observational | unclear | other | 2.35 | reproductive_policy | 0 | Dobbs and disability: Implications of abortion restrictions for people with chro | Health Serv Res |
 | 2022 | last | C* | commentary | unclear | demographic | 1.83 | identity | -10 | Stress and Mental Health: A Focus on COVID-19 and Racial Trauma Stress. | RSF |
-| 2022 | middle | A* | survey | soft | demographic | 1.96 | identity | -8 | From a Place of Love: The Experiences of Birthing in a Black-Owned Culturally-Ce | J Health Dispar Res Pract |
+| 2022 | middle | A* | qualitative | soft | demographic | 1.96 | identity | -9 | From a Place of Love: The Experiences of Birthing in a Black-Owned Culturally-Ce | J Health Dispar Res Pract |
 | 2023 | middle | A | registry | hard | demographic | 1.27 | identity | -1 | Associations Between State and Local Government Spending and Pregnancy-Related M | Am J Prev Med |
 | 2023 | last | A | registry | hard | demographic | 2.04 | identity (partial) | 2.5 | Neighborhood Proactive Policing and Racial Inequities in Preterm Birth in New Or | Am J Public Health |
 | 2023 | middle | C* | commentary | unclear | demographic | 3.32 | identity | -10 | Mechanisms Connecting Police Brutality, Intersectionality, and Women's Health Ov | Am J Public Health |

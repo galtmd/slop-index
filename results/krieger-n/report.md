@@ -17,11 +17,11 @@
 | Topic shares | race_ethnicity 0.472, social_determinants 0.545, equity_justice 0.6, policy_politics 0.285 |
 | Flagged for manual review | 44 |
 | Identity-topic share | 0.715 |
-| Penalized-topic share (identity or SDOH) | 0.8 (rescued full 6, partial 48) |
-| Designs | commentary 81, registry 49, observational 28, survey 27, cohort 26, review 14, modeling 4, quasi_experimental 3, trial 1, methods 1, bench 1 |
-| Mean paper value / share positive | -2.28 / 0.362 |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.813 (rescued full 6, partial 49) |
+| Designs | commentary 81, registry 49, observational 28, cohort 26, survey 25, review 14, modeling 4, quasi_experimental 3, qualitative 2, trial 1, methods 1, bench 1 |
+| Mean paper value / share positive | -2.37 / 0.362 |
 | Substantive h-index (positive-value papers) | 44 |
-| **TOTAL SLOP INDEX** (composite) | **0.65** (citation-weighted 0.614) |
+| **TOTAL SLOP INDEX** (composite) | **0.653** (citation-weighted 0.615) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -41,11 +41,11 @@
 | Topic shares | social_determinants 0.555, policy_politics 0.341, equity_justice 0.613, race_ethnicity 0.491 |
 | Flagged for manual review | 33 |
 | Identity-topic share | 0.734 |
-| Penalized-topic share (identity or SDOH) | 0.803 (rescued full 4, partial 37) |
-| Designs | commentary 76, registry 39, observational 19, survey 12, review 11, cohort 10, quasi_experimental 3, modeling 2, bench 1 |
-| Mean paper value / share positive | -3.12 / 0.341 |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.821 (rescued full 4, partial 38) |
+| Designs | commentary 76, registry 39, observational 19, review 11, survey 11, cohort 10, quasi_experimental 3, modeling 2, qualitative 1, bench 1 |
+| Mean paper value / share positive | -3.24 / 0.341 |
 | Substantive h-index (positive-value papers) | 38 |
-| **TOTAL SLOP INDEX** (composite) | **0.679** (citation-weighted 0.617) |
+| **TOTAL SLOP INDEX** (composite) | **0.683** (citation-weighted 0.618) |
 
 
 ### Papers
@@ -68,7 +68,7 @@
 | 2004 | middle | A | survey | unclear | mechanistic | 17.22 | identity | 2 | Working class matters: socioeconomic disadvantage, race/ethnicity, gender, and s | Am J Public Health |
 | 2004 | middle | C* | commentary | hard | other | 2.84 |  | -2.0 | Liver transplantation for neuroendocrine tumors. | J Gastrointest Surg |
 | 2004 | middle | A | cohort | hard | other | 3.3 |  | 12.0 | Post-liver transplant acute renal failure: factors predicting development of end | Clin Transplant |
-| 2004 | last | A | survey | soft | mechanistic | 3.46 | identity | 0 | Characterizing perceived police violence: implications for public health. | Am J Public Health |
+| 2004 | last | A | qualitative | soft | mechanistic | 3.46 | identity | -1 | Characterizing perceived police violence: implications for public health. | Am J Public Health |
 | 2004 | first | A | observational | hard | other | 3.73 | identity (partial) | 5.5 | "Bodies count," and body counts: social epidemiology and embodying inequality. | Epidemiol Rev |
 | 2004 | sole | C | commentary | unclear | other | 0.65 | identity | -11 | Data, "race," and politics: a commentary on the epidemiological significance of  | J Epidemiol Community Health |
 | 2004 | middle | A | cohort | soft | other | 0.76 |  | 4.0 | Longitudinal study of the inception of perimenopause in relation to lifetime his | J Epidemiol Community Health |
@@ -150,7 +150,7 @@
 | 2014 | first | C | commentary | hard | other | 3.66 | identity | -12 | Jim Crow and premature mortality among the US Black and White population, 1960-2 | Epidemiology |
 | 2014 | middle | A | registry | unclear | demographic | 2.81 | identity | -1 | At the intersection of sexual orientation, race/ethnicity, and cervical cancer s | Soc Sci Med |
 | 2014 | sole | C | commentary | unclear | other | 0.64 | identity | -11 | On the causal interpretation of race. | Epidemiology |
-| 2014 | sole | C* | commentary | unclear | other | 0.28 |  | -5.0 | The real ecological fallacy: epidemiology and global climate change. | J Epidemiol Community Health |
+| 2014 | sole | C* | commentary | unclear | other | 0.28 | climate | -13 | The real ecological fallacy: epidemiology and global climate change. | J Epidemiol Community Health |
 | 2014 | sole | C* | commentary | soft | other | 24.29 | identity | -10 | Discrimination and health inequities. | Int J Health Serv |
 | 2015 | first | A | registry | unclear | demographic | 2.67 | identity | -4 | Age at menarche: 50-year socioeconomic trends among US-born black and white wome | Am J Public Health |
 | 2015 | first | C* | commentary | hard | other | 0.65 | identity | -11 | Reproductive justice and the pace of change: socioeconomic trends in US infant d | Am J Public Health |
@@ -203,7 +203,7 @@
 | 2019 | sole | C | commentary | unclear | other | 0.82 | identity | -11 | The US Census and the People's Health: Public Health Engagement From Enslavement | Am J Public Health |
 | 2019 | middle | A | registry | hard | demographic | 0.27 | identity | -5 | Decomposition of the US black/white inequality in premature mortality, 2010-2015 | BMJ Open |
 | 2019 | sole | C* | commentary | unclear | other | 21.7 | identity | -10 | Measures of Racism, Sexism, Heterosexism, and Gender Binarism for Health Equity  | Annu Rev Public Health |
-| 2019 | middle | A | survey | unclear | other | 0.31 |  | 0.0 | Analyzing and improving national and local child protection data in Nepal: A mix | Child Abuse Negl |
+| 2019 | middle | A | qualitative | unclear | other | 0.31 |  | -1.0 | Analyzing and improving national and local child protection data in Nepal: A mix | Child Abuse Negl |
 | 2019 | middle | A | survey | unclear | other | 0.77 | identity | -4 | Are inequities decreasing? Birth registration for children under five in low-inc | BMJ Glob Health |
 | 2019 | middle | A | survey | soft | other | 2.07 |  | 1.0 | The burden of non-alcoholic steatohepatitis (NASH) among patients from Europe: A | JHEP Rep |
 | 2020 | sole | C | commentary | unclear | other | 0.46 | identity | -13 | Climate crisis, health equity, and democratic governance: the need to act togeth | J Public Health Policy |
@@ -245,7 +245,7 @@
 | 2022 | last | A* | survey | soft | demographic | 0.31 | identity | -12 | Using Implicit Measures of Discrimination: White, Black, and Hispanic Participan | J Racial Ethn Health Disparities |
 | 2022 | last | A | observational | unclear | other | 0.24 |  | 1.0 | Workplace hazards and health among informally employed domestic workers in 14 ci | Am J Ind Med |
 | 2022 | middle | A* | observational | hard | other | 0.93 |  | 4.0 | The impact of low input DNA on the reliability of DNA methylation as measured by | Epigenetics |
-| 2022 | first | A | observational | hard | mechanistic | 2.33 |  | 10.0 | Relationship of political ideology of US federal and state elected officials and | Lancet Reg Health Am |
+| 2022 | first | A | observational | hard | mechanistic | 2.33 | immigration (partial) | 7.5 | Relationship of political ideology of US federal and state elected officials and | Lancet Reg Health Am |
 | 2022 | sole | C | commentary | unclear | other | 0.04 |  | -5.0 | Fixing US public health infrastructure for 1% of annual military budget. | Lancet |
 | 2022 | sole | C* | commentary | soft | other | 0.22 | identity | -13 | Minority Rule: A Lethal Threat to the People's Health, Democracy, and our Planet | Int J Health Serv |
 | 2022 | middle | A* | registry | hard | other | 1.35 | sdoh | 1 | The evolving roles of US political partisanship and social vulnerability in the  | PLOS Glob Public Health |
@@ -283,14 +283,14 @@
 | 2025 | first | A | registry | hard | other | 1.31 | sdoh | 2 | Political determinants of US states' screening-amenable cancer stage at diagnosi | JNCI Cancer Spectr |
 | 2025 | first | C | commentary | unclear | other | 2.4 | identity | -10 | Structural and Scientific Racism, Science, and Health - Evidence versus Ideology | N Engl J Med |
 | 2025 | middle | A | observational | hard | mechanistic | 1.8 | identity (partial) | 1.5 | An epigenome-wide analysis of DNA methylation, racialized and economic inequitie | Clin Epigenetics |
-| 2026 | sole | C | commentary | unclear | other |  |  | -3.0 | Cancer, climate change, fossil fuels, and war: a call for action. | Lancet |
+| 2026 | sole | C | commentary | unclear | other |  | climate | -11 | Cancer, climate change, fossil fuels, and war: a call for action. | Lancet |
 | 2026 | first | A | survey | soft | other |  | identity | -5 | Psychological distress, racism, sexism, cissexism, heterosexism, ageism, and siz | AJE Adv |
 | 2026 | middle | A | cohort | hard | other |  | identity (partial) | 3.5 | Association of cultural racism with breast cancer survival among US adults, 2018 | Am J Epidemiol |
 | 2026 | sole | C | commentary | unclear | other |  |  | -3.0 | Act now: oppose a new threat to US federally funded work. | Lancet |
 | 2026 | sole | C | commentary | unclear | other |  |  | -3.0 | Embodied Truths Will Endure: On the Politics of and in Public Health. | Am J Public Health |
 | 2026 | last | A* | observational | unclear | other |  | identity | -3 | The Extent Of Gender/Sex Variables Included In Clinical Algorithms Across Medica | Health Aff (Millwood) |
 | 2026 | last | C | commentary | unclear | other |  |  | -3.0 | How Political Redistricting and Gerrymandering Can Shape Understanding of Public | Am J Public Health |
-| 2026 | sole | U* | observational | unclear | other |  |  | 2.0 | Documenting and Resisting U.S. Government Distortion, Denial, and Disappearance  | Bull Hist Med |
+| 2026 | sole | U* | observational | unclear | other |  | climate | -3 | Documenting and Resisting U.S. Government Distortion, Denial, and Disappearance  | Bull Hist Med |
 | 2026 | last | A | observational | soft | other |  | identity | -5 | Patterns of Sleep Inequities by Experiences and Recognition of Multiple Types of | Behav Med |
 
 `*` = low-confidence classification; see `evidence` column in papers.csv and override via data/<slug>/overrides.csv.

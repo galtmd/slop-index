@@ -42,22 +42,26 @@
       "commentary": 16,
       "observational": 12,
       "registry": 11,
-      "survey": 6,
       "cohort": 6,
+      "survey": 4,
       "review": 3,
       "quasi_experimental": 3,
-      "modeling": 2
+      "modeling": 2,
+      "qualitative": 2
     },
     "identity_topic_share": 0.898,
     "penalized_topic_share": 0.966,
+    "agenda_topic_counts": {
+      "immigration": 6
+    },
     "rescued_full": 4,
     "rescued_partial": 13,
-    "mean_paper_value": -2.6,
+    "mean_paper_value": -2.64,
     "median_paper_value": -3,
     "share_positive_value": 0.339,
     "h_substantive": 16,
-    "total_slop_index": 0.663,
-    "total_slop_index_citation_weighted": 0.609
+    "total_slop_index": 0.664,
+    "total_slop_index_citation_weighted": 0.61
   },
   "lead_authorships": {
     "papers": 36,
@@ -102,21 +106,25 @@
       "commentary": 12,
       "observational": 7,
       "registry": 6,
-      "survey": 4,
       "review": 3,
+      "survey": 3,
       "cohort": 2,
-      "modeling": 2
+      "modeling": 2,
+      "qualitative": 1
     },
     "identity_topic_share": 0.917,
     "penalized_topic_share": 0.972,
+    "agenda_topic_counts": {
+      "immigration": 3
+    },
     "rescued_full": 1,
     "rescued_partial": 8,
-    "mean_paper_value": -3.5,
+    "mean_paper_value": -3.53,
     "median_paper_value": -3.5,
     "share_positive_value": 0.306,
     "h_substantive": 10,
-    "total_slop_index": 0.694,
-    "total_slop_index_citation_weighted": 0.629
+    "total_slop_index": 0.695,
+    "total_slop_index_citation_weighted": 0.63
   },
   "slug": "geronimus-at",
   "surname_matched": "Geronimus",

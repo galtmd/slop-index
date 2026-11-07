@@ -18,7 +18,8 @@ DESIGN_BASE = {
     "quasi_experimental":  6,   # natural experiment, DiD, IV, RD, ITS
     "cohort":              5,   # longitudinal / prospective with follow-up
     "registry":            3,   # vital records, claims, EHR, NIS: cross-sectional on hard records
-    "survey":              1,   # self-report, questionnaire, convenience sample, qualitative
+    "survey":              1,   # self-report, questionnaire, convenience sample
+    "qualitative":         0,   # interviews, focus groups, photovoice, CBPR, "critical" frameworks: no endpoint
     "case_report":         1,   # original clinical observation, no analysis
     "observational":       2,   # observational, design unclear
     "meta-analysis":       3,
@@ -55,6 +56,9 @@ COMMENTARY_RCR_CAP = 1 # an influential opinion piece is still an opinion piece
 IDENTITY_TOPIC_PENALTY   = -5   # race/ethnicity, gender identity, sexual orientation, discrimination, lived experience, equity
 SOCIAL_TOPIC_PENALTY     = -5   # social determinants of health: SES, neighborhood, housing, food insecurity,
                                 # incarceration/jail/prison, insurance status. Same rescue rules as identity topics.
+AGENDA_TOPIC_PENALTY     = -5   # other agenda-driven buckets (substance.AGENDA_TOPICS): climate, firearms,
+                                # public-health paternalism, misinformation, reproductive policy, immigration,
+                                # weight stigma, drug policy, algorithmic bias. Same rescue rules.
 POLICY_TOPIC_PENALTY     =  0   # policy as a subject is not penalised by itself
 COMMENTARY_ON_IDENTITY   = -3   # extra penalty: opinion piece whose subject is an identity topic
 

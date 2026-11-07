@@ -13,7 +13,9 @@ per-paper value using the numbers in weights.py):
     self_similar  number of near-duplicate papers in the same corpus
     rcr           iCite relative citation ratio
     identity      whether the paper's subject is an identity topic
-    rescued       none | partial | full  (identity penalty waived?)
+    social        whether the paper's subject is a social-determinants topic
+    agenda        other agenda-driven topic buckets the paper falls in (see AGENDA_TOPICS)
+    rescued       none | partial | full  (topic penalty waived?)
 """
 
 from __future__ import annotations
@@ -137,6 +139,87 @@ RE_SDOH = re.compile(
     r"uninsured|underinsured|adverse childhood|allostatic|weathering|structural (determinants|violence)|"
     r"upstream|place-based|area-level)\b", re.I)
 
+# ---- qualitative / participatory designs: no analysis of an outcome at all
+MESH_QUALITATIVE = {"Qualitative Research", "Interviews as Topic", "Focus Groups", "Grounded Theory",
+                    "Community-Based Participatory Research", "Narration", "Anthropology, Cultural",
+                    "Hermeneutics", "Phenomenology"}
+RE_QUALITATIVE = re.compile(
+    r"\b(qualitative|semi-structured interviews?|in-depth interviews?|key informant|focus groups?|"
+    r"thematic analysis|grounded theory|phenomenolog\w+|ethnograph\w+|narrative (inquiry|analysis)|"
+    r"photovoice|photo-elicitation|community-based participatory|participatory (action )?research|"
+    r"\bCBPR\b|co-design\w*|codesign\w*|critical (race|theory|discourse|feminist)|decoloni[sz]\w+|"
+    r"anti-?colonial|anti-?racist (praxis|framework)|liberation|reflexiv\w+|positionality|"
+    r"counter-?stor\w+|testimonio|storytelling|lived experiences?)\b", re.I)
+
+# ---- agenda-driven topic buckets. Each is penalised like identity and SDOH topics and
+#      rescued the same way. The test for inclusion: the literature's modal design is a
+#      survey, an ecological comparison, or a model; the conclusion is a policy prescription;
+#      and the field has a preferred answer before the study starts.
+AGENDA_TOPICS: dict[str, tuple[set, re.Pattern]] = {
+    "climate": ({"Climate Change", "Global Warming", "Greenhouse Effect", "Carbon Footprint", "Greenhouse Gases",
+                 "Extreme Heat", "Heat Stress Disorders", "Heat Waves", "Environmental Justice"},
+                re.compile(r"\b(climate (change|crisis|emergenc\w+|anxiety|justice|health)|global warming|planetary health|"
+                           r"carbon (footprint|emissions?|neutral\w*)|greenhouse gas\w*|net[- ]zero|decarboni[sz]\w+|"
+                           r"heat ?waves?|extreme heat|heat-related|wildfire smoke|environmental justice|sustainab\w+ (health ?care|anesthesia|surgery))\b", re.I)),
+    "firearms": ({"Firearms", "Gun Violence", "Wounds, Gunshot", "Mass Casualty Incidents"},
+                 re.compile(r"\b(firearms?|guns?\b|gun (violence|control|law\w*|owner\w*|death\w*|injur\w+)|gunshot|"
+                            r"shootings?|mass shooting\w*|red flag law\w*|background checks?|assault weapons?)\b", re.I)),
+    "paternalism": ({"Taxes", "Food Labeling", "Advertising", "Nutrition Policy", "Sugar-Sweetened Beverages",
+                     "Legislation, Food", "Commerce", "Marketing", "Tobacco Industry", "Food Industry"},
+                    re.compile(r"\b(sugar[- ]sweetened|soda tax\w*|sugar tax\w*|sin tax\w*|excise tax\w*|minimum (unit )?pric\w+|"
+                               r"menu labell?ing|front-of-pack\w*|warning labels?|advertising (ban|restriction)\w*|marketing to children|"
+                               r"junk food|ultra-?processed|food (industry|environment|desert\w*|swamp\w*)|commercial determinants|"
+                               r"portion size\w*|calorie labell?ing|nudg(e|es|ing))\b", re.I)),
+    "misinformation": ({"Communication", "Social Media", "Disinformation", "Vaccination Hesitancy", "Trust",
+                        "Infodemiology", "Anti-Vaccination Movement", "Mass Media"},
+                       re.compile(r"\b(misinformation|disinformation|infodemi\w+|fake news|conspiracy|vaccine (hesitan\w+|confidence|refusal|uptake)|"
+                                  r"anti-?vax\w*|trust in (science|government|public health|physicians|medicine)|"
+                                  r"science (denial|communication|literacy)|media (consumption|exposure)|social media|echo chamber\w*|"
+                                  r"health literacy)\b", re.I)),
+    "reproductive_policy": ({"Abortion, Induced", "Abortion, Legal", "Abortion Applicants", "Reproductive Rights",
+                             "Contraception", "Family Planning Services", "Reproductive Health Services"},
+                            re.compile(r"\b(abortion\w*|dobbs|roe v\.? wade|reproductive (rights|justice|autonomy|freedom|health ?care)|"
+                                       r"contracepti\w+ access|family planning|fertility (control|regulation)|pro-?choice|pro-?life)\b", re.I)),
+    "immigration": ({"Emigrants and Immigrants", "Emigration and Immigration", "Undocumented Immigrants",
+                     "Refugees", "Transients and Migrants", "Asylum Seekers"},
+                    re.compile(r"\b(immigra\w+|undocumented|migrants?|refugees?|asylum|deportation|"
+                               r"border (policy|enforcement|wall)|\bICE\b|citizenship status|mixed-status|DACA|sanctuary)\b", re.I)),
+    "weight_stigma": ({"Weight Prejudice", "Body Image", "Social Stigma", "Fat Acceptance"},
+                      re.compile(r"\b(weight (stigma|bias|discrimination|shaming|neutral)|fat ?(phobia|shaming|acceptance|liberation)|"
+                                 r"health at every size|\bHAES\b|body (positivity|image|acceptance)|size (diversity|inclusiv\w+)|"
+                                 r"anti-?fat|weight-?inclusive)\b", re.I)),
+    "drug_policy": ({"Harm Reduction", "Needle-Exchange Programs", "Drug Decriminalization", "Opiate Substitution Treatment",
+                     "Supervised Injection Facilities"},
+                    re.compile(r"\b(harm reduction|safe(r)? (supply|consumption|injection)|supervised (consumption|injection)|"
+                               r"overdose prevention (site|center)\w*|needle (exchange|syringe)|syringe (service|exchange)\w*|"
+                               r"decriminali[sz]\w+|drug policy|war on drugs|drug (checking|testing) service\w*|naloxone distribution)\b", re.I)),
+    "algorithmic_bias": ({"Algorithms", "Artificial Intelligence", "Machine Learning", "Bias"},
+                         re.compile(r"\b(algorithmic (bias|fairness|justice|discrimination)|biased algorithm\w*|"
+                                    r"(race|racial|gender|ethnic)[- ](aware|blind|neutral|corrected|adjusted) (algorithm|equation|model|calculator)\w*|"
+                                    r"fairness (in|of) (machine learning|AI|artificial intelligence|algorithms?)|"
+                                    r"\bAI (bias|fairness|equity)|model fairness|equitable (AI|algorithm\w*))\b", re.I)),
+}
+
+
+def agenda_of(article: dict) -> list[str]:
+    """Which agenda-driven topic buckets the paper falls in, judged on MeSH, title, and keywords.
+    MeSH alone counts only for terms that are unambiguous; the broad MeSH buckets (Algorithms,
+    Communication, Taxes, ...) need a title or keyword hit as well."""
+    mesh = set(article.get("mesh_terms") or [])
+    title = article.get("title", "") or ""
+    kws = " ".join(article.get("keywords") or [])
+    broad_mesh = {"Algorithms", "Artificial Intelligence", "Machine Learning", "Bias", "Communication",
+                  "Social Media", "Trust", "Mass Media", "Taxes", "Advertising", "Commerce", "Marketing",
+                  "Contraception", "Family Planning Services", "Social Stigma", "Body Image"}
+    out = []
+    for name, (m, rx) in AGENDA_TOPICS.items():
+        text_hit = _n(rx, title) >= 1 or _n(rx, kws) >= 1
+        mesh_hit = bool((mesh & m) - broad_mesh)
+        weak_mesh = bool(mesh & m & broad_mesh)
+        if text_hit or mesh_hit or (weak_mesh and _n(rx, article.get("abstract", "") or "") >= 2):
+            out.append(name)
+    return out
+
 
 @dataclass
 class Substance:
@@ -152,6 +235,7 @@ class Substance:
     rcr_points: int
     identity: bool
     social: bool
+    agenda: str
     topic_penalty: float
     rescued: str
     value: float
@@ -210,6 +294,10 @@ def design_of(tier: str, subtype: str, article: dict) -> str:
         return "cohort"
     reg = len(mesh & MESH_REGISTRY) * 2 + _n(RE_REGISTRY, abstract)
     sur = len(mesh & MESH_SURVEY) * 2 + _n(RE_SURVEY, abstract)
+    title = article.get("title", "") or ""
+    qual = len(mesh & MESH_QUALITATIVE) * 2 + _n(RE_QUALITATIVE, abstract) + _n(RE_QUALITATIVE, title) * 2
+    if qual >= 3 and reg < 2:
+        return "qualitative"
     if reg >= 2 and reg >= sur:
         return "registry"
     if sur >= 2:
@@ -318,12 +406,13 @@ def score(article: dict, tier: str, subtype: str, topics: list[str], rcr: float 
     hedge, hedge_ratio = hedge_of(article)
     identity = identity_of(article) or "race_ethnicity" in topics or "equity_justice" in topics
     social = sdoh_of(article) or "social_determinants" in topics
+    agenda = agenda_of(article)
     pts = rcr_points(rcr)
 
     comp = {"design_base": base}
     v = float(base)
     if tier != "C":
-        if outcome == "hard":
+        if outcome == "hard" and design != "qualitative":   # a qualitative paper measures no endpoint
             comp["outcome"] = W.HARD_OUTCOME_BONUS
         elif outcome == "soft":
             comp["outcome"] = W.SOFT_OUTCOME_PENALTY
@@ -342,8 +431,8 @@ def score(article: dict, tier: str, subtype: str, topics: list[str], rcr: float 
     # topic penalty with rescue
     penalty = 0.0
     rescued = "n/a"
-    if identity or social:
-        penalty = W.IDENTITY_TOPIC_PENALTY if identity else W.SOCIAL_TOPIC_PENALTY
+    if identity or social or agenda:
+        penalty = W.IDENTITY_TOPIC_PENALTY if identity else (W.SOCIAL_TOPIC_PENALTY if social else W.AGENDA_TOPIC_PENALTY)
         if tier == "C":
             penalty += W.COMMENTARY_ON_IDENTITY
             rescued = "none"
@@ -360,11 +449,11 @@ def score(article: dict, tier: str, subtype: str, topics: list[str], rcr: float 
                 rescued = "partial"
             else:
                 rescued = "none"
-    if "policy_politics" in topics and not identity and not social:
+    if "policy_politics" in topics and not identity and not social and not agenda:
         penalty += W.POLICY_TOPIC_PENALTY
     comp["topic_penalty"] = penalty
 
     v = sum(comp.values())
     norm = (min(max(v, W.VALUE_MIN), W.VALUE_MAX) - W.VALUE_MIN) / (W.VALUE_MAX - W.VALUE_MIN)
     return Substance(pmid, design, base, outcome, exposure, hedge, hedge_ratio, self_sim, rcr, pts,
-                     identity, social, penalty, rescued, round(v, 2), round(norm, 3), comp)
+                     identity, social, ",".join(agenda), penalty, rescued, round(v, 2), round(norm, 3), comp)

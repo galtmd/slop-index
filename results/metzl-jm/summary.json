@@ -42,21 +42,26 @@
     "designs": {
       "commentary": 16,
       "review": 6,
-      "survey": 5,
+      "survey": 3,
+      "qualitative": 2,
       "bench": 2,
       "case_report": 1,
       "observational": 1
     },
     "identity_topic_share": 0.516,
-    "penalized_topic_share": 0.548,
+    "penalized_topic_share": 0.677,
+    "agenda_topic_counts": {
+      "firearms": 6,
+      "drug_policy": 1
+    },
     "rescued_full": 0,
     "rescued_partial": 3,
-    "mean_paper_value": -4.44,
+    "mean_paper_value": -5.53,
     "median_paper_value": -5.0,
     "share_positive_value": 0.161,
     "h_substantive": 5,
-    "total_slop_index": 0.729,
-    "total_slop_index_citation_weighted": 0.701
+    "total_slop_index": 0.766,
+    "total_slop_index_citation_weighted": 0.715
   },
   "lead_authorships": {
     "papers": 28,
@@ -101,21 +106,26 @@
     "designs": {
       "commentary": 15,
       "review": 4,
-      "survey": 3,
+      "survey": 2,
       "bench": 2,
       "case_report": 1,
+      "qualitative": 1,
       "observational": 1
     },
     "identity_topic_share": 0.462,
-    "penalized_topic_share": 0.5,
+    "penalized_topic_share": 0.654,
+    "agenda_topic_counts": {
+      "firearms": 6,
+      "drug_policy": 1
+    },
     "rescued_full": 0,
     "rescued_partial": 3,
-    "mean_paper_value": -4.37,
+    "mean_paper_value": -5.63,
     "median_paper_value": -5.0,
     "share_positive_value": 0.154,
     "h_substantive": 4,
-    "total_slop_index": 0.726,
-    "total_slop_index_citation_weighted": 0.702
+    "total_slop_index": 0.769,
+    "total_slop_index_citation_weighted": 0.716
   },
   "slug": "metzl-jm",
   "surname_matched": "Metzl",

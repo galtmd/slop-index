@@ -17,11 +17,11 @@
 | Topic shares | policy_politics 0.387, race_ethnicity 0.355, equity_justice 0.419, social_determinants 0.226 |
 | Flagged for manual review | 5 |
 | Identity-topic share | 0.516 |
-| Penalized-topic share (identity or SDOH) | 0.548 (rescued full 0, partial 3) |
-| Designs | commentary 16, review 6, survey 5, bench 2, case_report 1, observational 1 |
-| Mean paper value / share positive | -4.44 / 0.161 |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.677 (rescued full 0, partial 3) |
+| Designs | commentary 16, review 6, survey 3, qualitative 2, bench 2, case_report 1, observational 1 |
+| Mean paper value / share positive | -5.53 / 0.161 |
 | Substantive h-index (positive-value papers) | 5 |
-| **TOTAL SLOP INDEX** (composite) | **0.729** (citation-weighted 0.701) |
+| **TOTAL SLOP INDEX** (composite) | **0.766** (citation-weighted 0.715) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -41,11 +41,11 @@
 | Topic shares | policy_politics 0.423, race_ethnicity 0.308, equity_justice 0.385, social_determinants 0.192 |
 | Flagged for manual review | 4 |
 | Identity-topic share | 0.462 |
-| Penalized-topic share (identity or SDOH) | 0.5 (rescued full 0, partial 3) |
-| Designs | commentary 15, review 4, survey 3, bench 2, case_report 1, observational 1 |
-| Mean paper value / share positive | -4.37 / 0.154 |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.654 (rescued full 0, partial 3) |
+| Designs | commentary 15, review 4, survey 2, bench 2, case_report 1, qualitative 1, observational 1 |
+| Mean paper value / share positive | -5.63 / 0.154 |
 | Substantive h-index (positive-value papers) | 4 |
-| **TOTAL SLOP INDEX** (composite) | **0.726** (citation-weighted 0.702) |
+| **TOTAL SLOP INDEX** (composite) | **0.769** (citation-weighted 0.716) |
 
 
 ### Papers
@@ -61,14 +61,14 @@
 | 2006 | first | C | commentary | unclear | other | 0.09 |  | -5.0 | Great moments: authenticity, ideology, and the telling of medical "history". | Lit Med |
 | 2007 | first | C | commentary | unclear | other | 0.79 |  | -3.0 | Medicalisation in the 21st century: introduction. | Lancet |
 | 2007 | sole | C | commentary | unclear | mechanistic | 0.24 |  | -5.0 | If direct-to-consumer advertisements come to Europe: lessons from the USA. | Lancet |
-| 2011 | sole | C | commentary | unclear | other | 0.19 |  | -5.0 | Why are the mentally ill still bearing arms? | Lancet |
+| 2011 | sole | C | commentary | unclear | other | 0.19 | firearms,drug_policy | -13 | Why are the mentally ill still bearing arms? | Lancet |
 | 2012 | sole | C | commentary | unclear | mechanistic | 0.08 | identity | -13 | Mainstream anxieties about race in antipsychotic drug ads. | Virtual Mentor |
 | 2013 | sole | B | review | soft | demographic | 0.51 | identity | -10 | Structural health and the politics of African American masculinity. | Am J Mens Health |
 | 2014 | first | B | review | soft | other | 54.66 | identity | -3 | Structural competency: theorizing a new medical engagement with stigma and inequ | Soc Sci Med |
 | 2014 | first | C | commentary | unclear | demographic | 4.78 | identity | -10 | Structural competency meets structural racism: race, politics, and the structure | Virtual Mentor |
-| 2015 | first | C* | commentary | unclear | other | 3.83 |  | -2.0 | Mental illness, mass shootings, and the politics of American firearms. | Am J Public Health |
-| 2015 | last | A | survey | soft | demographic | 1.78 | identity | -8 | The Interdependence of African American Men's Definitions of Manhood and Health. | Fam Community Health |
-| 2016 | sole | C | commentary | unclear | other | 0.0 |  | -5.0 | Metzl Responds. | Am J Public Health |
+| 2015 | first | C* | commentary | unclear | other | 3.83 | firearms | -10 | Mental illness, mass shootings, and the politics of American firearms. | Am J Public Health |
+| 2015 | last | A | qualitative | soft | demographic | 1.78 | identity | -9 | The Interdependence of African American Men's Definitions of Manhood and Health. | Fam Community Health |
+| 2016 | sole | C | commentary | unclear | other | 0.0 | firearms | -13 | Metzl Responds. | Am J Public Health |
 | 2016 | first | B | review | unclear | other | 0.06 | identity | -7 | Conflations of Marital Status and Sanity: Implicit Heterosexist Bias in Psychiat | Yale J Biol Med |
 | 2017 | last | C* | commentary | unclear | other | 2.03 | identity | -10 | New Medicine for the U.S. Health Care System: Training Physicians for Structural | Acad Med |
 | 2017 | middle | C* | commentary | soft | other | 3.38 | identity | -10 | Queer Frontiers in Medicine: A Structural Competency Approach. | Acad Med |
@@ -76,14 +76,14 @@
 | 2017 | middle | A | survey | unclear | other | 2.22 | identity | -1 | Developing and Evaluating an Innovative Structural Competency Curriculum for Pre | J Med Humanit |
 | 2017 | first | A* | survey | unclear | demographic | 6.02 | identity | -5 | Using a structural competency framework to teach structural racism in pre-health | Soc Sci Med |
 | 2018 | first | U* | observational | hard | other | 4.16 | identity (partial) | 5.5 | Structural Competency and Psychiatry. | JAMA Psychiatry |
-| 2018 | sole | U* | observational | unclear | other | 0.32 |  | 0.0 | Repeal the Dickey Amendment to Address Polarization Surrounding Firearms in the  | Am J Public Health |
+| 2018 | sole | U* | observational | unclear | other | 0.32 | firearms | -5 | Repeal the Dickey Amendment to Address Polarization Surrounding Firearms in the  | Am J Public Health |
 | 2020 | first | C | commentary | unclear | other | 4.33 | identity | -10 | Responding to the COVID-19 Pandemic: The Need for a Structurally Competent Healt | JAMA |
 | 2021 | first | A | observational | hard | other | 2.44 | sdoh (partial) | 4.5 | Mental Illness, Mass Shootings, and the Future of Psychiatric Research into Amer | Harv Rev Psychiatry |
 | 2021 | first | B | review | unclear | other | 0.74 | identity | -5 | Structural competency and the future of firearm research. | Soc Sci Med |
 | 2022 | middle | B | review | soft | demographic | 0.65 | identity | -10 | Perceived status threat and health among White Americans: A scoping review. | SSM Popul Health |
 | 2023 | last | A | bench | unclear | demographic | 1.94 | identity (partial) | 3.5 | Toward a moral reckoning on structural racism: Examining structural factors, enc | Am J Community Psychol |
 | 2023 | middle | B | review | unclear | other | 9.14 |  | 4.0 | Achieving Oral Health for All through Public Health Approaches, Interprofessiona | NAM Perspect |
-| 2023 | middle | A | survey | soft | other | 0.99 | identity | -7 | "We grew up in the church": A critical discourse analysis of Black and White rur | Soc Sci Med |
-| 2026 | sole | C | commentary | hard | mechanistic |  |  | -3.0 | Firearm Safety in a Country of Arms. | Milbank Q |
+| 2023 | middle | A | qualitative | soft | other | 0.99 | identity | -8 | "We grew up in the church": A critical discourse analysis of Black and White rur | Soc Sci Med |
+| 2026 | sole | C | commentary | hard | mechanistic |  | firearms | -11 | Firearm Safety in a Country of Arms. | Milbank Q |
 
 `*` = low-confidence classification; see `evidence` column in papers.csv and override via data/<slug>/overrides.csv.

@@ -17,11 +17,11 @@
 | Topic shares | race_ethnicity 0.022, social_determinants 0.011, equity_justice 0.032, policy_politics 0.065 |
 | Flagged for manual review | 16 |
 | Identity-topic share | 0.118 |
-| Penalized-topic share (identity or SDOH) | 0.118 (rescued full 0, partial 2) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.129 (rescued full 0, partial 2) |
 | Designs | bench 23, modeling 23, commentary 15, observational 11, review 10, cohort 5, quasi_experimental 2, trial 1, registry 1, survey 1, meta-analysis 1 |
-| Mean paper value / share positive | 3.61 / 0.72 |
+| Mean paper value / share positive | 3.56 / 0.71 |
 | Substantive h-index (positive-value papers) | 28 |
-| **TOTAL SLOP INDEX** (composite) | **0.443** (citation-weighted 0.262) |
+| **TOTAL SLOP INDEX** (composite) | **0.445** (citation-weighted 0.262) |
 
 
 ### Lead authorships (first, last, or sole)
@@ -41,7 +41,7 @@
 | Topic shares | race_ethnicity 0.028, policy_politics 0.028 |
 | Flagged for manual review | 5 |
 | Identity-topic share | 0.111 |
-| Penalized-topic share (identity or SDOH) | 0.111 (rescued full 0, partial 1) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.111 (rescued full 0, partial 1) |
 | Designs | bench 12, modeling 9, review 7, commentary 5, observational 3 |
 | Mean paper value / share positive | 3.32 / 0.694 |
 | Substantive h-index (positive-value papers) | 16 |
@@ -106,7 +106,7 @@
 | 2016 | middle | B | modeling | hard | other | 0.53 |  | 4.0 | Sickle haemoglobin, haemoglobin C and malaria mortality feedbacks. | Malar J |
 | 2016 | middle | C* | commentary | unclear | mechanistic | 0.67 |  | -3.0 | Reproduction, infection and killer-cell immunoglobulin-like receptor haplotype e | Immunogenetics |
 | 2016 | last | B | review | unclear | mechanistic | 0.54 |  | 2.0 | Metabolic competition as a driver of bacterial population structure. | Future Microbiol |
-| 2016 | middle | B | modeling | unclear | other | 0.73 |  | 2.0 | Reducing HIV infection in people who inject drugs is impossible without targetin | AIDS |
+| 2016 | middle | B | modeling | unclear | other | 0.73 | drug_policy | -3 | Reducing HIV infection in people who inject drugs is impossible without targetin | AIDS |
 | 2016 | sole | C | commentary | unclear | other | 0.04 |  | -5.0 | How has publishing changed in the last twenty years? | Notes Rec R Soc Lond |
 | 2017 | last | B | modeling | hard | other | 0.29 |  | 2.0 | Detecting signatures of past pathogen selection on human HLA loci: are there nee | Parasitology |
 | 2017 | last | A | bench | unclear | mechanistic | 0.64 |  | 10.0 | Lineage structure of Streptococcus pneumoniae may be driven by immune selection  | Sci Rep |

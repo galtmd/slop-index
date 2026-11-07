@@ -56,7 +56,7 @@ def score_records(records, icite, surname, overrides=None, excluded=None):
                 "rcr": round(rcr, 2) if rcr is not None else None,
                 "design": sub.design, "outcome": sub.outcome, "exposure": sub.exposure,
                 "hedge": sub.hedge, "self_similar": sub.self_similar,
-                "identity": sub.identity, "social": sub.social,
+                "identity": sub.identity, "social": sub.social, "agenda": sub.agenda,
                 "topic_penalty": sub.topic_penalty, "rescued": sub.rescued,
                 "value": sub.value, "value_norm": sub.value_norm,
                 "components": sub.components,

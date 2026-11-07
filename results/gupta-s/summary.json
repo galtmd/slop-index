@@ -55,14 +55,18 @@
       "meta-analysis": 1
     },
     "identity_topic_share": 0.118,
-    "penalized_topic_share": 0.118,
+    "penalized_topic_share": 0.129,
+    "agenda_topic_counts": {
+      "immigration": 1,
+      "drug_policy": 1
+    },
     "rescued_full": 0,
     "rescued_partial": 2,
-    "mean_paper_value": 3.61,
+    "mean_paper_value": 3.56,
     "median_paper_value": 3.0,
-    "share_positive_value": 0.72,
+    "share_positive_value": 0.71,
     "h_substantive": 28,
-    "total_slop_index": 0.443,
+    "total_slop_index": 0.445,
     "total_slop_index_citation_weighted": 0.262
   },
   "lead_authorships": {
@@ -110,6 +114,7 @@
     },
     "identity_topic_share": 0.111,
     "penalized_topic_share": 0.111,
+    "agenda_topic_counts": {},
     "rescued_full": 0,
     "rescued_partial": 1,
     "mean_paper_value": 3.32,

@@ -17,8 +17,8 @@
 | Topic shares | race_ethnicity 0.023, policy_politics 0.235, equity_justice 0.042, social_determinants 0.023 |
 | Flagged for manual review | 29 |
 | Identity-topic share | 0.051 |
-| Penalized-topic share (identity or SDOH) | 0.064 (rescued full 2, partial 7) |
-| Designs | observational 82, commentary 73, cohort 59, registry 49, quasi_experimental 13, review 10, survey 9, case_report 8, trial 4, meta-analysis 3, methods 1 |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.064 (rescued full 2, partial 7) |
+| Designs | observational 82, commentary 73, cohort 59, registry 49, quasi_experimental 13, review 10, case_report 8, survey 8, trial 4, meta-analysis 3, qualitative 1, methods 1 |
 | Mean paper value / share positive | 4.5 / 0.73 |
 | Substantive h-index (positive-value papers) | 65 |
 | **TOTAL SLOP INDEX** (composite) | **0.411** (citation-weighted 0.312) |
@@ -41,7 +41,7 @@
 | Topic shares | race_ethnicity 0.016, policy_politics 0.22, equity_justice 0.033, social_determinants 0.016 |
 | Flagged for manual review | 17 |
 | Identity-topic share | 0.041 |
-| Penalized-topic share (identity or SDOH) | 0.057 (rescued full 1, partial 2) |
+| Penalized-topic share (identity, SDOH, or agenda bucket) | 0.057 (rescued full 1, partial 2) |
 | Designs | commentary 56, observational 20, registry 14, cohort 11, quasi_experimental 7, survey 5, case_report 4, review 4, trial 1, methods 1 |
 | Mean paper value / share positive | 2.0 / 0.512 |
 | Substantive h-index (positive-value papers) | 32 |
@@ -253,7 +253,7 @@
 | 2017 | last | C* | commentary | unclear | mechanistic | 0.2 |  | -5.0 | Global trends in center accreditation by the Joint Commission International: gro | J Travel Med |
 | 2017 | middle | A | observational | hard | other | 0.06 |  | 3.0 | Persistent SIRS and acute fluid collections are associated with increased CT sca | Scand J Gastroenterol |
 | 2017 | first | C | commentary | unclear | other | 7.36 |  | -2.0 | Overprescribing is major contributor to opioid crisis. | BMJ |
-| 2017 | middle | A | survey | soft | other | 0.53 |  | -1.0 | Surgeons' views on preoperative medical evaluation: a qualitative study. | Perioper Med (Lond) |
+| 2017 | middle | A | qualitative | soft | other | 0.53 |  | -2.0 | Surgeons' views on preoperative medical evaluation: a qualitative study. | Perioper Med (Lond) |
 | 2017 | middle | C | commentary | unclear | mechanistic | 0.19 |  | -5.0 | The 10th anniversary of patient safety in surgery. | Patient Saf Surg |
 | 2018 | middle | A | cohort | hard | other | 6.0 |  | 10.0 | Is a Pathological Complete Response Following Neoadjuvant Chemoradiation Associa | Ann Surg |
 | 2018 | last | A | observational | unclear | other | 0.35 |  | 1.0 | Variation in markups on outpatient oncology services in the United States. | Am J Manag Care |

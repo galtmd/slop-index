@@ -89,7 +89,7 @@ async function score() {
   const out = await py.runPythonAsync("web.score_records_json(_records, _icite, _surname, _overrides, _excluded)");
   state.last = JSON.parse(out);
   // Topic-neutral companion score: same weights with the two topic penalties set to zero.
-  const neutral = Object.assign({}, overrides(), { IDENTITY_TOPIC_PENALTY: 0, SOCIAL_TOPIC_PENALTY: 0, COMMENTARY_ON_IDENTITY: 0 });
+  const neutral = Object.assign({}, overrides(), { IDENTITY_TOPIC_PENALTY: 0, SOCIAL_TOPIC_PENALTY: 0, AGENDA_TOPIC_PENALTY: 0, COMMENTARY_ON_IDENTITY: 0 });
   py.globals.set("_overrides", JSON.stringify(neutral));
   const outN = await py.runPythonAsync("web.score_records_json(_records, _icite, _surname, _overrides, _excluded)");
   state.neutral = JSON.parse(outN).summary.all_authorships.total_slop_index;
@@ -113,7 +113,7 @@ function verdictHtml(a, l) {
   const emp = a.papers ? Math.round(100 * a.tiers.A / Math.max(1, a.tiers.A + a.tiers.B + a.tiers.C)) : 0;
   const pen = Math.round(100 * (a.penalized_topic_share ?? 0));
   const opening = band === "top" ? `<b>${who}'s record is built on original data.</b>` : band === "mid" ? `<b>${who}'s record is mixed.</b>` : `<b>${who}'s record is mostly commentary and penalized topics.</b>`;
-  return `${opening} ${a.tiers.A} of ${a.tiers.A + a.tiers.B + a.tiers.C} classified papers (${emp}%) report original data, ${pen}% fall under a penalized topic, and ${a.rescued_full} of those clear every rescue bar. The h-index is ${a.h_index}; over empirical papers alone it is ${a.h_empirical}. ${state.neutral == null ? "" : `With the identity and social-determinants penalties switched off the score would be <b>${fmt(state.neutral)}</b>; the gap of ${fmt(Math.abs(a.total_slop_index - state.neutral))} is the size of the editorial position.`}`;
+  return `${opening} ${a.tiers.A} of ${a.tiers.A + a.tiers.B + a.tiers.C} classified papers (${emp}%) report original data, ${pen}% fall under a penalized topic, and ${a.rescued_full} of those clear every rescue bar. The h-index is ${a.h_index}; over empirical papers alone it is ${a.h_empirical}. ${state.neutral == null ? "" : `With the topic penalties switched off the score would be <b>${fmt(state.neutral)}</b>; the gap of ${fmt(Math.abs(a.total_slop_index - state.neutral))} is the size of the editorial position.`}`;
 }
 
 function render() {
@@ -141,7 +141,7 @@ function render() {
     <td><span class="pill ${r.tier}">${r.tier}</span>${r.design}</td>
     <td>${r.outcome}</td><td>${r.exposure}</td>
     <td class="num">${r.citation_count}</td><td class="num">${fmt(r.rcr)}</td>
-    <td>${r.identity ? "identity" : r.social ? "sdoh" : ""}${r.rescued === "full" || r.rescued === "partial" ? ` (${r.rescued})` : ""}</td>
+    <td>${r.identity ? "identity" : r.social ? "sdoh" : (r.agenda || "").replace(/_/g, " ")}${r.rescued === "full" || r.rescued === "partial" ? ` (${r.rescued})` : ""}</td>
     <td class="num ${r.value > 0 ? "pos" : r.value < 0 ? "neg" : ""}">${fmt(r.value, 1)}</td>
     <td>${r.doi ? `<a href="https://doi.org/${r.doi}" target="_blank" rel="noopener">${esc(r.title)}</a>` : esc(r.title)}<div class="note">${esc(r.journal)}${r.needs_review ? " · low confidence" : ""}</div></td>
   </tr>`).join("");
@@ -152,14 +152,14 @@ function render() {
 function esc(s) { return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
 
 function csv() {
-  const cols = ["pmid", "year", "role", "tier", "design", "outcome", "exposure", "hedge", "citation_count", "rcr", "identity", "social", "rescued", "topic_penalty", "value", "excluded", "journal", "title", "doi"];
+  const cols = ["pmid", "year", "role", "tier", "design", "outcome", "exposure", "hedge", "citation_count", "rcr", "identity", "social", "agenda", "rescued", "topic_penalty", "value", "excluded", "journal", "title", "doi"];
   const lines = [cols.join(",")].concat(state.last.rows.map((r) => cols.map((c) => { const v = r[c]; const s = v === null || v === undefined ? "" : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }).join(",")));
   return lines.join("\n");
 }
 
 /* ---------------- weights panel ---------------- */
 const SLIDERS = [
-  ["IDENTITY_TOPIC_PENALTY", -10, 0, 1], ["SOCIAL_TOPIC_PENALTY", -10, 0, 1], ["COMMENTARY_ON_IDENTITY", -6, 0, 1],
+  ["IDENTITY_TOPIC_PENALTY", -10, 0, 1], ["SOCIAL_TOPIC_PENALTY", -10, 0, 1], ["AGENDA_TOPIC_PENALTY", -10, 0, 1], ["COMMENTARY_ON_IDENTITY", -6, 0, 1],
   ["RESCUE_MIN_RCR", 0, 4, 0.25], ["RESCUE_MIN_DESIGN", 1, 8, 1],
   ["HARD_OUTCOME_BONUS", 0, 4, 1], ["SOFT_OUTCOME_PENALTY", -4, 0, 1], ["MECHANISTIC_BONUS", 0, 4, 1], ["DEMOGRAPHIC_EXPOSURE", -6, 0, 1],
   ["HEDGE_HIGH_PENALTY", -3, 0, 1], ["SELF_SIMILAR_PENALTY", -4, 0, 1], ["COMMENTARY_RCR_CAP", 0, 4, 1],
@@ -169,7 +169,7 @@ function buildWeights() {
   $("#weights").querySelectorAll("input[type=range]").forEach((inp) => inp.addEventListener("input", (e) => { const k = e.target.dataset.k; state.weights[k] = Number(e.target.value); $("#w-" + k).textContent = e.target.value; }));
   $("#weights").querySelectorAll("input[type=range]").forEach((inp) => inp.addEventListener("change", () => { if (state.last) score(); }));
 }
-function presetNeutral() { state.weights.IDENTITY_TOPIC_PENALTY = 0; state.weights.SOCIAL_TOPIC_PENALTY = 0; state.weights.COMMENTARY_ON_IDENTITY = 0; buildWeights(); if (state.last) score(); }
+function presetNeutral() { state.weights.IDENTITY_TOPIC_PENALTY = 0; state.weights.SOCIAL_TOPIC_PENALTY = 0; state.weights.AGENDA_TOPIC_PENALTY = 0; state.weights.COMMENTARY_ON_IDENTITY = 0; buildWeights(); if (state.last) score(); }
 function presetDefault() { state.weights = JSON.parse(JSON.stringify(state.defaults)); buildWeights(); if (state.last) score(); }
 
 /* ---------------- wiring ---------------- */

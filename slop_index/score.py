@@ -41,7 +41,12 @@ def summarise(rows: list[dict]) -> dict:
         cw_total = sum(c for _, c in cw)
         pos_cites = [r["citation_count"] for r in subset if (r.get("value") or 0) > 0]
         identity_n = sum(1 for r in subset if r.get("identity"))
-        penalized_n = sum(1 for r in subset if r.get("identity") or r.get("social"))
+        penalized_n = sum(1 for r in subset if r.get("identity") or r.get("social") or r.get("agenda"))
+        agenda_counts: dict[str, int] = {}
+        for r in subset:
+            for t in (r.get("agenda") or "").split(","):
+                if t:
+                    agenda_counts[t] = agenda_counts.get(t, 0) + 1
         designs: dict[str, int] = {}
         for r in subset:
             d = r.get("design", "")
@@ -74,6 +79,7 @@ def summarise(rows: list[dict]) -> dict:
             "designs": dict(sorted(designs.items(), key=lambda kv: -kv[1])),
             "identity_topic_share": round(identity_n / n, 3) if n else None,
             "penalized_topic_share": round(penalized_n / n, 3) if n else None,
+            "agenda_topic_counts": dict(sorted(agenda_counts.items(), key=lambda kv: -kv[1])),
             "rescued_full": sum(1 for r in subset if r.get("rescued") == "full"),
             "rescued_partial": sum(1 for r in subset if r.get("rescued") == "partial"),
             "mean_paper_value": round(sum(r["value"] for r in subset) / n, 2) if n else None,
