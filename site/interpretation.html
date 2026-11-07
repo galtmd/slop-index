@@ -4,16 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Slop Index · Interpretation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site"><div class="wrap">
-  <a class="brand" href="./">Slop Index <small>a companion to the h-index</small></a>
+  <a class="brand" href="./"><span class="mark">Slop Index</span><small>a companion to the h-index</small></a>
   <nav><a href="./">Score an author</a><a href="methodology.html">Methodology</a><a class="current" href="interpretation.html">Interpretation</a><a href="limitations.html">Limitations</a></nav>
 </div></header>
-<main>
+<main class="prose">
+  <p class="kicker">Calibration</p>
   <h1>What the numbers mean</h1>
   <p class="lede">A score without a reference population is a number without a meaning. Seventeen named researchers were scored with the default weights so the scale has real anchors: two Nobel-winning bench scientists, a cardiology trialist, two surgeon-administrators, three Great Barrington Declaration authors, a senator-elect epidemiologist, an economist, and seven social epidemiologists and sociologists of health. Sorted best to worst.</p>
+
+
+  <div class="legend">
+    <div class="box top"><div class="r">Below 0.47</div><div class="t">Research record</div><p>Bench science, trials, and clinical or statistical work with hard endpoints. Positive median paper value.</p></div>
+    <div class="box mid"><div class="r">0.47 to 0.65</div><div class="t">Mixed record</div><p>Real empirical work pulled toward zero by penalized topics or commentary. The 0.57 neutral line runs through this band.</p></div>
+    <div class="box low"><div class="r">Above 0.65</div><div class="t">Commentary record</div><p>Negative median paper value; most output on penalized topics, a third or more opinion.</p></div>
+  </div>
 
   <div class="tablewrap"><table id="cmp">
     <thead><tr><th>Author</th><th class="num">Papers</th><th>A / B / C</th><th class="num">h</th><th class="num">hₑ</th><th class="num">Slop Index</th><th class="num">Penalized</th><th>Rescued</th><th class="num">Positive value</th><th class="num">Median value</th><th class="num">Total Slop Index</th><th class="num">Cite-weighted</th></tr></thead>
@@ -25,7 +36,8 @@
   <h2>Reading the number</h2>
   <div class="scale">
     <div class="scale-bar"><span class="seg top" style="width:47%"></span><span class="seg mid" style="width:18%"></span><span class="seg low" style="width:35%"></span><i class="tick" style="left:57%" title="0.57: an average paper with nothing to recommend and nothing to penalize"></i></div>
-    <div class="scale-labels"><span>0</span><span style="left:47%">0.47</span><span style="left:57%">0.57</span><span style="left:65%">0.65</span><span style="right:0">1</span></div>
+    <div class="scale-labels"><span>0</span><span style="left:47%">0.47</span><span style="left:57%">0.57</span><span style="left:65%">0.65</span><span>1</span></div>
+    <div class="scale-words"><span>research</span><span>mixed</span><span>commentary</span></div>
   </div>
   <p>Zero is good and one is bad, and the useful cutoff is <b>0.57</b>. That number is not arbitrary: it is the score of a bibliography whose average paper has nothing to recommend it and nothing to penalize, so anything above it means the typical paper is net negative under the weights, and anything below it means the typical paper adds something. The calibration table turns that into three practical bands. <b>Below 0.47 is a research record</b>: bench scientists, trialists, and surgeons and statisticians with hard endpoints land here, from about 0.18 (Karikó) to 0.44. <b>0.47 to 0.65 is mixed</b>: real empirical work with enough penalized topics or commentary to pull the average toward zero; health economists and the senator-elect epidemiologist sit here. <b>Above 0.65 is a commentary record</b>: the median paper is negative, most of the output is penalized topics, a third or more is opinion. Nobody on the calibration table scored above 0.80 or below 0.18, so a result outside that range deserves a second look at the author match before it is believed.</p>
   <p>Two cautions on any single number. A short record (under about 15 papers) swings wildly on one or two papers, so quote the band rather than the decimal. And always quote the topic-neutral score beside it; the gap between the two is the size of the editorial position, and the reader is entitled to know it.</p>
@@ -38,13 +50,13 @@
   <h2>How to use a score</h2>
   <p>Quote three numbers, not one. The axis-1 Slop Index says whether an h-index is built on data or on opinion; for most people on this table it is low, and it rules out the lazy explanation. The penalized-topic share says what the person writes about. The Total Slop Index says how much actionable science the record adds under these weights. When the first is low and the third is high, the subject matter is the finding, and anyone quoting the score should also quote the topic-neutral score from the weights panel, because that is the number a critic will reach for first.</p>
   <p>The scale is relative to these anchors, not to an abstract standard. A new author's score means something only when placed in this table, which is why the scoring page reports the band along with the number.</p>
-  <footer>Open source under the MIT license. Written as Julian Galt, MD.</footer>
+  <footer><span>Open source under the MIT license. The code, the rules, and every weight are public; disagreement about any of them is the point.</span><span class="by">Julian Galt, MD</span></footer>
 </main>
 <script>
 fetch("data/comparison.json").then(r => r.json()).then(rows => {
   const f = (x, d = 2) => (x == null ? "–" : typeof x === "number" ? x.toFixed(d) : x);
   document.querySelector("#cmp tbody").innerHTML = rows.map(r => {
-    const band = r.tsi == null ? "" : r.tsi < 0.47 ? "band-top" : r.tsi < 0.65 ? "" : "band-low";
+    const band = r.tsi == null ? "" : r.tsi < 0.47 ? "band-top" : r.tsi < 0.65 ? "band-mid" : "band-low";
     return `<tr class="${band}"><td>${r.label}</td><td class="num">${r.papers}</td><td>${r.tiers.A} / ${r.tiers.B} / ${r.tiers.C}</td><td class="num">${r.h}</td><td class="num">${r.h_empirical}</td><td class="num">${f(r.slop_index)}</td><td class="num">${f(r.penalized_share)}</td><td>${r.rescued_full} / ${r.rescued_partial}</td><td class="num">${f(r.positive_share)}</td><td class="num ${r.median_value > 0 ? "pos" : "neg"}">${f(r.median_value, 1)}</td><td class="num"><b>${f(r.tsi)}</b></td><td class="num">${f(r.tsi_cw)}</td></tr>`;
   }).join("");
 });

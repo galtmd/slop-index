@@ -4,14 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Slop Index · Methodology</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site"><div class="wrap">
-  <a class="brand" href="./">Slop Index <small>a companion to the h-index</small></a>
+  <a class="brand" href="./"><span class="mark">Slop Index</span><small>a companion to the h-index</small></a>
   <nav><a href="./">Score an author</a><a class="current" href="methodology.html">Methodology</a><a href="interpretation.html">Interpretation</a><a href="limitations.html">Limitations</a></nav>
 </div></header>
-<main>
+<main class="prose">
+  <p class="kicker">How the score is built</p>
   <h1>Methodology</h1>
   <p class="lede">Three axes, each reported on its own, then a composite. The first is objective, the second is transparent but value-laden, and the third encodes an editorial position and says so. Every rule and every weight is in the open-source code.</p>
 
@@ -60,7 +64,7 @@
 
   <h2>Data sources</h2>
   <p>Records come from PubMed through the NCBI E-utilities, searched on the Full Author Name field, which is far cleaner than initials. Citation counts and the Relative Citation Ratio come from the NIH iCite API (the NIH Open Citation Collection). Both are free, keyless, and public, which is why the whole tool can run in a browser with no server. The command-line version in the repository does the same from a terminal and caches everything so a run is reproducible.</p>
-  <footer>Open source under the MIT license. Written as Julian Galt, MD.</footer>
+  <footer><span>Open source under the MIT license. The code, the rules, and every weight are public; disagreement about any of them is the point.</span><span class="by">Julian Galt, MD</span></footer>
 </main>
 </body>
 </html>

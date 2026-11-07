@@ -10,12 +10,12 @@ const $ = (s) => document.querySelector(s);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const state = { py: null, records: null, icite: null, surname: "", weights: null, defaults: null, excluded: new Set(), last: null };
 
-function status(msg) { $("#status").textContent = msg; }
+function status(msg, busy = false) { const s = $("#status"); s.textContent = msg; s.classList.toggle("busy", busy); }
 
 /* ---------------- Pyodide ---------------- */
 async function loadPy() {
   if (state.py) return state.py;
-  status("Loading the scoring engine (first visit downloads ~10 MB)…");
+  status("Loading the scoring engine (first visit downloads ~10 MB)…", true);
   await new Promise((res, rej) => { const s = document.createElement("script"); s.src = PYODIDE_URL; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
   const py = await loadPyodide();
   const manifest = await fetch("py/manifest.json").then((r) => r.json());
@@ -52,19 +52,19 @@ function parsePubmedXml(xml) {
 }
 
 async function fetchAuthor(term) {
-  status("Searching PubMed…");
+  status("Searching PubMed…", true);
   const es = await fetch(`${E}/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=${encodeURIComponent(term)}`).then((r) => r.json());
   const pmids = es.esearchresult.idlist || [];
   if (!pmids.length) throw new Error("PubMed returned no papers for that query.");
   const records = [];
   for (let i = 0; i < pmids.length; i += 50) {
-    status(`Fetching records ${Math.min(i + 50, pmids.length)} of ${pmids.length}…`);
+    status(`Fetching records ${Math.min(i + 50, pmids.length)} of ${pmids.length}…`, true);
     const xml = await fetch(`${E}/efetch.fcgi?db=pubmed&retmode=xml&id=${pmids.slice(i, i + 50).join(",")}`).then((r) => r.text());
     records.push(...parsePubmedXml(xml)); await sleep(350);
   }
   const icite = {};
   for (let i = 0; i < pmids.length; i += 100) {
-    status(`Fetching citation counts ${Math.min(i + 100, pmids.length)} of ${pmids.length}…`);
+    status(`Fetching citation counts ${Math.min(i + 100, pmids.length)} of ${pmids.length}…`, true);
     const d = await fetch(`${ICITE}?pmids=${pmids.slice(i, i + 100).join(",")}&fl=pmid,citation_count,relative_citation_ratio,year`).then((r) => r.json());
     for (const row of d.data || []) icite[String(row.pmid)] = { citation_count: row.citation_count ?? 0, relative_citation_ratio: row.relative_citation_ratio ?? null };
     await sleep(350);
@@ -88,6 +88,11 @@ async function score() {
   py.globals.set("_surname", state.surname);
   const out = await py.runPythonAsync("web.score_records_json(_records, _icite, _surname, _overrides, _excluded)");
   state.last = JSON.parse(out);
+  // Topic-neutral companion score: same weights with the two topic penalties set to zero.
+  const neutral = Object.assign({}, overrides(), { IDENTITY_TOPIC_PENALTY: 0, SOCIAL_TOPIC_PENALTY: 0, COMMENTARY_ON_IDENTITY: 0 });
+  py.globals.set("_overrides", JSON.stringify(neutral));
+  const outN = await py.runPythonAsync("web.score_records_json(_records, _icite, _surname, _overrides, _excluded)");
+  state.neutral = JSON.parse(outN).summary.all_authorships.total_slop_index;
   render();
 }
 
@@ -95,13 +100,33 @@ async function score() {
 const fmt = (x, d = 2) => (x === null || x === undefined ? "–" : typeof x === "number" ? x.toFixed(d) : x);
 function bandOf(tsi) { return tsi == null ? "" : tsi < 0.47 ? "top" : tsi < 0.65 ? "mid" : "low"; }
 
+const BAND_NAME = { top: "research band (below 0.47)", mid: "mixed band (0.47 to 0.65)", low: "commentary band (above 0.65)" };
+function scaleHtml(tsi) {
+  const pct = Math.max(0, Math.min(1, tsi ?? 0)) * 100;
+  return `<div class="scale-bar"><span class="seg top" style="width:47%"></span><span class="seg mid" style="width:18%"></span><span class="seg low" style="width:35%"></span><i class="tick" style="left:57%" title="0.57: neutral"></i>${tsi == null ? "" : `<i class="marker" style="left:${pct.toFixed(1)}%" title="${fmt(tsi)}"></i>`}</div>
+  <div class="scale-labels"><span>0</span><span style="left:47%">0.47</span><span style="left:57%">0.57</span><span style="left:65%">0.65</span><span>1</span></div>
+  <div class="scale-words"><span>research</span><span>mixed</span><span>commentary</span></div>`;
+}
+function verdictHtml(a, l) {
+  const band = bandOf(a.total_slop_index);
+  const who = state.surname ? esc(state.surname) : "This author";
+  const emp = a.papers ? Math.round(100 * a.tiers.A / Math.max(1, a.tiers.A + a.tiers.B + a.tiers.C)) : 0;
+  const pen = Math.round(100 * (a.penalized_topic_share ?? 0));
+  const opening = band === "top" ? `<b>${who}'s record is built on original data.</b>` : band === "mid" ? `<b>${who}'s record is mixed.</b>` : `<b>${who}'s record is mostly commentary and penalized topics.</b>`;
+  return `${opening} ${a.tiers.A} of ${a.tiers.A + a.tiers.B + a.tiers.C} classified papers (${emp}%) report original data, ${pen}% fall under a penalized topic, and ${a.rescued_full} of those clear every rescue bar. The h-index is ${a.h_index}; over empirical papers alone it is ${a.h_empirical}. ${state.neutral == null ? "" : `With the identity and social-determinants penalties switched off the score would be <b>${fmt(state.neutral)}</b>; the gap of ${fmt(Math.abs(a.total_slop_index - state.neutral))} is the size of the editorial position.`}`;
+}
+
 function render() {
   const { rows, summary } = state.last; const a = summary.all_authorships, l = summary.lead_authorships;
   const band = bandOf(a.total_slop_index);
   $("#results").hidden = false;
+  $("#tsi").textContent = fmt(a.total_slop_index);
+  const bEl = $("#tsi-band"); bEl.className = `band ${band}`; bEl.textContent = BAND_NAME[band] || "";
+  $("#verdict").innerHTML = verdictHtml(a, l);
+  $("#hero-scale").innerHTML = scaleHtml(a.total_slop_index);
   $("#stats").innerHTML = [
-    ["Total Slop Index", fmt(a.total_slop_index), true, `band ${band}`],
-    ["Citation-weighted", fmt(a.total_slop_index_citation_weighted)],
+    ["Topic-neutral TSI", fmt(state.neutral)],
+    ["Citation-weighted TSI", fmt(a.total_slop_index_citation_weighted)],
     ["Slop Index (axis 1)", fmt(a.slop_index)],
     ["h-index / empirical h", `${a.h_index} / ${a.h_empirical}`],
     ["Papers A / B / C", `${a.tiers.A} / ${a.tiers.B} / ${a.tiers.C}`],
@@ -109,7 +134,7 @@ function render() {
     ["Rescued full / partial", `${a.rescued_full} / ${a.rescued_partial}`],
     ["Median paper value", fmt(a.median_paper_value, 1)],
     ["Lead-author TSI (n)", `${fmt(l.total_slop_index)} (${l.papers})`],
-  ].map(([k, v, hero, cls]) => `<div class="stat ${hero ? "hero" : ""}"><div class="k">${k}</div><div class="v">${v}</div>${cls ? `<span class="${cls}">${band === "top" ? "research band (below 0.47)" : band === "mid" ? "mixed band (0.47 to 0.65)" : "commentary band (above 0.65)"}</span>` : ""}</div>`).join("");
+  ].map(([k, v]) => `<div class="stat"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
   const tbody = rows.map((r) => `<tr class="${r.excluded ? "excluded" : ""}">
     <td><input type="checkbox" data-pmid="${r.pmid}" ${r.excluded ? "" : "checked"} title="uncheck to exclude (name collision)"></td>
     <td>${r.year || ""}</td><td>${r.role}</td>
@@ -159,7 +184,7 @@ async function run() {
     state.excluded = new Set();
     const { records, icite } = await fetchAuthor(term);
     state.records = records; state.icite = icite;
-    status("Scoring…"); await score();
+    status("Scoring…", true); await score();
     status(`Done. ${records.length} papers scored in your browser; nothing was sent anywhere else.`);
   } catch (e) { status("Error: " + e.message); console.error(e); }
   $("#run").disabled = false;
@@ -175,5 +200,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   $("#defaults").addEventListener("click", presetDefault);
   $("#copycsv").addEventListener("click", async () => { try { await navigator.clipboard.writeText(csv()); status("CSV copied to clipboard."); } catch { status("Clipboard blocked; use Download."); } });
   $("#dlcsv").addEventListener("click", () => { const b = new Blob([csv()], { type: "text/csv" }); const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = `slop-index-${state.surname || "author"}.csv`; a.click(); });
-  const params = new URLSearchParams(location.search); if (params.get("author")) { $("#author").value = params.get("author"); run(); }
+  document.querySelectorAll(".chip").forEach((c) => c.addEventListener("click", () => { $("#author").value = c.dataset.author; $("#variant").value = c.dataset.variant || ""; $("#surname").value = c.dataset.surname || ""; $("#raw").checked = false; run(); }));
+  const params = new URLSearchParams(location.search); if (params.get("author")) { $("#author").value = params.get("author"); if (params.get("variant")) $("#variant").value = params.get("variant"); if (params.get("surname")) $("#surname").value = params.get("surname"); run(); }
 });
